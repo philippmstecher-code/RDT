@@ -1,0 +1,1995 @@
+{
+  "ResNet18-CIFAR100-seed42": {
+    "n_total": 10096,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.4643635630607601,
+    "csi_threshold": 0.5550569332442239,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 2744,
+        "survival_rate": 0.2715,
+        "mean_lifespan": 1.0266,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 27.15
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 7352,
+        "survival_rate": 0.2005,
+        "mean_lifespan": 0.8202,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 20.05
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.4644, adaptive)",
+        "n": 913,
+        "survival_rate": 0.1895,
+        "mean_lifespan": 0.9639,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 18.95
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.4644, adaptive)",
+        "n": 9183,
+        "survival_rate": 0.2228,
+        "mean_lifespan": 0.8676,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 22.28
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.5551, adaptive)",
+        "n": 1787,
+        "survival_rate": 0.2686,
+        "mean_lifespan": 0.6475,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 26.86
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.5551, adaptive)",
+        "n": 8309,
+        "survival_rate": 0.2093,
+        "mean_lifespan": 0.9255,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 20.93
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 913,
+        "survival_rate": 0.1895,
+        "mean_lifespan": 0.9639,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 18.95
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 71.4169,
+        "p": 0.0
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 0.1123,
+        "p": 0.73754066
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 0.9116,
+        "p": 0.33969025
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.0029,
+        "p": 0.76985089
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0571,
+        "p": 1e-08
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.0724,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "avgpool": {
+        "n_tg": 469,
+        "n_non_tg": 3289,
+        "tg_survival_rate": 0.1557,
+        "non_tg_survival_rate": 0.2204,
+        "tg_mean_lifespan": 0.7633,
+        "non_tg_mean_lifespan": 0.8641
+      },
+      "layer1": {
+        "n_tg": 443,
+        "n_non_tg": 326,
+        "tg_survival_rate": 0.4063,
+        "non_tg_survival_rate": 0.089,
+        "tg_mean_lifespan": 2.2596,
+        "non_tg_mean_lifespan": 0.3405
+      },
+      "layer2": {
+        "n_tg": 638,
+        "n_non_tg": 366,
+        "tg_survival_rate": 0.2665,
+        "non_tg_survival_rate": 0.0902,
+        "tg_mean_lifespan": 0.9639,
+        "non_tg_mean_lifespan": 0.7459
+      },
+      "layer3": {
+        "n_tg": 696,
+        "n_non_tg": 217,
+        "tg_survival_rate": 0.3261,
+        "non_tg_survival_rate": 0.1751,
+        "tg_mean_lifespan": 0.7716,
+        "non_tg_mean_lifespan": 0.8848
+      },
+      "layer4": {
+        "n_tg": 498,
+        "n_non_tg": 3154,
+        "tg_survival_rate": 0.1908,
+        "non_tg_survival_rate": 0.2058,
+        "tg_mean_lifespan": 0.6145,
+        "non_tg_mean_lifespan": 0.8282
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 178,
+      "1": 224,
+      "2": 246,
+      "3": 241,
+      "4": 184,
+      "5": 172,
+      "6": 180,
+      "7": 187,
+      "8": 216,
+      "9": 284,
+      "10": 310,
+      "11": 322
+    }
+  },
+  "ResNet18-CIFAR100-seed137": {
+    "n_total": 10143,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.493587464094162,
+    "csi_threshold": 0.6568934991134632,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 2793,
+        "survival_rate": 0.2947,
+        "mean_lifespan": 1.0619,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 29.47
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 7350,
+        "survival_rate": 0.1966,
+        "mean_lifespan": 0.851,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 19.66
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.4936, adaptive)",
+        "n": 939,
+        "survival_rate": 0.1853,
+        "mean_lifespan": 0.8775,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 18.53
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.4936, adaptive)",
+        "n": 9204,
+        "survival_rate": 0.2275,
+        "mean_lifespan": 0.9123,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 22.75
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.6569, adaptive)",
+        "n": 1237,
+        "survival_rate": 0.2474,
+        "mean_lifespan": 0.6645,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 24.74
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.6569, adaptive)",
+        "n": 8906,
+        "survival_rate": 0.2203,
+        "mean_lifespan": 0.9431,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 22.03
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 939,
+        "survival_rate": 0.1853,
+        "mean_lifespan": 0.8775,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 18.53
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 96.0105,
+        "p": 0.0
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 6.2866,
+        "p": 0.01216542
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 4.7729,
+        "p": 0.02891109
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": -0.0013,
+        "p": 0.89465697
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0597,
+        "p": 0.0
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.0546,
+        "p": 4e-08
+      }
+    },
+    "per_layer_tg": {
+      "avgpool": {
+        "n_tg": 518,
+        "n_non_tg": 3184,
+        "tg_survival_rate": 0.2143,
+        "non_tg_survival_rate": 0.2107,
+        "tg_mean_lifespan": 0.6023,
+        "non_tg_mean_lifespan": 0.8715
+      },
+      "layer1": {
+        "n_tg": 447,
+        "n_non_tg": 352,
+        "tg_survival_rate": 0.5011,
+        "non_tg_survival_rate": 0.1193,
+        "tg_mean_lifespan": 2.566,
+        "non_tg_mean_lifespan": 0.4432
+      },
+      "layer2": {
+        "n_tg": 624,
+        "n_non_tg": 355,
+        "tg_survival_rate": 0.2628,
+        "non_tg_survival_rate": 0.1352,
+        "tg_mean_lifespan": 1.1106,
+        "non_tg_mean_lifespan": 0.9127
+      },
+      "layer3": {
+        "n_tg": 696,
+        "n_non_tg": 175,
+        "tg_survival_rate": 0.3434,
+        "non_tg_survival_rate": 0.1943,
+        "tg_mean_lifespan": 0.7543,
+        "non_tg_mean_lifespan": 1.1771
+      },
+      "layer4": {
+        "n_tg": 508,
+        "n_non_tg": 3284,
+        "tg_survival_rate": 0.1673,
+        "non_tg_survival_rate": 0.1979,
+        "tg_mean_lifespan": 0.5689,
+        "non_tg_mean_lifespan": 0.8508
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 178,
+      "1": 235,
+      "2": 247,
+      "3": 236,
+      "4": 196,
+      "5": 188,
+      "6": 183,
+      "7": 190,
+      "8": 197,
+      "9": 297,
+      "10": 315,
+      "11": 331
+    }
+  },
+  "ResNet18-CIFAR100-seed256": {
+    "n_total": 9929,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.5016137540340406,
+    "csi_threshold": 0.7517228982402675,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 2794,
+        "survival_rate": 0.277,
+        "mean_lifespan": 1.0508,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 27.7
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 7135,
+        "survival_rate": 0.206,
+        "mean_lifespan": 0.8806,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 20.6
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.5016, adaptive)",
+        "n": 786,
+        "survival_rate": 0.1641,
+        "mean_lifespan": 0.7036,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 16.41
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.5016, adaptive)",
+        "n": 9143,
+        "survival_rate": 0.2313,
+        "mean_lifespan": 0.9478,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 23.13
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.7517, adaptive)",
+        "n": 939,
+        "survival_rate": 0.2236,
+        "mean_lifespan": 0.4931,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 22.36
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.7517, adaptive)",
+        "n": 8990,
+        "survival_rate": 0.2263,
+        "mean_lifespan": 0.974,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 22.63
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 786,
+        "survival_rate": 0.1641,
+        "mean_lifespan": 0.7036,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 16.41
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 48.9493,
+        "p": 0.0
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 30.0246,
+        "p": 4e-08
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 36.4682,
+        "p": 0.0
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": -0.0072,
+        "p": 0.47108074
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0633,
+        "p": 0.0
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.0578,
+        "p": 1e-08
+      }
+    },
+    "per_layer_tg": {
+      "avgpool": {
+        "n_tg": 526,
+        "n_non_tg": 3161,
+        "tg_survival_rate": 0.1996,
+        "non_tg_survival_rate": 0.2151,
+        "tg_mean_lifespan": 0.5532,
+        "non_tg_mean_lifespan": 0.9105
+      },
+      "layer1": {
+        "n_tg": 452,
+        "n_non_tg": 361,
+        "tg_survival_rate": 0.4712,
+        "non_tg_survival_rate": 0.1108,
+        "tg_mean_lifespan": 2.6814,
+        "non_tg_mean_lifespan": 0.2825
+      },
+      "layer2": {
+        "n_tg": 636,
+        "n_non_tg": 355,
+        "tg_survival_rate": 0.2201,
+        "non_tg_survival_rate": 0.1099,
+        "tg_mean_lifespan": 0.9497,
+        "non_tg_mean_lifespan": 0.8648
+      },
+      "layer3": {
+        "n_tg": 668,
+        "n_non_tg": 182,
+        "tg_survival_rate": 0.3249,
+        "non_tg_survival_rate": 0.2637,
+        "tg_mean_lifespan": 0.7994,
+        "non_tg_mean_lifespan": 1.1429
+      },
+      "layer4": {
+        "n_tg": 512,
+        "n_non_tg": 3076,
+        "tg_survival_rate": 0.1934,
+        "non_tg_survival_rate": 0.2155,
+        "tg_mean_lifespan": 0.5762,
+        "non_tg_mean_lifespan": 0.9064
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 180,
+      "1": 232,
+      "2": 256,
+      "3": 222,
+      "4": 197,
+      "5": 187,
+      "6": 192,
+      "7": 191,
+      "8": 214,
+      "9": 292,
+      "10": 318,
+      "11": 313
+    }
+  },
+  "ViTSmall-CIFAR100-seed42": {
+    "n_total": 19997,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.3772694170475006,
+    "csi_threshold": 0.6913255750268809,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 6664,
+        "survival_rate": 0.273,
+        "mean_lifespan": 0.4956,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 27.3
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 13333,
+        "survival_rate": 0.2677,
+        "mean_lifespan": 0.3891,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 26.77
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.3773, adaptive)",
+        "n": 1947,
+        "survival_rate": 0.2018,
+        "mean_lifespan": 0.5013,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 20.18
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.3773, adaptive)",
+        "n": 18050,
+        "survival_rate": 0.2767,
+        "mean_lifespan": 0.4163,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 27.67
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.6913, adaptive)",
+        "n": 2054,
+        "survival_rate": 0.2181,
+        "mean_lifespan": 0.1646,
+        "median_lifespan": 0.0,
+        "max_lifespan": 6,
+        "pct_surviving_to_terminal": 21.81
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.6913, adaptive)",
+        "n": 17943,
+        "survival_rate": 0.2753,
+        "mean_lifespan": 0.4544,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 27.53
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 1947,
+        "survival_rate": 0.2018,
+        "mean_lifespan": 0.5013,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 20.18
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 13.5259,
+        "p": 0.00023529
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 15.1179,
+        "p": 0.000101
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 113.3547,
+        "p": 0.0
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.044,
+        "p": 0.0
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0743,
+        "p": 0.0
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.1206,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "encoder.layers.0": {
+        "n_tg": 729,
+        "n_non_tg": 804,
+        "tg_survival_rate": 0.2894,
+        "non_tg_survival_rate": 0.26,
+        "tg_mean_lifespan": 1.0754,
+        "non_tg_mean_lifespan": 0.6928
+      },
+      "encoder.layers.11": {
+        "n_tg": 1256,
+        "n_non_tg": 2723,
+        "tg_survival_rate": 0.2572,
+        "non_tg_survival_rate": 0.2453,
+        "tg_mean_lifespan": 0.3137,
+        "non_tg_mean_lifespan": 0.3177
+      },
+      "encoder.layers.3": {
+        "n_tg": 965,
+        "n_non_tg": 2025,
+        "tg_survival_rate": 0.2383,
+        "non_tg_survival_rate": 0.3007,
+        "tg_mean_lifespan": 0.5855,
+        "non_tg_mean_lifespan": 0.4825
+      },
+      "encoder.layers.6": {
+        "n_tg": 1125,
+        "n_non_tg": 2493,
+        "tg_survival_rate": 0.2996,
+        "non_tg_survival_rate": 0.3133,
+        "tg_mean_lifespan": 0.5422,
+        "non_tg_mean_lifespan": 0.4095
+      },
+      "encoder.layers.9": {
+        "n_tg": 1186,
+        "n_non_tg": 2685,
+        "tg_survival_rate": 0.2901,
+        "non_tg_survival_rate": 0.2629,
+        "tg_mean_lifespan": 0.468,
+        "non_tg_mean_lifespan": 0.3762
+      },
+      "encoder.ln": {
+        "n_tg": 1403,
+        "n_non_tg": 2603,
+        "tg_survival_rate": 0.2666,
+        "non_tg_survival_rate": 0.229,
+        "tg_mean_lifespan": 0.2815,
+        "non_tg_mean_lifespan": 0.2912
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 557,
+      "1": 344,
+      "2": 363,
+      "3": 411,
+      "4": 443,
+      "5": 517,
+      "6": 563,
+      "7": 911,
+      "8": 1271,
+      "9": 1284
+    }
+  },
+  "ViTSmall-CIFAR100-seed137": {
+    "n_total": 20025,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.3714553594589236,
+    "csi_threshold": 0.6898235603304709,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 7052,
+        "survival_rate": 0.2761,
+        "mean_lifespan": 0.4553,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 27.61
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 12973,
+        "survival_rate": 0.2686,
+        "mean_lifespan": 0.3879,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 26.86
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.3715, adaptive)",
+        "n": 1929,
+        "survival_rate": 0.196,
+        "mean_lifespan": 0.4889,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 19.6
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.3715, adaptive)",
+        "n": 18096,
+        "survival_rate": 0.2792,
+        "mean_lifespan": 0.4034,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 27.92
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.6898, adaptive)",
+        "n": 2107,
+        "survival_rate": 0.1917,
+        "mean_lifespan": 0.1747,
+        "median_lifespan": 0.0,
+        "max_lifespan": 6,
+        "pct_surviving_to_terminal": 19.17
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.6898, adaptive)",
+        "n": 17918,
+        "survival_rate": 0.2806,
+        "mean_lifespan": 0.4395,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 28.06
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 1929,
+        "survival_rate": 0.196,
+        "mean_lifespan": 0.4889,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 19.6
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 8.479,
+        "p": 0.0035927
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 20.2914,
+        "p": 6.65e-06
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 163.9915,
+        "p": 0.0
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.0456,
+        "p": 0.0
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0602,
+        "p": 0.0
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.1185,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "encoder.layers.0": {
+        "n_tg": 677,
+        "n_non_tg": 756,
+        "tg_survival_rate": 0.353,
+        "non_tg_survival_rate": 0.336,
+        "tg_mean_lifespan": 1.4195,
+        "non_tg_mean_lifespan": 0.9034
+      },
+      "encoder.layers.11": {
+        "n_tg": 1370,
+        "n_non_tg": 2678,
+        "tg_survival_rate": 0.2504,
+        "non_tg_survival_rate": 0.2498,
+        "tg_mean_lifespan": 0.2854,
+        "non_tg_mean_lifespan": 0.3294
+      },
+      "encoder.layers.3": {
+        "n_tg": 1017,
+        "n_non_tg": 1989,
+        "tg_survival_rate": 0.2537,
+        "non_tg_survival_rate": 0.3042,
+        "tg_mean_lifespan": 0.5025,
+        "non_tg_mean_lifespan": 0.4666
+      },
+      "encoder.layers.6": {
+        "n_tg": 1125,
+        "n_non_tg": 2461,
+        "tg_survival_rate": 0.3058,
+        "non_tg_survival_rate": 0.2889,
+        "tg_mean_lifespan": 0.4738,
+        "non_tg_mean_lifespan": 0.3811
+      },
+      "encoder.layers.9": {
+        "n_tg": 1288,
+        "n_non_tg": 2624,
+        "tg_survival_rate": 0.288,
+        "non_tg_survival_rate": 0.2546,
+        "tg_mean_lifespan": 0.3401,
+        "non_tg_mean_lifespan": 0.3438
+      },
+      "encoder.ln": {
+        "n_tg": 1575,
+        "n_non_tg": 2465,
+        "tg_survival_rate": 0.2489,
+        "non_tg_survival_rate": 0.2341,
+        "tg_mean_lifespan": 0.2394,
+        "non_tg_mean_lifespan": 0.2836
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 627,
+      "1": 334,
+      "2": 363,
+      "3": 366,
+      "4": 441,
+      "5": 491,
+      "6": 575,
+      "7": 1197,
+      "8": 1303,
+      "9": 1355
+    }
+  },
+  "ViTSmall-CIFAR100-seed256": {
+    "n_total": 20149,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.28806440383195897,
+    "csi_threshold": 0.4881635195896773,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 5386,
+        "survival_rate": 0.2211,
+        "mean_lifespan": 0.6181,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 22.11
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 14763,
+        "survival_rate": 0.3551,
+        "mean_lifespan": 0.2716,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 35.51
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.2881, adaptive)",
+        "n": 2500,
+        "survival_rate": 0.3964,
+        "mean_lifespan": 0.4416,
+        "median_lifespan": 0.0,
+        "max_lifespan": 7,
+        "pct_surviving_to_terminal": 39.64
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.2881, adaptive)",
+        "n": 17649,
+        "survival_rate": 0.3084,
+        "mean_lifespan": 0.3533,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 30.84
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.4882, adaptive)",
+        "n": 4804,
+        "survival_rate": 0.3843,
+        "mean_lifespan": 0.2294,
+        "median_lifespan": 0.0,
+        "max_lifespan": 8,
+        "pct_surviving_to_terminal": 38.43
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.4882, adaptive)",
+        "n": 15345,
+        "survival_rate": 0.299,
+        "mean_lifespan": 0.4065,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 29.9
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 2500,
+        "survival_rate": 0.3964,
+        "mean_lifespan": 0.4416,
+        "median_lifespan": 0.0,
+        "max_lifespan": 7,
+        "pct_surviving_to_terminal": 39.64
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 32.8876,
+        "p": 1e-08
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 84.5753,
+        "p": 0.0
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 24.9395,
+        "p": 5.9e-07
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.1045,
+        "p": 0.0
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.024,
+        "p": 0.00067357
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.1182,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "encoder.layers.0": {
+        "n_tg": 745,
+        "n_non_tg": 409,
+        "tg_survival_rate": 0.306,
+        "non_tg_survival_rate": 0.3105,
+        "tg_mean_lifespan": 1.3477,
+        "non_tg_mean_lifespan": 1.0733
+      },
+      "encoder.layers.11": {
+        "n_tg": 733,
+        "n_non_tg": 4557,
+        "tg_survival_rate": 0.1487,
+        "non_tg_survival_rate": 0.354,
+        "tg_mean_lifespan": 0.4925,
+        "non_tg_mean_lifespan": 0.1451
+      },
+      "encoder.layers.3": {
+        "n_tg": 1018,
+        "n_non_tg": 1135,
+        "tg_survival_rate": 0.225,
+        "non_tg_survival_rate": 0.3322,
+        "tg_mean_lifespan": 0.5177,
+        "non_tg_mean_lifespan": 0.6907
+      },
+      "encoder.layers.6": {
+        "n_tg": 1078,
+        "n_non_tg": 1657,
+        "tg_survival_rate": 0.2532,
+        "non_tg_survival_rate": 0.3561,
+        "tg_mean_lifespan": 0.5278,
+        "non_tg_mean_lifespan": 0.4852
+      },
+      "encoder.layers.9": {
+        "n_tg": 1009,
+        "n_non_tg": 2433,
+        "tg_survival_rate": 0.2389,
+        "non_tg_survival_rate": 0.3802,
+        "tg_mean_lifespan": 0.4549,
+        "non_tg_mean_lifespan": 0.3054
+      },
+      "encoder.ln": {
+        "n_tg": 803,
+        "n_non_tg": 4572,
+        "tg_survival_rate": 0.1382,
+        "non_tg_survival_rate": 0.3524,
+        "tg_mean_lifespan": 0.5093,
+        "non_tg_mean_lifespan": 0.1266
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 581,
+      "1": 287,
+      "2": 331,
+      "3": 358,
+      "4": 395,
+      "5": 493,
+      "6": 603,
+      "7": 789,
+      "8": 785,
+      "9": 764
+    }
+  },
+  "CCT7-CIFAR100-seed42": {
+    "n_total": 21936,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.3718535006046295,
+    "csi_threshold": 0.5807414612938224,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 5734,
+        "survival_rate": 0.2361,
+        "mean_lifespan": 0.7449,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 23.61
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 16202,
+        "survival_rate": 0.3124,
+        "mean_lifespan": 0.4174,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 31.24
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.3719, adaptive)",
+        "n": 2459,
+        "survival_rate": 0.2485,
+        "mean_lifespan": 0.5392,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 24.85
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.3719, adaptive)",
+        "n": 19477,
+        "survival_rate": 0.298,
+        "mean_lifespan": 0.4984,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 29.8
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.5807, adaptive)",
+        "n": 3873,
+        "survival_rate": 0.2843,
+        "mean_lifespan": 0.2597,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 28.43
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.5807, adaptive)",
+        "n": 18063,
+        "survival_rate": 0.2942,
+        "mean_lifespan": 0.5551,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 29.42
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 2459,
+        "survival_rate": 0.2485,
+        "mean_lifespan": 0.5392,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 24.85
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 0.0251,
+        "p": 0.87411814
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 9.7226,
+        "p": 0.00182016
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 68.7793,
+        "p": 0.0
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.1162,
+        "p": 0.0
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0185,
+        "p": 0.00618122
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.1345,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "norm": {
+        "n_tg": 908,
+        "n_non_tg": 3547,
+        "tg_survival_rate": 0.1872,
+        "non_tg_survival_rate": 0.2963,
+        "tg_mean_lifespan": 0.6421,
+        "non_tg_mean_lifespan": 0.2712
+      },
+      "transformer.layers.0": {
+        "n_tg": 846,
+        "n_non_tg": 1019,
+        "tg_survival_rate": 0.3061,
+        "non_tg_survival_rate": 0.3896,
+        "tg_mean_lifespan": 1.3806,
+        "non_tg_mean_lifespan": 1.0098
+      },
+      "transformer.layers.1": {
+        "n_tg": 1016,
+        "n_non_tg": 1985,
+        "tg_survival_rate": 0.2618,
+        "non_tg_survival_rate": 0.2997,
+        "tg_mean_lifespan": 0.8081,
+        "non_tg_mean_lifespan": 0.6076
+      },
+      "transformer.layers.3": {
+        "n_tg": 1074,
+        "n_non_tg": 2794,
+        "tg_survival_rate": 0.2626,
+        "non_tg_survival_rate": 0.3053,
+        "tg_mean_lifespan": 0.6341,
+        "non_tg_mean_lifespan": 0.4324
+      },
+      "transformer.layers.5": {
+        "n_tg": 968,
+        "n_non_tg": 3341,
+        "tg_survival_rate": 0.2169,
+        "non_tg_survival_rate": 0.3188,
+        "tg_mean_lifespan": 0.5847,
+        "non_tg_mean_lifespan": 0.3502
+      },
+      "transformer.layers.6": {
+        "n_tg": 922,
+        "n_non_tg": 3516,
+        "tg_survival_rate": 0.1811,
+        "non_tg_survival_rate": 0.3131,
+        "tg_mean_lifespan": 0.4902,
+        "non_tg_mean_lifespan": 0.3376
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 439,
+      "1": 344,
+      "2": 362,
+      "3": 363,
+      "4": 401,
+      "5": 449,
+      "6": 493,
+      "7": 537,
+      "8": 760,
+      "9": 796,
+      "10": 790
+    }
+  },
+  "CCT7-CIFAR100-seed137": {
+    "n_total": 21987,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.38790070712566505,
+    "csi_threshold": 0.6363732963004963,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 5702,
+        "survival_rate": 0.266,
+        "mean_lifespan": 0.7666,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 26.6
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 16285,
+        "survival_rate": 0.3083,
+        "mean_lifespan": 0.4341,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 30.83
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.3879, adaptive)",
+        "n": 2369,
+        "survival_rate": 0.2402,
+        "mean_lifespan": 0.5065,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 24.02
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.3879, adaptive)",
+        "n": 19618,
+        "survival_rate": 0.3043,
+        "mean_lifespan": 0.522,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 30.43
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.6364, adaptive)",
+        "n": 3251,
+        "survival_rate": 0.2682,
+        "mean_lifespan": 0.2316,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 26.82
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.6364, adaptive)",
+        "n": 18736,
+        "survival_rate": 0.3024,
+        "mean_lifespan": 0.5705,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 30.24
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 2369,
+        "survival_rate": 0.2402,
+        "mean_lifespan": 0.5065,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 24.02
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 13.4912,
+        "p": 0.00023968
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 28.0571,
+        "p": 1.2e-07
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 115.6447,
+        "p": 0.0
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.1518,
+        "p": 0.0
+      },
+      "ssi_vs_lifespan": {
+        "rho": -0.0056,
+        "p": 0.4078711
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.1378,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "norm": {
+        "n_tg": 945,
+        "n_non_tg": 3396,
+        "tg_survival_rate": 0.2413,
+        "non_tg_survival_rate": 0.2915,
+        "tg_mean_lifespan": 0.5481,
+        "non_tg_mean_lifespan": 0.2956
+      },
+      "transformer.layers.0": {
+        "n_tg": 860,
+        "n_non_tg": 1170,
+        "tg_survival_rate": 0.3116,
+        "non_tg_survival_rate": 0.3214,
+        "tg_mean_lifespan": 1.2256,
+        "non_tg_mean_lifespan": 1.0171
+      },
+      "transformer.layers.1": {
+        "n_tg": 1004,
+        "n_non_tg": 2183,
+        "tg_survival_rate": 0.25,
+        "non_tg_survival_rate": 0.3037,
+        "tg_mean_lifespan": 0.745,
+        "non_tg_mean_lifespan": 0.5827
+      },
+      "transformer.layers.3": {
+        "n_tg": 1028,
+        "n_non_tg": 2920,
+        "tg_survival_rate": 0.2938,
+        "non_tg_survival_rate": 0.3065,
+        "tg_mean_lifespan": 0.749,
+        "non_tg_mean_lifespan": 0.4099
+      },
+      "transformer.layers.5": {
+        "n_tg": 980,
+        "n_non_tg": 3220,
+        "tg_survival_rate": 0.2633,
+        "non_tg_survival_rate": 0.3239,
+        "tg_mean_lifespan": 0.6684,
+        "non_tg_mean_lifespan": 0.3978
+      },
+      "transformer.layers.6": {
+        "n_tg": 885,
+        "n_non_tg": 3396,
+        "tg_survival_rate": 0.2373,
+        "non_tg_survival_rate": 0.3104,
+        "tg_mean_lifespan": 0.7073,
+        "non_tg_mean_lifespan": 0.3316
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 455,
+      "1": 349,
+      "2": 356,
+      "3": 345,
+      "4": 390,
+      "5": 453,
+      "6": 491,
+      "7": 521,
+      "8": 772,
+      "9": 788,
+      "10": 782
+    }
+  },
+  "CCT7-CIFAR100-seed256": {
+    "n_total": 21424,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.3982991576194763,
+    "csi_threshold": 0.6762461586941373,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 5705,
+        "survival_rate": 0.2578,
+        "mean_lifespan": 0.7911,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 25.78
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 15719,
+        "survival_rate": 0.2904,
+        "mean_lifespan": 0.452,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 29.04
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.3983, adaptive)",
+        "n": 2295,
+        "survival_rate": 0.2614,
+        "mean_lifespan": 0.4479,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 26.14
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.3983, adaptive)",
+        "n": 19129,
+        "survival_rate": 0.2842,
+        "mean_lifespan": 0.5536,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 28.42
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.6762, adaptive)",
+        "n": 2778,
+        "survival_rate": 0.2549,
+        "mean_lifespan": 0.1872,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 25.49
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.6762, adaptive)",
+        "n": 18646,
+        "survival_rate": 0.2857,
+        "mean_lifespan": 0.5952,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 28.57
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 2295,
+        "survival_rate": 0.2614,
+        "mean_lifespan": 0.4479,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 26.14
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 30.4913,
+        "p": 3e-08
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 14.7093,
+        "p": 0.00012543
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 150.2847,
+        "p": 0.0
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.1875,
+        "p": 0.0
+      },
+      "ssi_vs_lifespan": {
+        "rho": -0.0383,
+        "p": 2e-08
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.1827,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "norm": {
+        "n_tg": 937,
+        "n_non_tg": 3058,
+        "tg_survival_rate": 0.2252,
+        "non_tg_survival_rate": 0.2717,
+        "tg_mean_lifespan": 0.5902,
+        "non_tg_mean_lifespan": 0.3195
+      },
+      "transformer.layers.0": {
+        "n_tg": 870,
+        "n_non_tg": 1281,
+        "tg_survival_rate": 0.2782,
+        "non_tg_survival_rate": 0.3404,
+        "tg_mean_lifespan": 1.3103,
+        "non_tg_mean_lifespan": 0.9797
+      },
+      "transformer.layers.1": {
+        "n_tg": 995,
+        "n_non_tg": 2386,
+        "tg_survival_rate": 0.2623,
+        "non_tg_survival_rate": 0.2904,
+        "tg_mean_lifespan": 0.8161,
+        "non_tg_mean_lifespan": 0.5637
+      },
+      "transformer.layers.3": {
+        "n_tg": 1021,
+        "n_non_tg": 2935,
+        "tg_survival_rate": 0.2635,
+        "non_tg_survival_rate": 0.2886,
+        "tg_mean_lifespan": 0.6494,
+        "non_tg_mean_lifespan": 0.4514
+      },
+      "transformer.layers.5": {
+        "n_tg": 991,
+        "n_non_tg": 3096,
+        "tg_survival_rate": 0.2674,
+        "non_tg_survival_rate": 0.3043,
+        "tg_mean_lifespan": 0.6256,
+        "non_tg_mean_lifespan": 0.3779
+      },
+      "transformer.layers.6": {
+        "n_tg": 891,
+        "n_non_tg": 2963,
+        "tg_survival_rate": 0.2503,
+        "non_tg_survival_rate": 0.2754,
+        "tg_mean_lifespan": 0.8137,
+        "non_tg_mean_lifespan": 0.3486
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 416,
+      "1": 338,
+      "2": 342,
+      "3": 374,
+      "4": 393,
+      "5": 456,
+      "6": 504,
+      "7": 512,
+      "8": 777,
+      "9": 783,
+      "10": 810
+    }
+  },
+  "ResNet18-CIFAR100-200ep-seed42": {
+    "n_total": 9923,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.47156983613967896,
+    "csi_threshold": 0.5419144927777902,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 3266,
+        "survival_rate": 0.3457,
+        "mean_lifespan": 1.0282,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 34.57
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 6657,
+        "survival_rate": 0.1595,
+        "mean_lifespan": 0.8106,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 15.95
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.4716, adaptive)",
+        "n": 1027,
+        "survival_rate": 0.1772,
+        "mean_lifespan": 0.9815,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 17.72
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.4716, adaptive)",
+        "n": 8896,
+        "survival_rate": 0.2258,
+        "mean_lifespan": 0.8707,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 22.58
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.5419, adaptive)",
+        "n": 1962,
+        "survival_rate": 0.2508,
+        "mean_lifespan": 0.6748,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 25.08
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.5419, adaptive)",
+        "n": 7961,
+        "survival_rate": 0.2134,
+        "mean_lifespan": 0.9333,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 21.34
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 1027,
+        "survival_rate": 0.1772,
+        "mean_lifespan": 0.9815,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 17.72
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 286.4083,
+        "p": 0.0
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 1.1757,
+        "p": 0.27823313
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 2.3801,
+        "p": 0.12288968
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.0449,
+        "p": 7.51e-06
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0185,
+        "p": 0.065579
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.0918,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "avgpool": {
+        "n_tg": 611,
+        "n_non_tg": 2935,
+        "tg_survival_rate": 0.2209,
+        "non_tg_survival_rate": 0.1591,
+        "tg_mean_lifespan": 0.6039,
+        "non_tg_mean_lifespan": 0.8589
+      },
+      "layer1": {
+        "n_tg": 461,
+        "n_non_tg": 303,
+        "tg_survival_rate": 0.4577,
+        "non_tg_survival_rate": 0.099,
+        "tg_mean_lifespan": 2.5618,
+        "non_tg_mean_lifespan": 0.3168
+      },
+      "layer2": {
+        "n_tg": 622,
+        "n_non_tg": 288,
+        "tg_survival_rate": 0.2894,
+        "non_tg_survival_rate": 0.1319,
+        "tg_mean_lifespan": 1.1559,
+        "non_tg_mean_lifespan": 0.5486
+      },
+      "layer3": {
+        "n_tg": 944,
+        "n_non_tg": 296,
+        "tg_survival_rate": 0.4852,
+        "non_tg_survival_rate": 0.3851,
+        "tg_mean_lifespan": 0.7775,
+        "non_tg_mean_lifespan": 1.0101
+      },
+      "layer4": {
+        "n_tg": 628,
+        "n_non_tg": 2835,
+        "tg_survival_rate": 0.2309,
+        "non_tg_survival_rate": 0.1457,
+        "tg_mean_lifespan": 0.5653,
+        "non_tg_mean_lifespan": 0.819
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 183,
+      "1": 243,
+      "2": 277,
+      "3": 261,
+      "4": 191,
+      "5": 201,
+      "6": 175,
+      "7": 180,
+      "8": 223,
+      "9": 451,
+      "10": 445,
+      "11": 436
+    }
+  },
+  "ResNet18-CIFAR100-8x-seed42": {
+    "n_total": 12903,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.5292444825172424,
+    "csi_threshold": 0.6239167562837314,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 2877,
+        "survival_rate": 0.2711,
+        "mean_lifespan": 1.0108,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 27.11
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 10026,
+        "survival_rate": 0.2044,
+        "mean_lifespan": 0.6853,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 20.44
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.5292, adaptive)",
+        "n": 1106,
+        "survival_rate": 0.1835,
+        "mean_lifespan": 0.7288,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 18.35
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.5292, adaptive)",
+        "n": 11797,
+        "survival_rate": 0.2226,
+        "mean_lifespan": 0.7606,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 22.26
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.6239, adaptive)",
+        "n": 2258,
+        "survival_rate": 0.2595,
+        "mean_lifespan": 0.5576,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 25.95
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.6239, adaptive)",
+        "n": 10645,
+        "survival_rate": 0.2107,
+        "mean_lifespan": 0.8004,
+        "median_lifespan": 0.0,
+        "max_lifespan": 11,
+        "pct_surviving_to_terminal": 21.07
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 1106,
+        "survival_rate": 0.1835,
+        "mean_lifespan": 0.7288,
+        "median_lifespan": 0.0,
+        "max_lifespan": 10,
+        "pct_surviving_to_terminal": 18.35
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 118.5926,
+        "p": 0.0
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 6.3945,
+        "p": 0.01144745
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 0.9446,
+        "p": 0.33109764
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.0215,
+        "p": 0.0147325
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0517,
+        "p": 0.0
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.0651,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "avgpool": {
+        "n_tg": 463,
+        "n_non_tg": 4392,
+        "tg_survival_rate": 0.1469,
+        "non_tg_survival_rate": 0.2129,
+        "tg_mean_lifespan": 0.5313,
+        "non_tg_mean_lifespan": 0.6894
+      },
+      "layer1": {
+        "n_tg": 469,
+        "n_non_tg": 419,
+        "tg_survival_rate": 0.3603,
+        "non_tg_survival_rate": 0.1002,
+        "tg_mean_lifespan": 2.3923,
+        "non_tg_mean_lifespan": 0.4749
+      },
+      "layer2": {
+        "n_tg": 730,
+        "n_non_tg": 419,
+        "tg_survival_rate": 0.2726,
+        "non_tg_survival_rate": 0.1193,
+        "tg_mean_lifespan": 1.0055,
+        "non_tg_mean_lifespan": 0.7088
+      },
+      "layer3": {
+        "n_tg": 772,
+        "n_non_tg": 364,
+        "tg_survival_rate": 0.3523,
+        "non_tg_survival_rate": 0.3626,
+        "tg_mean_lifespan": 0.7526,
+        "non_tg_mean_lifespan": 0.7967
+      },
+      "layer4": {
+        "n_tg": 443,
+        "n_non_tg": 4432,
+        "tg_survival_rate": 0.1625,
+        "non_tg_survival_rate": 0.2008,
+        "tg_mean_lifespan": 0.5079,
+        "non_tg_mean_lifespan": 0.6898
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 185,
+      "1": 236,
+      "2": 271,
+      "3": 216,
+      "4": 206,
+      "5": 186,
+      "6": 183,
+      "7": 195,
+      "8": 228,
+      "9": 316,
+      "10": 323,
+      "11": 332
+    }
+  },
+  "ResNet18-TinyImageNet-seed42": {
+    "n_total": 7178,
+    "threshold_source": "adaptive",
+    "ssi_threshold": 0.4224809840321534,
+    "csi_threshold": 0.5027956245378358,
+    "cohorts": {
+      "tg": {
+        "name": "Task-General (SAI>0.9)",
+        "n": 3042,
+        "survival_rate": 0.3527,
+        "mean_lifespan": 0.8787,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 35.27
+      },
+      "non_tg": {
+        "name": "Non-Tg (SAI\u22640.9)",
+        "n": 4136,
+        "survival_rate": 0.2464,
+        "mean_lifespan": 0.8029,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 24.64
+      },
+      "high_ssi": {
+        "name": "High SSI (\u22650.4225, adaptive)",
+        "n": 632,
+        "survival_rate": 0.2215,
+        "mean_lifespan": 0.6472,
+        "median_lifespan": 0.0,
+        "max_lifespan": 7,
+        "pct_surviving_to_terminal": 22.15
+      },
+      "low_ssi": {
+        "name": "Low SSI (<0.4225, adaptive)",
+        "n": 6546,
+        "survival_rate": 0.2982,
+        "mean_lifespan": 0.8532,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 29.82
+      },
+      "high_csi": {
+        "name": "High CSI (\u22650.5028, adaptive)",
+        "n": 796,
+        "survival_rate": 0.3028,
+        "mean_lifespan": 0.4711,
+        "median_lifespan": 0.0,
+        "max_lifespan": 6,
+        "pct_surviving_to_terminal": 30.28
+      },
+      "low_csi": {
+        "name": "Low CSI (<0.5028, adaptive)",
+        "n": 6382,
+        "survival_rate": 0.29,
+        "mean_lifespan": 0.8804,
+        "median_lifespan": 0.0,
+        "max_lifespan": 9,
+        "pct_surviving_to_terminal": 29.0
+      },
+      "tg_high_ssi": {
+        "name": "Tg-H \u2229 High-SSI",
+        "n": 0
+      },
+      "non_tg_high_ssi": {
+        "name": "Non-Tg \u2229 High-SSI",
+        "n": 632,
+        "survival_rate": 0.2215,
+        "mean_lifespan": 0.6472,
+        "median_lifespan": 0.0,
+        "max_lifespan": 7,
+        "pct_surviving_to_terminal": 22.15
+      }
+    },
+    "logrank": {
+      "tg_vs_non_tg": {
+        "chi2": 63.8157,
+        "p": 0.0
+      },
+      "high_ssi_vs_low_ssi": {
+        "chi2": 23.3089,
+        "p": 1.38e-06
+      },
+      "high_csi_vs_low_csi": {
+        "chi2": 10.2488,
+        "p": 0.00136774
+      },
+      "tg_highssi_vs_nontg_highssi": {
+        "chi2": null,
+        "p": null
+      }
+    },
+    "spearman": {
+      "sai_vs_lifespan": {
+        "rho": 0.0623,
+        "p": 1.3e-07
+      },
+      "ssi_vs_lifespan": {
+        "rho": 0.0419,
+        "p": 0.00037895
+      },
+      "csi_vs_lifespan": {
+        "rho": -0.0761,
+        "p": 0.0
+      }
+    },
+    "per_layer_tg": {
+      "avgpool": {
+        "n_tg": 614,
+        "n_non_tg": 1723,
+        "tg_survival_rate": 0.2866,
+        "non_tg_survival_rate": 0.2629,
+        "tg_mean_lifespan": 0.4772,
+        "non_tg_mean_lifespan": 0.8938
+      },
+      "layer1": {
+        "n_tg": 379,
+        "n_non_tg": 257,
+        "tg_survival_rate": 0.4591,
+        "non_tg_survival_rate": 0.1245,
+        "tg_mean_lifespan": 2.1636,
+        "non_tg_mean_lifespan": 0.1284
+      },
+      "layer2": {
+        "n_tg": 559,
+        "n_non_tg": 224,
+        "tg_survival_rate": 0.2826,
+        "non_tg_survival_rate": 0.1295,
+        "tg_mean_lifespan": 0.8712,
+        "non_tg_mean_lifespan": 0.4018
+      },
+      "layer3": {
+        "n_tg": 871,
+        "n_non_tg": 199,
+        "tg_survival_rate": 0.4432,
+        "non_tg_survival_rate": 0.3568,
+        "tg_mean_lifespan": 0.8817,
+        "non_tg_mean_lifespan": 0.7789
+      },
+      "layer4": {
+        "n_tg": 619,
+        "n_non_tg": 1733,
+        "tg_survival_rate": 0.2892,
+        "non_tg_survival_rate": 0.2504,
+        "tg_mean_lifespan": 0.4927,
+        "non_tg_mean_lifespan": 0.8673
+      }
+    },
+    "tg_birth_checkpoint_distribution": {
+      "0": 172,
+      "1": 326,
+      "2": 280,
+      "3": 252,
+      "4": 270,
+      "5": 253,
+      "6": 259,
+      "7": 340,
+      "8": 435,
+      "9": 455
+    }
+  }
+}

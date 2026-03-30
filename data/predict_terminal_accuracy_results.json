@@ -1,0 +1,63 @@
+{
+  "n_lanes": 57,
+  "models": {
+    "Architecture Only (Null)": {
+      "r2": 0.6806,
+      "mae": 1.2967,
+      "alpha": 0.336,
+      "top_features": {
+        "arch_ViT-Small": 1.3816,
+        "arch_ResNet-18": 1.1857,
+        "arch_CCT-7": 0.2307
+      }
+    },
+    "Process Signature Only": {
+      "r2": 0.6228,
+      "mae": 1.4578,
+      "alpha": 6.1585,
+      "top_features": {
+        "t1_tg_frac": 1.104,
+        "t0_ab_frac": 0.9405,
+        "t0_log_di": 0.901,
+        "t0_de_frac": 0.7221,
+        "t0_as_frac": 0.7134
+      }
+    },
+    "Process + Architecture": {
+      "r2": 0.73,
+      "mae": 1.2111,
+      "alpha": 2.9764,
+      "top_features": {
+        "t0_log_di": 1.1881,
+        "arch_ViT-Small": 1.1167,
+        "arch_ResNet-18": 0.9957,
+        "t0_ab_frac": 0.9949,
+        "t1_tg_frac": 0.7579
+      }
+    },
+    "ResNet-18 Only (N=49)": {
+      "r2": 0.1228,
+      "mae": 1.2711,
+      "alpha": 6.1585,
+      "top_features": {
+        "t0_ab_frac": 0.8083,
+        "t1_di_frac": 0.4327,
+        "t1_ab_frac": 0.3837,
+        "t0_tg_frac": 0.3233,
+        "t0_ab_di_ratio": 0.3221
+      }
+    },
+    "Overfit Gap (ResNet-18)": {
+      "r2": 0.3276,
+      "mae": 10.939,
+      "alpha": 6.1585,
+      "top_features": {
+        "t0_ab_frac": 7.8953,
+        "t1_di_frac": 5.0105,
+        "t0_ab_di_ratio": 4.0665,
+        "t0_churn": 4.0282,
+        "t0_tg_frac": 3.4823
+      }
+    }
+  }
+}

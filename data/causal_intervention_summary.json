@@ -1,0 +1,125 @@
+{
+  "experiment": {
+    "lane_id": "abfc645c-4b05-46b0-b940-0ef3e8c7284f",
+    "experiment_id": "578b5803-1f2f-49c4-99b8-bf7071f43917",
+    "architecture": "ResNet-18",
+    "dataset": "CIFAR-100",
+    "seed": 42,
+    "target_superclass": "flowers",
+    "target_selection_method": "max_features_dissimilarity",
+    "intervention_checkpoint": 6,
+    "n_abh_features_targeted": 9,
+    "mean_cosine_similarity": 0.0756,
+    "ssi_threshold": 0.95,
+    "alphas": [0.0, 0.5, 1.0],
+    "n_milestones": 7,
+    "n_layers_perturbed": 5,
+    "layers_perturbed": ["layer1", "layer2", "layer3", "layer4", "avgpool"],
+    "features_per_layer": {
+      "layer1": 3,
+      "layer2": 2,
+      "layer3": 1,
+      "layer4": 2,
+      "avgpool": 1
+    },
+    "perturbation_impact": {
+      "alpha_0.5": {
+        "global_relative_change_pct": 4.59,
+        "per_layer": {
+          "layer1": 11.01,
+          "layer2": 7.04,
+          "layer3": 3.35,
+          "layer4": 3.19
+        }
+      },
+      "alpha_1.0": {
+        "global_relative_change_pct": 9.18,
+        "per_layer": {
+          "layer1": 22.02,
+          "layer2": 14.07,
+          "layer3": 6.70,
+          "layer4": 6.39
+        }
+      }
+    }
+  },
+  "conditions": {
+    "control_alpha_0": {
+      "description": "Unperturbed control (resume training from checkpoint 6)",
+      "final_val_accuracy": 17.9,
+      "final_train_accuracy": 14.196
+    },
+    "perturbed_alpha_0.5": {
+      "description": "Ab-H subspace perturbation at 50% strength",
+      "final_val_accuracy": 15.55,
+      "final_train_accuracy": 14.222
+    },
+    "perturbed_alpha_1.0": {
+      "description": "Ab-H subspace perturbation at 100% strength",
+      "final_val_accuracy": 17.06,
+      "final_train_accuracy": 14.47
+    },
+    "random_control": {
+      "description": "Random-direction perturbation of equal rank (shock control)",
+      "final_val_accuracy": 17.67,
+      "final_train_accuracy": 14.476
+    }
+  },
+  "trajectory_accuracy": {
+    "milestones": ["m0", "m1", "m2", "m3", "m4", "m5", "m6"],
+    "control_alpha_0": {
+      "all": [41.3, 14.9, 16.0, 15.2, 17.2, 15.7, 17.9],
+      "flowers": [42.4, 13.4, 9.0, 17.0, 18.6, 16.6, 32.2],
+      "rest": [41.3, 15.0, 16.4, 15.1, 17.1, 15.6, 17.1]
+    },
+    "perturbed_alpha_0.5": {
+      "all": [1.1, 16.4, 15.3, 15.2, 16.3, 15.4, 15.6],
+      "flowers": [0.0, 12.4, 9.4, 12.2, 20.0, 18.8, 27.4],
+      "rest": [1.2, 16.6, 15.6, 15.3, 16.1, 15.2, 14.9]
+    },
+    "perturbed_alpha_1.0": {
+      "all": [1.1, 14.4, 16.4, 15.1, 16.1, 14.8, 17.1],
+      "flowers": [0.0, 10.2, 16.8, 6.6, 11.2, 18.0, 23.6],
+      "rest": [1.2, 14.6, 16.4, 15.6, 16.4, 14.7, 16.7]
+    },
+    "random_control": {
+      "all": [null, null, null, null, null, null, 17.67],
+      "flowers": [null, null, null, null, null, null, null],
+      "rest": [null, null, null, null, null, null, null]
+    }
+  },
+  "key_findings": {
+    "perturbation_shock_m0": {
+      "control_all_pct": 41.3,
+      "perturbed_all_pct": 1.1,
+      "control_flowers_pct": 42.4,
+      "perturbed_flowers_pct": 0.0,
+      "description": "Both perturbed conditions crash to ~1% overall (vs 41% control), confirming perturbation is impactful"
+    },
+    "dose_response_terminal_flowers": {
+      "control_pct": 32.2,
+      "alpha_0.5_pct": 27.4,
+      "alpha_1.0_pct": 23.6,
+      "suppression_alpha_0.5_pp": -4.8,
+      "suppression_alpha_1.0_pp": -8.6,
+      "description": "Monotonic dose-response: stronger Ab-H perturbation leads to more suppressed flower differentiation at terminal"
+    },
+    "specificity_terminal": {
+      "control_rest_pct": 17.1,
+      "alpha_0.5_rest_pct": 14.9,
+      "alpha_1.0_rest_pct": 16.7,
+      "description": "Non-flower accuracy at m6 is minimally affected, confirming target specificity"
+    },
+    "mid_training_suppression": {
+      "m3_control_flowers": 17.0,
+      "m3_alpha_1.0_flowers": 6.6,
+      "m4_control_flowers": 18.6,
+      "m4_alpha_1.0_flowers": 11.2,
+      "description": "Alpha=1.0 shows suppressed flower accuracy at m3-m4, suggesting perturbation delays flower differentiation throughout training"
+    },
+    "quick_recovery_non_target": {
+      "m1_all_conditions_range": "14.4-16.4%",
+      "description": "By m1, overall accuracy recovers to ~14-16% across all conditions; non-flower classes largely unaffected"
+    }
+  }
+}

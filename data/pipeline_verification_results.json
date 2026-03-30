@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "3 architectures found on drive: {'ViT-Small', 'CCT-7', 'ResNet-18'}"
+  },
+  {
+    "id": 2,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "2 datasets: {'CIFAR-100', 'TinyImageNet'}"
+  },
+  {
+    "id": 3,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "55 paper-relevant lanes (59 total on drive, 4 dev artifacts)"
+  },
+  {
+    "id": 4,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Di-H: std=358816, e15=53872, fold=6.66 (~6.7)"
+  },
+  {
+    "id": 5,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "(358816-53872)/358816 = 85.0%"
+  },
+  {
+    "id": 6,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Overfit gap: std=37.1pp, e30=18.5pp"
+  },
+  {
+    "id": 7,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "C/R first transition = 39.4:1"
+  },
+  {
+    "id": 8,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "C/R terminal = 0.30:1"
+  },
+  {
+    "id": 9,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n_declining=9/9, p=0.0020"
+  },
+  {
+    "id": 10,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "6/9 below 1.0. Ratios: [('ResN', '0.30'), ('ViTS', '0.41'), ('CCT7', '0.55'), ('CCT7', '0.68'), ('CCT7', '0.76'), ('ViTS', '0.88'), ('ViTS', '1.61'), ('ResN', '3.47'), ('ResN', '4.39')]"
+  },
+  {
+    "id": 11,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "3 lanes with di_h=0 at first transition"
+  },
+  {
+    "id": 12,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Max range=4.3pp (claim: <3.2 \u2014 note: range!=SD)"
+  },
+  {
+    "id": 13,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Mean range=2.4pp"
+  },
+  {
+    "id": 14,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "C/R: 34.8:1 -> 0.76:1"
+  },
+  {
+    "id": 15,
+    "pipeline_status": "FLAG",
+    "pipeline_detail": "C/R: 272.0:1 -> 0.97:1 (drive 1000perm; sendout says 94.3:1->0.48:1 with 100perm)"
+  },
+  {
+    "id": 16,
+    "pipeline_status": "FLAG",
+    "pipeline_detail": "First transition churn=71.6%"
+  },
+  {
+    "id": 17,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "First transition weight_updates=391 (epoch 0->1)"
+  },
+  {
+    "id": 18,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Lifespan ratios verified via feature_survival_all_lanes + drive cross-check"
+  },
+  {
+    "id": 19,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "SSI positive: 7/9. [('ResNet18', 0.0571), ('ResNet18', 0.0597), ('ResNet18', 0.0633), ('ViTSmall', 0.0743), ('ViTSmall', 0.0602), ('ViTSmall', 0.024), ('CCT7-CIF', 0.0185), ('CCT7-CIF', -0.0056), ('CCT7-CIF', -0.0383)]"
+  },
+  {
+    "id": 20,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "CSI negative: 9/9"
+  },
+  {
+    "id": 21,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Verified via developmental_persistence.json (drive-derived)"
+  },
+  {
+    "id": 22,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "35/35 noise lanes found on drive"
+  },
+  {
+    "id": 23,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "bsc_p03 Di-frac=0.4366, std=0.5903, diff=-15.4pp"
+  },
+  {
+    "id": 24,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Paired diff: -7.8pp (claim: -7.8)"
+  },
+  {
+    "id": 25,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Cohen's d = -1.57 (claim: -1.57)"
+  },
+  {
+    "id": 26,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "5/5 neg, p=0.0312"
+  },
+  {
+    "id": 27,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "SEM=2.2pp"
+  },
+  {
+    "id": 28,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Arithmetic: 100-1=99 eligible; 99-4=95 cross-boundary; 95/99=96%"
+  },
+  {
+    "id": 29,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "bsc suppresses 15.4pp, rnd 7.6pp"
+  },
+  {
+    "id": 30,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive Di-H=358816 (claim: 358816)"
+  },
+  {
+    "id": 31,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive Di-H=53872 (claim: 53872)"
+  },
+  {
+    "id": 32,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive Di-H=55315 (claim: 55315)"
+  },
+  {
+    "id": 33,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "57.13/59.13*100=96.6%"
+  },
+  {
+    "id": 34,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "std gap=37.1pp, e30 gap=18.5pp"
+  },
+  {
+    "id": 35,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Val loss: std=1.799, e30=1.594"
+  },
+  {
+    "id": 36,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Stable: std=3,575 (0.00M), e15=3,813 (0.00M)"
+  },
+  {
+    "id": 37,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Val acc range: 57.1-59.1% (claim: 57.1-59.1)"
+  },
+  {
+    "id": 38,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "ResNet-18 11.2M \u2014 standard architecture"
+  },
+  {
+    "id": 39,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "ViT-Small 22.0M \u2014 standard architecture"
+  },
+  {
+    "id": 40,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "CCT-7 3.7M \u2014 standard architecture"
+  },
+  {
+    "id": 41,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "55 runs, 27 conditions. 12 primary + 7 curriculum + 35 noise + 1 control"
+  },
+  {
+    "id": 42,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "9+3+1+7+35=55 verified on drive"
+  },
+  {
+    "id": 43,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "expansion_factor=4 from raw sae_results.json"
+  },
+  {
+    "id": 44,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "k_sparse=32 from raw sae_results.json"
+  },
+  {
+    "id": 45,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "n_steps=None"
+  },
+  {
+    "id": 46,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Alive features: min=39, max=446, mean=168"
+  },
+  {
+    "id": 47,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Overall: 0.9750 +/- 0.0293 (claim: 0.975+/-0.029)"
+  },
+  {
+    "id": 48,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Mid: 0.9877 +/- 0.0103"
+  },
+  {
+    "id": 49,
+    "pipeline_status": "FAIL",
+    "pipeline_detail": "Late: 0.9498 +/- 0.0313"
+  },
+  {
+    "id": 50,
+    "pipeline_status": "FAIL",
+    "pipeline_detail": "Early: 0.9957 +/- 0.0038"
+  },
+  {
+    "id": 51,
+    "pipeline_status": "FLAG",
+    "pipeline_detail": "Total SAEs computed: 4900 (claim: 2420). Diff may be due to counting method."
+  },
+  {
+    "id": 52,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Primary lanes alive features: 195,490 (claim: ~250,000 total across all)"
+  },
+  {
+    "id": 53,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Primary lanes total events: 58,071,940"
+  },
+  {
+    "id": 54,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Primary lanes null samples: 0"
+  },
+  {
+    "id": 55,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "stable_threshold=None"
+  },
+  {
+    "id": 56,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "death_threshold=None"
+  },
+  {
+    "id": 57,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "SSI adaptive threshold=0.4643635630607601"
+  },
+  {
+    "id": 58,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires per-feature process classification analysis"
+  },
+  {
+    "id": 59,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "chi2=36.6624"
+  },
+  {
+    "id": 60,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "3cohort data verified"
+  },
+  {
+    "id": 61,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n_tracked range: 7,178-21,987"
+  },
+  {
+    "id": 62,
+    "pipeline_status": "FLAG",
+    "pipeline_detail": "Noise SAEs: 2240 (claim: 1400). 35 runs x layers x checkpoints"
+  },
+  {
+    "id": 63,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 59.76, claim: 59.8"
+  },
+  {
+    "id": 64,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 59.61, claim: 59.6"
+  },
+  {
+    "id": 65,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 58.97, claim: 59.0"
+  },
+  {
+    "id": 66,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 49.2, claim: 49.2"
+  },
+  {
+    "id": 67,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 48.05, claim: 48.1"
+  },
+  {
+    "id": 68,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 48.15, claim: 48.2"
+  },
+  {
+    "id": 69,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 52.96, claim: 53.0"
+  },
+  {
+    "id": 70,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 52.38, claim: 52.4"
+  },
+  {
+    "id": 71,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 52.96, claim: 53.0"
+  },
+  {
+    "id": 72,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 60.93, claim: 60.9"
+  },
+  {
+    "id": 73,
+    "pipeline_status": "FAIL",
+    "pipeline_detail": "Drive: 58.97, claim: 59.8"
+  },
+  {
+    "id": 74,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "No metrics on drive for ResNet18-TinyImageNet-seed42"
+  },
+  {
+    "id": 75,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 59.1%, claim: 59.1%"
+  },
+  {
+    "id": 76,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 57.9%, claim: 57.9%"
+  },
+  {
+    "id": 77,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 58.2%, claim: 58.2%"
+  },
+  {
+    "id": 78,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 58.2%, claim: 58.2%"
+  },
+  {
+    "id": 79,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 58.2%, claim: 58.2%"
+  },
+  {
+    "id": 80,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 58.5%, claim: 58.5%"
+  },
+  {
+    "id": 81,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 57.8%, claim: 57.8%"
+  },
+  {
+    "id": 82,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 58.2%, claim: 58.2%"
+  },
+  {
+    "id": 83,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 57.4%, claim: 57.4%"
+  },
+  {
+    "id": 84,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 55.7%, claim: 55.7%"
+  },
+  {
+    "id": 85,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 57.0%, claim: 57.0%"
+  },
+  {
+    "id": 86,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 54.0%, claim: 54.0%"
+  },
+  {
+    "id": 87,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 57.7%, claim: 57.7%"
+  },
+  {
+    "id": 88,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Drive: 54.8%, claim: 54.8%"
+  },
+  {
+    "id": 89,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "within_checkpoint_control keys: ['per_checkpoint', 'summary']"
+  },
+  {
+    "id": 90,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Match correlation verification requires detailed analysis"
+  },
+  {
+    "id": 91,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Verified via f4_superclass_invariance (drive-derived)"
+  },
+  {
+    "id": 92,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Ab-E/Di-E ranges verified < 0.5pp"
+  },
+  {
+    "id": 93,
+    "pipeline_status": "FLAG",
+    "pipeline_detail": "C/R: 272.0:1 -> 0.97:1 (drive 1000perm; sendout says 94.3:1->0.48:1 with 100perm)"
+  },
+  {
+    "id": 94,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires terminal alive feature computation from noise lanes"
+  },
+  {
+    "id": 95,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires terminal alive feature computation from noise lanes"
+  },
+  {
+    "id": 96,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires terminal alive feature computation from noise lanes"
+  },
+  {
+    "id": 97,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires terminal alive feature computation from noise lanes"
+  },
+  {
+    "id": 98,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires activation magnitude analysis"
+  },
+  {
+    "id": 99,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Requires alive feature count across 9 lanes"
+  },
+  {
+    "id": 100,
+    "pipeline_status": "MANUAL",
+    "pipeline_detail": "Mann-Whitney test requires raw data"
+  },
+  {
+    "id": 101,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Random control: 17.67%"
+  },
+  {
+    "id": 102,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Suppression values from causal_intervention_summary.json (drive-derived)"
+  },
+  {
+    "id": 103,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n_abh_features_targeted=9"
+  },
+  {
+    "id": 104,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Superclass analysis data verified"
+  },
+  {
+    "id": 105,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "14.6x suppression: 480038/32817 verified"
+  },
+  {
+    "id": 106,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Di-H 5-condition match verified against drive"
+  },
+  {
+    "id": 107,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Di-H 7-condition match verified against drive"
+  },
+  {
+    "id": 108,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "7-condition sweep confirmed in v32"
+  },
+  {
+    "id": 109,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "55 runs on drive, 53 with accuracy data"
+  },
+  {
+    "id": 110,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Primary lanes: 13 with 1000 perm, 0 with 100"
+  },
+  {
+    "id": 111,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=10096 surv=22.0% chi2=36.66"
+  },
+  {
+    "id": 112,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=10143 surv=22.4% chi2=22.95"
+  },
+  {
+    "id": 113,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=9929 surv=22.6% chi2=37.11"
+  },
+  {
+    "id": 114,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=19997 surv=26.9% chi2=25.88"
+  },
+  {
+    "id": 115,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=20025 surv=27.1% chi2=13.62"
+  },
+  {
+    "id": 116,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=20149 surv=31.9% chi2=103.27"
+  },
+  {
+    "id": 117,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=21936 surv=29.2% chi2=30.00"
+  },
+  {
+    "id": 118,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=21987 surv=29.7% chi2=12.26"
+  },
+  {
+    "id": 119,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "n=21424 surv=28.2% chi2=5.41"
+  },
+  {
+    "id": 120,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "mean=1.5%, range=4.3pp"
+  },
+  {
+    "id": 121,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "mean=2.9%, range=1.2pp"
+  },
+  {
+    "id": 122,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "mean=57.9%, range=3.0pp"
+  },
+  {
+    "id": 123,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "mean=29.2%, range=1.2pp"
+  },
+  {
+    "id": 124,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "ResNet-18 Tg-H frac=83.0% (claim: 80.9%, diff=2.1pp)"
+  },
+  {
+    "id": 125,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "ViT-Small Tg-H frac=85.8% (claim: 85.8%, diff=0.0pp)"
+  },
+  {
+    "id": 126,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "CCT-7 Tg-H frac=86.6% (claim: 86.6%, diff=0.0pp)"
+  },
+  {
+    "id": 127,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Ab-H confirmed in 12/12 lanes"
+  },
+  {
+    "id": 128,
+    "pipeline_status": "PASS",
+    "pipeline_detail": "Di-H confirmed in 12/12 lanes"
+  }
+]

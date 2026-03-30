@@ -1,0 +1,1233 @@
+{
+  "ab_to_di": {
+    "n_obs": 1836,
+    "restricted_r2": 0.6244,
+    "full_r2": 0.7221,
+    "delta_r2": 0.0977,
+    "coef": 1.3467,
+    "tstat": 25.0099,
+    "granger_f": 625.4941,
+    "granger_p": 1.11e-16,
+    "sig": "***",
+    "permutation_p": 0.0
+  },
+  "ab_to_di_reverse": {
+    "n_obs": 1836,
+    "restricted_r2": 0.693,
+    "full_r2": 0.7018,
+    "delta_r2": 0.0088,
+    "coef": -0.0481,
+    "tstat": -7.251,
+    "granger_f": 52.5776,
+    "granger_p": 6.14e-13,
+    "sig": "***"
+  },
+  "ab_to_di_per_sc": {
+    "accessories_and_gear": {
+      "F": 0.1419,
+      "p": 0.721831,
+      "p_adj": 1.0,
+      "coef": -0.1947,
+      "sig": "",
+      "n": 8
+    },
+    "aquatic_creatures": {
+      "F": 1.1252,
+      "p": 0.337331,
+      "p_adj": 1.0,
+      "coef": 0.6388,
+      "sig": "",
+      "n": 8
+    },
+    "aquatic_mammals": {
+      "F": 47.2243,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 2.4568,
+      "sig": "***",
+      "n": 81
+    },
+    "arachnids_and_myriapods": {
+      "F": 0.83,
+      "p": 0.404068,
+      "p_adj": 1.0,
+      "coef": 1.6456,
+      "sig": "",
+      "n": 8
+    },
+    "birds": {
+      "F": 0.6803,
+      "p": 0.447037,
+      "p_adj": 1.0,
+      "coef": 1.612,
+      "sig": "",
+      "n": 8
+    },
+    "cats": {
+      "F": 2.3804,
+      "p": 0.183511,
+      "p_adj": 1.0,
+      "coef": -1.3138,
+      "sig": "",
+      "n": 8
+    },
+    "clothing": {
+      "F": 0.1056,
+      "p": 0.758346,
+      "p_adj": 1.0,
+      "coef": -0.1847,
+      "sig": "",
+      "n": 8
+    },
+    "containers": {
+      "F": 1.8676,
+      "p": 0.229992,
+      "p_adj": 1.0,
+      "coef": -0.338,
+      "sig": "",
+      "n": 8
+    },
+    "dogs": {
+      "F": 0.54,
+      "p": 0.495425,
+      "p_adj": 1.0,
+      "coef": -1.1996,
+      "sig": "",
+      "n": 8
+    },
+    "electronics": {
+      "F": 0.1445,
+      "p": 0.719452,
+      "p_adj": 1.0,
+      "coef": -0.317,
+      "sig": "",
+      "n": 8
+    },
+    "fish": {
+      "F": 52.0537,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 2.581,
+      "sig": "***",
+      "n": 81
+    },
+    "flowers": {
+      "F": 30.3165,
+      "p": 1e-06,
+      "p_adj": 2.6e-05,
+      "coef": 1.6737,
+      "sig": "***",
+      "n": 81
+    },
+    "food": {
+      "F": 2.6303,
+      "p": 0.16577,
+      "p_adj": 1.0,
+      "coef": -0.9124,
+      "sig": "",
+      "n": 8
+    },
+    "food_containers": {
+      "F": 40.7238,
+      "p": 0.0,
+      "p_adj": 1e-06,
+      "coef": 2.1511,
+      "sig": "***",
+      "n": 81
+    },
+    "fruit_and_vegetables": {
+      "F": 23.3582,
+      "p": 8e-06,
+      "p_adj": 0.000346,
+      "coef": 1.2363,
+      "sig": "***",
+      "n": 81
+    },
+    "furniture": {
+      "F": 0.3546,
+      "p": 0.577473,
+      "p_adj": 1.0,
+      "coef": -0.4875,
+      "sig": "",
+      "n": 8
+    },
+    "household": {
+      "F": 1.6219,
+      "p": 0.25882,
+      "p_adj": 1.0,
+      "coef": -0.5368,
+      "sig": "",
+      "n": 8
+    },
+    "household_electrical_devices": {
+      "F": 18.5369,
+      "p": 5.3e-05,
+      "p_adj": 0.002395,
+      "coef": 0.8231,
+      "sig": "**",
+      "n": 81
+    },
+    "household_furniture": {
+      "F": 53.1508,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 1.7535,
+      "sig": "***",
+      "n": 81
+    },
+    "insects": {
+      "F": 49.534,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 1.1149,
+      "sig": "***",
+      "n": 89
+    },
+    "instruments_and_measures": {
+      "F": 1.989,
+      "p": 0.217515,
+      "p_adj": 1.0,
+      "coef": -0.5368,
+      "sig": "",
+      "n": 8
+    },
+    "invertebrates": {
+      "F": 0.1174,
+      "p": 0.745788,
+      "p_adj": 1.0,
+      "coef": 0.2205,
+      "sig": "",
+      "n": 8
+    },
+    "kitchen_and_tableware": {
+      "F": 0.8859,
+      "p": 0.389811,
+      "p_adj": 1.0,
+      "coef": 0.3675,
+      "sig": "",
+      "n": 8
+    },
+    "landscapes": {
+      "F": 0.3619,
+      "p": 0.573706,
+      "p_adj": 1.0,
+      "coef": -0.2847,
+      "sig": "",
+      "n": 8
+    },
+    "large_carnivores": {
+      "F": 27.1062,
+      "p": 2e-06,
+      "p_adj": 8.3e-05,
+      "coef": 1.9551,
+      "sig": "***",
+      "n": 81
+    },
+    "large_mammals": {
+      "F": 2.9857,
+      "p": 0.14458,
+      "p_adj": 1.0,
+      "coef": -1.2634,
+      "sig": "",
+      "n": 8
+    },
+    "large_man-made_outdoor_things": {
+      "F": 44.1054,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 1.477,
+      "sig": "***",
+      "n": 81
+    },
+    "large_natural_outdoor_scenes": {
+      "F": 40.4697,
+      "p": 0.0,
+      "p_adj": 1e-06,
+      "coef": 2.2333,
+      "sig": "***",
+      "n": 81
+    },
+    "large_omnivores_and_herbivores": {
+      "F": 65.0144,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 2.8167,
+      "sig": "***",
+      "n": 81
+    },
+    "medium_mammals": {
+      "F": 24.9244,
+      "p": 4e-06,
+      "p_adj": 0.000189,
+      "coef": 2.5114,
+      "sig": "***",
+      "n": 81
+    },
+    "miscellaneous": {
+      "F": 0.4862,
+      "p": 0.516721,
+      "p_adj": 1.0,
+      "coef": -0.7341,
+      "sig": "",
+      "n": 8
+    },
+    "musical_instruments": {
+      "F": 3.9829,
+      "p": 0.102498,
+      "p_adj": 1.0,
+      "coef": -1.1438,
+      "sig": "",
+      "n": 8
+    },
+    "non-insect_invertebrates": {
+      "F": 49.766,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 2.945,
+      "sig": "***",
+      "n": 81
+    },
+    "people": {
+      "F": 36.058,
+      "p": 0.0,
+      "p_adj": 3e-06,
+      "coef": 1.3037,
+      "sig": "***",
+      "n": 81
+    },
+    "primates": {
+      "F": 1.1375,
+      "p": 0.33494,
+      "p_adj": 1.0,
+      "coef": -1.6809,
+      "sig": "",
+      "n": 8
+    },
+    "reptiles": {
+      "F": 52.1392,
+      "p": 0.0,
+      "p_adj": 0.0,
+      "coef": 3.2392,
+      "sig": "***",
+      "n": 81
+    },
+    "reptiles_and_amphibians": {
+      "F": 0.0472,
+      "p": 0.836646,
+      "p_adj": 1.0,
+      "coef": 0.3028,
+      "sig": "",
+      "n": 8
+    },
+    "small_mammals": {
+      "F": 39.4952,
+      "p": 0.0,
+      "p_adj": 1e-06,
+      "coef": 2.178,
+      "sig": "***",
+      "n": 89
+    },
+    "sports_and_recreation": {
+      "F": 0.107,
+      "p": 0.756822,
+      "p_adj": 1.0,
+      "coef": -0.0652,
+      "sig": "",
+      "n": 8
+    },
+    "structures": {
+      "F": 0.5559,
+      "p": 0.489449,
+      "p_adj": 1.0,
+      "coef": -0.3655,
+      "sig": "",
+      "n": 8
+    },
+    "tools_and_equipment": {
+      "F": 1.7617,
+      "p": 0.241784,
+      "p_adj": 1.0,
+      "coef": -1.2233,
+      "sig": "",
+      "n": 8
+    },
+    "trees": {
+      "F": 25.0132,
+      "p": 4e-06,
+      "p_adj": 0.000183,
+      "coef": 1.6192,
+      "sig": "***",
+      "n": 81
+    },
+    "vehicles": {
+      "F": 0.3188,
+      "p": 0.596697,
+      "p_adj": 1.0,
+      "coef": -0.3299,
+      "sig": "",
+      "n": 8
+    },
+    "vehicles_1": {
+      "F": 41.8126,
+      "p": 0.0,
+      "p_adj": 1e-06,
+      "coef": 1.5497,
+      "sig": "***",
+      "n": 81
+    },
+    "vehicles_2": {
+      "F": 26.6027,
+      "p": 2e-06,
+      "p_adj": 0.0001,
+      "coef": 1.0877,
+      "sig": "***",
+      "n": 81
+    }
+  },
+  "tg_to_ab": {
+    "n_obs": 1836,
+    "restricted_r2": 0.693,
+    "full_r2": 0.6992,
+    "delta_r2": 0.0062,
+    "coef": 0.0174,
+    "tstat": 6.0484,
+    "granger_f": 36.5831,
+    "granger_p": 1.78e-09,
+    "sig": "***",
+    "permutation_p": 0.0
+  },
+  "tg_to_ab_reverse": {
+    "n_obs": 1836,
+    "restricted_r2": 0.5712,
+    "full_r2": 0.6267,
+    "delta_r2": 0.0555,
+    "coef": -1.9241,
+    "tstat": -16.2642,
+    "granger_f": 264.5248,
+    "granger_p": 1.11e-16,
+    "sig": "***"
+  },
+  "tg_to_ab_per_sc": {
+    "accessories_and_gear": {
+      "F": 0.3788,
+      "p": 0.565155,
+      "p_adj": 1.0,
+      "coef": 0.0908,
+      "sig": "",
+      "n": 8
+    },
+    "aquatic_creatures": {
+      "F": 1.6122,
+      "p": 0.260061,
+      "p_adj": 1.0,
+      "coef": -0.0829,
+      "sig": "",
+      "n": 8
+    },
+    "aquatic_mammals": {
+      "F": 0.0654,
+      "p": 0.798973,
+      "p_adj": 1.0,
+      "coef": -0.0031,
+      "sig": "",
+      "n": 81
+    },
+    "arachnids_and_myriapods": {
+      "F": 0.0223,
+      "p": 0.887035,
+      "p_adj": 1.0,
+      "coef": -0.0044,
+      "sig": "",
+      "n": 8
+    },
+    "birds": {
+      "F": 0.501,
+      "p": 0.510662,
+      "p_adj": 1.0,
+      "coef": -0.0228,
+      "sig": "",
+      "n": 8
+    },
+    "cats": {
+      "F": 1.2926,
+      "p": 0.307106,
+      "p_adj": 1.0,
+      "coef": 0.0568,
+      "sig": "",
+      "n": 8
+    },
+    "clothing": {
+      "F": 1.9144,
+      "p": 0.225056,
+      "p_adj": 1.0,
+      "coef": 0.1409,
+      "sig": "",
+      "n": 8
+    },
+    "containers": {
+      "F": 0.5947,
+      "p": 0.475458,
+      "p_adj": 1.0,
+      "coef": 0.1833,
+      "sig": "",
+      "n": 8
+    },
+    "dogs": {
+      "F": 0.0664,
+      "p": 0.806937,
+      "p_adj": 1.0,
+      "coef": -0.0067,
+      "sig": "",
+      "n": 8
+    },
+    "electronics": {
+      "F": 0.122,
+      "p": 0.741121,
+      "p_adj": 1.0,
+      "coef": 0.0191,
+      "sig": "",
+      "n": 8
+    },
+    "fish": {
+      "F": 0.0048,
+      "p": 0.944845,
+      "p_adj": 1.0,
+      "coef": -0.0007,
+      "sig": "",
+      "n": 81
+    },
+    "flowers": {
+      "F": 0.1679,
+      "p": 0.68323,
+      "p_adj": 1.0,
+      "coef": 0.0053,
+      "sig": "",
+      "n": 81
+    },
+    "food": {
+      "F": 0.3889,
+      "p": 0.560214,
+      "p_adj": 1.0,
+      "coef": 0.0451,
+      "sig": "",
+      "n": 8
+    },
+    "food_containers": {
+      "F": 0.8246,
+      "p": 0.366946,
+      "p_adj": 1.0,
+      "coef": 0.0111,
+      "sig": "",
+      "n": 81
+    },
+    "fruit_and_vegetables": {
+      "F": 3.3751,
+      "p": 0.070435,
+      "p_adj": 1.0,
+      "coef": 0.0249,
+      "sig": "",
+      "n": 81
+    },
+    "furniture": {
+      "F": 0.0001,
+      "p": 0.992263,
+      "p_adj": 1.0,
+      "coef": 0.0006,
+      "sig": "",
+      "n": 8
+    },
+    "household": {
+      "F": 0.9385,
+      "p": 0.377153,
+      "p_adj": 1.0,
+      "coef": 0.155,
+      "sig": "",
+      "n": 8
+    },
+    "household_electrical_devices": {
+      "F": 7.3812,
+      "p": 0.008299,
+      "p_adj": 0.373435,
+      "coef": 0.0566,
+      "sig": "",
+      "n": 81
+    },
+    "household_furniture": {
+      "F": 1.3974,
+      "p": 0.241166,
+      "p_adj": 1.0,
+      "coef": 0.0171,
+      "sig": "",
+      "n": 81
+    },
+    "insects": {
+      "F": 2.9771,
+      "p": 0.088461,
+      "p_adj": 1.0,
+      "coef": 0.0364,
+      "sig": "",
+      "n": 89
+    },
+    "instruments_and_measures": {
+      "F": 0.6632,
+      "p": 0.452467,
+      "p_adj": 1.0,
+      "coef": 0.1169,
+      "sig": "",
+      "n": 8
+    },
+    "invertebrates": {
+      "F": 2.3631,
+      "p": 0.184844,
+      "p_adj": 1.0,
+      "coef": -0.0639,
+      "sig": "",
+      "n": 8
+    },
+    "kitchen_and_tableware": {
+      "F": 0.1792,
+      "p": 0.689636,
+      "p_adj": 1.0,
+      "coef": -0.0348,
+      "sig": "",
+      "n": 8
+    },
+    "landscapes": {
+      "F": 0.8918,
+      "p": 0.38836,
+      "p_adj": 1.0,
+      "coef": 0.0668,
+      "sig": "",
+      "n": 8
+    },
+    "large_carnivores": {
+      "F": 3.1504,
+      "p": 0.080255,
+      "p_adj": 1.0,
+      "coef": 0.0176,
+      "sig": "",
+      "n": 81
+    },
+    "large_mammals": {
+      "F": 1.0465,
+      "p": 0.353231,
+      "p_adj": 1.0,
+      "coef": -0.0348,
+      "sig": "",
+      "n": 8
+    },
+    "large_man-made_outdoor_things": {
+      "F": 1.2944,
+      "p": 0.25912,
+      "p_adj": 1.0,
+      "coef": 0.019,
+      "sig": "",
+      "n": 81
+    },
+    "large_natural_outdoor_scenes": {
+      "F": 0.4576,
+      "p": 0.500967,
+      "p_adj": 1.0,
+      "coef": 0.007,
+      "sig": "",
+      "n": 81
+    },
+    "large_omnivores_and_herbivores": {
+      "F": 0.824,
+      "p": 0.367125,
+      "p_adj": 1.0,
+      "coef": 0.0101,
+      "sig": "",
+      "n": 81
+    },
+    "medium_mammals": {
+      "F": 0.0763,
+      "p": 0.783161,
+      "p_adj": 1.0,
+      "coef": 0.0025,
+      "sig": "",
+      "n": 81
+    },
+    "miscellaneous": {
+      "F": 0.3285,
+      "p": 0.591352,
+      "p_adj": 1.0,
+      "coef": 0.0385,
+      "sig": "",
+      "n": 8
+    },
+    "musical_instruments": {
+      "F": 0.1405,
+      "p": 0.72318,
+      "p_adj": 1.0,
+      "coef": 0.0187,
+      "sig": "",
+      "n": 8
+    },
+    "non-insect_invertebrates": {
+      "F": 1.4819,
+      "p": 0.227563,
+      "p_adj": 1.0,
+      "coef": 0.0109,
+      "sig": "",
+      "n": 81
+    },
+    "people": {
+      "F": 5.5068,
+      "p": 0.021778,
+      "p_adj": 0.980023,
+      "coef": 0.0378,
+      "sig": "",
+      "n": 81
+    },
+    "primates": {
+      "F": 0.3014,
+      "p": 0.606648,
+      "p_adj": 1.0,
+      "coef": 0.0191,
+      "sig": "",
+      "n": 8
+    },
+    "reptiles": {
+      "F": 0.0134,
+      "p": 0.90811,
+      "p_adj": 1.0,
+      "coef": -0.0009,
+      "sig": "",
+      "n": 81
+    },
+    "reptiles_and_amphibians": {
+      "F": 0.2942,
+      "p": 0.610856,
+      "p_adj": 1.0,
+      "coef": -0.02,
+      "sig": "",
+      "n": 8
+    },
+    "small_mammals": {
+      "F": 0.182,
+      "p": 0.670842,
+      "p_adj": 1.0,
+      "coef": 0.0049,
+      "sig": "",
+      "n": 89
+    },
+    "sports_and_recreation": {
+      "F": 1.0933,
+      "p": 0.343636,
+      "p_adj": 1.0,
+      "coef": 0.159,
+      "sig": "",
+      "n": 8
+    },
+    "structures": {
+      "F": 1.9006,
+      "p": 0.226495,
+      "p_adj": 1.0,
+      "coef": 0.1586,
+      "sig": "",
+      "n": 8
+    },
+    "tools_and_equipment": {
+      "F": 3.1,
+      "p": 0.138604,
+      "p_adj": 1.0,
+      "coef": 0.083,
+      "sig": "",
+      "n": 8
+    },
+    "trees": {
+      "F": 2.2675,
+      "p": 0.136609,
+      "p_adj": 1.0,
+      "coef": 0.0172,
+      "sig": "",
+      "n": 81
+    },
+    "vehicles": {
+      "F": 1.5074,
+      "p": 0.274183,
+      "p_adj": 1.0,
+      "coef": 0.1102,
+      "sig": "",
+      "n": 8
+    },
+    "vehicles_1": {
+      "F": 3.7144,
+      "p": 0.058003,
+      "p_adj": 1.0,
+      "coef": 0.0311,
+      "sig": "",
+      "n": 81
+    },
+    "vehicles_2": {
+      "F": 4.7596,
+      "p": 0.032495,
+      "p_adj": 1.0,
+      "coef": 0.0394,
+      "sig": "",
+      "n": 81
+    }
+  },
+  "tg_to_di": {
+    "n_obs": 1836,
+    "restricted_r2": 0.6244,
+    "full_r2": 0.628,
+    "delta_r2": 0.0036,
+    "coef": -0.0388,
+    "tstat": -4.1484,
+    "granger_f": 17.209,
+    "granger_p": 3.51e-05,
+    "sig": "***",
+    "permutation_p": 0.009
+  },
+  "tg_to_di_reverse": {
+    "n_obs": 1836,
+    "restricted_r2": 0.5712,
+    "full_r2": 0.7351,
+    "delta_r2": 0.1638,
+    "coef": -1.1494,
+    "tstat": -33.1738,
+    "granger_f": 1100.5009,
+    "granger_p": 1.11e-16,
+    "sig": "***"
+  },
+  "tg_to_di_per_sc": {
+    "accessories_and_gear": {
+      "F": 0.0532,
+      "p": 0.826772,
+      "p_adj": 1.0,
+      "coef": 0.0301,
+      "sig": "",
+      "n": 8
+    },
+    "aquatic_creatures": {
+      "F": 0.0353,
+      "p": 0.858277,
+      "p_adj": 1.0,
+      "coef": -0.0182,
+      "sig": "",
+      "n": 8
+    },
+    "aquatic_mammals": {
+      "F": 0.5921,
+      "p": 0.444216,
+      "p_adj": 1.0,
+      "coef": -0.0359,
+      "sig": "",
+      "n": 81
+    },
+    "arachnids_and_myriapods": {
+      "F": 0.1852,
+      "p": 0.684846,
+      "p_adj": 1.0,
+      "coef": -0.0393,
+      "sig": "",
+      "n": 8
+    },
+    "birds": {
+      "F": 0.0119,
+      "p": 0.91736,
+      "p_adj": 1.0,
+      "coef": -0.0123,
+      "sig": "",
+      "n": 8
+    },
+    "cats": {
+      "F": 0.0165,
+      "p": 0.902848,
+      "p_adj": 1.0,
+      "coef": -0.0123,
+      "sig": "",
+      "n": 8
+    },
+    "clothing": {
+      "F": 0.0052,
+      "p": 0.945188,
+      "p_adj": 1.0,
+      "coef": -0.008,
+      "sig": "",
+      "n": 8
+    },
+    "containers": {
+      "F": 0.0344,
+      "p": 0.860086,
+      "p_adj": 1.0,
+      "coef": 0.026,
+      "sig": "",
+      "n": 8
+    },
+    "dogs": {
+      "F": 0.8233,
+      "p": 0.405809,
+      "p_adj": 1.0,
+      "coef": 0.0408,
+      "sig": "",
+      "n": 8
+    },
+    "electronics": {
+      "F": 0.0236,
+      "p": 0.883988,
+      "p_adj": 1.0,
+      "coef": 0.0125,
+      "sig": "",
+      "n": 8
+    },
+    "fish": {
+      "F": 0.9913,
+      "p": 0.32285,
+      "p_adj": 1.0,
+      "coef": -0.0445,
+      "sig": "",
+      "n": 81
+    },
+    "flowers": {
+      "F": 0.7983,
+      "p": 0.37466,
+      "p_adj": 1.0,
+      "coef": -0.0412,
+      "sig": "",
+      "n": 81
+    },
+    "food": {
+      "F": 0.2553,
+      "p": 0.634866,
+      "p_adj": 1.0,
+      "coef": 0.0496,
+      "sig": "",
+      "n": 8
+    },
+    "food_containers": {
+      "F": 0.7076,
+      "p": 0.403102,
+      "p_adj": 1.0,
+      "coef": -0.0417,
+      "sig": "",
+      "n": 81
+    },
+    "fruit_and_vegetables": {
+      "F": 0.7239,
+      "p": 0.397779,
+      "p_adj": 1.0,
+      "coef": -0.037,
+      "sig": "",
+      "n": 81
+    },
+    "furniture": {
+      "F": 0.0958,
+      "p": 0.769366,
+      "p_adj": 1.0,
+      "coef": 0.0269,
+      "sig": "",
+      "n": 8
+    },
+    "household": {
+      "F": 0.0267,
+      "p": 0.876526,
+      "p_adj": 1.0,
+      "coef": 0.0236,
+      "sig": "",
+      "n": 8
+    },
+    "household_electrical_devices": {
+      "F": 0.1539,
+      "p": 0.696068,
+      "p_adj": 1.0,
+      "coef": -0.0187,
+      "sig": "",
+      "n": 81
+    },
+    "household_furniture": {
+      "F": 0.4725,
+      "p": 0.494116,
+      "p_adj": 1.0,
+      "coef": -0.0337,
+      "sig": "",
+      "n": 81
+    },
+    "insects": {
+      "F": 0.9,
+      "p": 0.345762,
+      "p_adj": 1.0,
+      "coef": -0.0447,
+      "sig": "",
+      "n": 89
+    },
+    "instruments_and_measures": {
+      "F": 0.0003,
+      "p": 0.985992,
+      "p_adj": 1.0,
+      "coef": 0.0026,
+      "sig": "",
+      "n": 8
+    },
+    "invertebrates": {
+      "F": 0.2305,
+      "p": 0.651412,
+      "p_adj": 1.0,
+      "coef": -0.0337,
+      "sig": "",
+      "n": 8
+    },
+    "kitchen_and_tableware": {
+      "F": 0.0361,
+      "p": 0.85673,
+      "p_adj": 1.0,
+      "coef": 0.0129,
+      "sig": "",
+      "n": 8
+    },
+    "landscapes": {
+      "F": 0.1909,
+      "p": 0.6804,
+      "p_adj": 1.0,
+      "coef": 0.0279,
+      "sig": "",
+      "n": 8
+    },
+    "large_carnivores": {
+      "F": 0.8139,
+      "p": 0.370066,
+      "p_adj": 1.0,
+      "coef": -0.0399,
+      "sig": "",
+      "n": 81
+    },
+    "large_mammals": {
+      "F": 0.0038,
+      "p": 0.953334,
+      "p_adj": 1.0,
+      "coef": -0.0069,
+      "sig": "",
+      "n": 8
+    },
+    "large_man-made_outdoor_things": {
+      "F": 0.6953,
+      "p": 0.407194,
+      "p_adj": 1.0,
+      "coef": -0.0392,
+      "sig": "",
+      "n": 81
+    },
+    "large_natural_outdoor_scenes": {
+      "F": 0.7083,
+      "p": 0.402873,
+      "p_adj": 1.0,
+      "coef": -0.0387,
+      "sig": "",
+      "n": 81
+    },
+    "large_omnivores_and_herbivores": {
+      "F": 0.8223,
+      "p": 0.367612,
+      "p_adj": 1.0,
+      "coef": -0.0448,
+      "sig": "",
+      "n": 81
+    },
+    "medium_mammals": {
+      "F": 0.499,
+      "p": 0.482293,
+      "p_adj": 1.0,
+      "coef": -0.0333,
+      "sig": "",
+      "n": 81
+    },
+    "miscellaneous": {
+      "F": 0.0282,
+      "p": 0.873261,
+      "p_adj": 1.0,
+      "coef": 0.0199,
+      "sig": "",
+      "n": 8
+    },
+    "musical_instruments": {
+      "F": 0.0518,
+      "p": 0.828988,
+      "p_adj": 1.0,
+      "coef": 0.0224,
+      "sig": "",
+      "n": 8
+    },
+    "non-insect_invertebrates": {
+      "F": 0.8845,
+      "p": 0.350195,
+      "p_adj": 1.0,
+      "coef": -0.0483,
+      "sig": "",
+      "n": 81
+    },
+    "people": {
+      "F": 0.7759,
+      "p": 0.381404,
+      "p_adj": 1.0,
+      "coef": -0.0412,
+      "sig": "",
+      "n": 81
+    },
+    "primates": {
+      "F": 0.2198,
+      "p": 0.658896,
+      "p_adj": 1.0,
+      "coef": 0.0624,
+      "sig": "",
+      "n": 8
+    },
+    "reptiles": {
+      "F": 0.7362,
+      "p": 0.393822,
+      "p_adj": 1.0,
+      "coef": -0.0373,
+      "sig": "",
+      "n": 81
+    },
+    "reptiles_and_amphibians": {
+      "F": 0.0324,
+      "p": 0.864191,
+      "p_adj": 1.0,
+      "coef": -0.019,
+      "sig": "",
+      "n": 8
+    },
+    "small_mammals": {
+      "F": 0.9721,
+      "p": 0.32725,
+      "p_adj": 1.0,
+      "coef": -0.0481,
+      "sig": "",
+      "n": 89
+    },
+    "sports_and_recreation": {
+      "F": 0.3096,
+      "p": 0.601886,
+      "p_adj": 1.0,
+      "coef": 0.0316,
+      "sig": "",
+      "n": 8
+    },
+    "structures": {
+      "F": 0.0561,
+      "p": 0.822206,
+      "p_adj": 1.0,
+      "coef": -0.0273,
+      "sig": "",
+      "n": 8
+    },
+    "tools_and_equipment": {
+      "F": 0.1016,
+      "p": 0.762835,
+      "p_adj": 1.0,
+      "coef": 0.0327,
+      "sig": "",
+      "n": 8
+    },
+    "trees": {
+      "F": 1.3745,
+      "p": 0.245015,
+      "p_adj": 1.0,
+      "coef": -0.0531,
+      "sig": "",
+      "n": 81
+    },
+    "vehicles": {
+      "F": 0.203,
+      "p": 0.67115,
+      "p_adj": 1.0,
+      "coef": 0.0475,
+      "sig": "",
+      "n": 8
+    },
+    "vehicles_1": {
+      "F": 0.2536,
+      "p": 0.61615,
+      "p_adj": 1.0,
+      "coef": -0.0266,
+      "sig": "",
+      "n": 81
+    },
+    "vehicles_2": {
+      "F": 1.0233,
+      "p": 0.315225,
+      "p_adj": 1.0,
+      "coef": -0.0488,
+      "sig": "",
+      "n": 81
+    }
+  },
+  "onset_correlations": {
+    "peak_t_ab_h_vs_di_h": {
+      "rho": -0.195,
+      "p": 0.004861,
+      "n": 207
+    },
+    "peak_t_tg_h_vs_ab_h": {
+      "rho": 0.3914,
+      "p": 0.0,
+      "n": 207
+    },
+    "peak_t_tg_h_vs_di_h": {
+      "rho": -0.0887,
+      "p": 0.203731,
+      "n": 207
+    },
+    "onset_t_ab_h_vs_di_h": {
+      "rho": 0.3349,
+      "p": 1e-06,
+      "n": 207
+    },
+    "onset_t_tg_h_vs_ab_h": {
+      "rho": NaN,
+      "p": NaN,
+      "n": 207
+    },
+    "onset_t_tg_h_vs_di_h": {
+      "rho": NaN,
+      "p": NaN,
+      "n": 207
+    },
+    "center_of_mass_ab_h_vs_di_h": {
+      "rho": 0.6014,
+      "p": 0.0,
+      "n": 207
+    },
+    "center_of_mass_tg_h_vs_ab_h": {
+      "rho": 0.2491,
+      "p": 0.000294,
+      "n": 207
+    },
+    "center_of_mass_tg_h_vs_di_h": {
+      "rho": 0.4615,
+      "p": 0.0,
+      "n": 207
+    }
+  },
+  "lag_consistency": {
+    "Ab\u2192Di": {
+      "mean_lag": 2.3865,
+      "std_lag": 2.9634,
+      "median_lag": 3.0,
+      "n_positive": 154,
+      "n_zero": 27,
+      "n_negative": 26,
+      "n_total": 207
+    },
+    "Tg\u2192Ab": {
+      "mean_lag": 2.7778,
+      "std_lag": 2.3992,
+      "median_lag": 3.0,
+      "n_positive": 170,
+      "n_zero": 14,
+      "n_negative": 23,
+      "n_total": 207
+    },
+    "Tg\u2192Di": {
+      "mean_lag": 5.1643,
+      "std_lag": 2.3175,
+      "median_lag": 5.0,
+      "n_positive": 207,
+      "n_zero": 0,
+      "n_negative": 0,
+      "n_total": 207
+    }
+  }
+}

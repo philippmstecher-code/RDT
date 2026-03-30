@@ -1,0 +1,110 @@
+{
+  "ResNet18-CIFAR100-seed42": {
+    "tg_dp": 0.3071895424836601,
+    "ab_dp": 0.18076720966894377,
+    "di_dp": 0.11866759195003468,
+    "tg_n": 153,
+    "ab_n": 173,
+    "di_n": 393,
+    "ssi_threshold": 0.4643635630607601,
+    "csi_threshold": 0.5550569332442239,
+    "sai_threshold": 0.9914934635162354,
+    "threshold_source": "adaptive"
+  },
+  "ResNet18-CIFAR100-seed137": {
+    "tg_dp": 0.3484848484848484,
+    "ab_dp": 0.22152560083594564,
+    "di_dp": 0.15731225296442683,
+    "tg_n": 162,
+    "ab_n": 174,
+    "di_n": 230,
+    "ssi_threshold": 0.493587464094162,
+    "csi_threshold": 0.6568934991134632,
+    "sai_threshold": 0.9920716285705566,
+    "threshold_source": "adaptive"
+  },
+  "ResNet18-CIFAR100-seed256": {
+    "tg_dp": 0.3451178451178451,
+    "ab_dp": 0.1959126145172657,
+    "di_dp": 0.15636363636363634,
+    "tg_n": 162,
+    "ab_n": 129,
+    "di_n": 150,
+    "ssi_threshold": 0.5016137540340406,
+    "csi_threshold": 0.7517228982402675,
+    "sai_threshold": 0.9920694828033447,
+    "threshold_source": "adaptive"
+  },
+  "ViTSmall-CIFAR100-seed42": {
+    "tg_dp": 0.18861454046639234,
+    "ab_dp": 0.16058806898501557,
+    "di_dp": 0.059381695745332114,
+    "tg_n": 162,
+    "ab_n": 393,
+    "di_n": 363,
+    "ssi_threshold": 0.3772694170475006,
+    "csi_threshold": 0.6913255750268809,
+    "sai_threshold": 0.9656761288642883,
+    "threshold_source": "adaptive"
+  },
+  "ViTSmall-CIFAR100-seed137": {
+    "tg_dp": 0.2023319615912209,
+    "ab_dp": 0.16225749559082894,
+    "di_dp": 0.0618416581719334,
+    "tg_n": 162,
+    "ab_n": 378,
+    "di_n": 327,
+    "ssi_threshold": 0.3714553594589236,
+    "csi_threshold": 0.6898235603304709,
+    "sai_threshold": 0.96560138463974,
+    "threshold_source": "adaptive"
+  },
+  "ViTSmall-CIFAR100-seed256": {
+    "tg_dp": 0.1846743295019157,
+    "ab_dp": 0.09025675524161902,
+    "di_dp": 0.038851769364018816,
+    "tg_n": 145,
+    "ab_n": 991,
+    "di_n": 1347,
+    "ssi_threshold": 0.28806440383195897,
+    "csi_threshold": 0.4881635195896773,
+    "sai_threshold": 0.9698643684387207,
+    "threshold_source": "adaptive"
+  },
+  "CCT7-CIFAR100-seed42": {
+    "tg_dp": 0.1865546218487395,
+    "ab_dp": 0.1281505728314239,
+    "di_dp": 0.05162374020156774,
+    "tg_n": 119,
+    "ab_n": 611,
+    "di_n": 893,
+    "ssi_threshold": 0.3718535006046295,
+    "csi_threshold": 0.5807414612938224,
+    "sai_threshold": 0.96108478307724,
+    "threshold_source": "adaptive"
+  },
+  "CCT7-CIFAR100-seed137": {
+    "tg_dp": 0.2083916083916084,
+    "ab_dp": 0.1274165202108963,
+    "di_dp": 0.05607344632768361,
+    "tg_n": 143,
+    "ab_n": 569,
+    "di_n": 708,
+    "ssi_threshold": 0.38790070712566505,
+    "csi_threshold": 0.6363732963004963,
+    "sai_threshold": 0.9597212076187134,
+    "threshold_source": "adaptive"
+  },
+  "CCT7-CIFAR100-seed256": {
+    "tg_dp": 0.20314465408805035,
+    "ab_dp": 0.0975,
+    "di_dp": 0.05516605166051661,
+    "tg_n": 159,
+    "ab_n": 600,
+    "di_n": 542,
+    "ssi_threshold": 0.3982991576194763,
+    "csi_threshold": 0.6762461586941373,
+    "sai_threshold": 0.9613982439041138,
+    "threshold_source": "adaptive"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "experiment_name": "standard_seed42",
+  "network_type": "resnet18",
+  "dataset_id": "cifar100",
+  "random_seed": 42,
+  "training_policy": {
+    "epochs": 30,
+    "accuracy_threshold": null
+  },
+  "snapshot_policy": {
+    "milestone_count": 8,
+    "distribution_scheme": "uniform",
+    "samples_per_class": 100
+  },
+  "transform_config": {
+    "normalize_mean": [
+      0.5071,
+      0.4867,
+      0.4408
+    ],
+    "normalize_std": [
+      0.2675,
+      0.2565,
+      0.2761
+    ],
+    "augmentation_enabled": true,
+    "random_crop_padding": 4,
+    "horizontal_flip": true
+  },
+  "optimizer": {
+    "type": "sgd",
+    "learning_rate": 0.1,
+    "weight_decay": 0.0005,
+    "momentum": 0.9,
+    "nesterov": true
+  },
+  "sae_policy": {
+    "expansion_factor": 4,
+    "k_sparse": 32,
+    "n_steps": 5000,
+    "shared_init_seed": 42,
+    "null_permutations": 100
+  },
+  "curriculum_policy": null,
+  "noise_policy": null
+}

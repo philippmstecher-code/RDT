@@ -1,0 +1,268 @@
+{
+  "granger_critical_period": {
+    "Tg-E(t) \u2192 Ab-E(t+1)": {
+      "restricted_r2": 0.7093,
+      "full_r2": 0.7133,
+      "delta_r2": 0.0039,
+      "coef": 0.0103,
+      "tstat": 3.2562,
+      "granger_f": 10.6031,
+      "granger_p": 0.00118,
+      "sig": "**"
+    },
+    "Tg-E(t) \u2192 Di-E(t+1)": {
+      "restricted_r2": 0.7209,
+      "full_r2": 0.721,
+      "delta_r2": 0.0002,
+      "coef": -0.002,
+      "tstat": -0.6763,
+      "granger_f": 0.4574,
+      "granger_p": 0.499,
+      "sig": "ns"
+    },
+    "Ab-E(t) \u2192 Di-E(t+1) [reference]": {
+      "restricted_r2": 0.7209,
+      "full_r2": 0.7354,
+      "delta_r2": 0.0145,
+      "coef": 0.183,
+      "tstat": 6.5062,
+      "granger_f": 42.3311,
+      "granger_p": 1.39e-10,
+      "sig": "***"
+    },
+    "Reverse: Ab-E(t) \u2192 Tg-E(t+1)": {
+      "restricted_r2": 0.8251,
+      "full_r2": 0.8256,
+      "delta_r2": 0.0005,
+      "coef": -0.2887,
+      "tstat": -1.5242,
+      "granger_f": 2.3233,
+      "granger_p": 0.128,
+      "sig": "ns"
+    },
+    "Reverse: Di-E(t) \u2192 Tg-E(t+1)": {
+      "restricted_r2": 0.8251,
+      "full_r2": 0.8297,
+      "delta_r2": 0.0046,
+      "coef": -1.2424,
+      "tstat": -4.5796,
+      "granger_f": 20.9729,
+      "granger_p": 5.43e-06,
+      "sig": "***"
+    }
+  },
+  "cumulative_dose": {
+    "immediate_tg_dose_post_ab_h": {
+      "rho": 0.5758,
+      "p": 0.0,
+      "n": 207
+    },
+    "immediate_tg_dose_post_di_h": {
+      "rho": 0.3661,
+      "p": 0.0,
+      "n": 207
+    },
+    "immediate_ab_dose_post_ab_h": {
+      "rho": 0.7923,
+      "p": 0.0,
+      "n": 207
+    },
+    "immediate_ab_dose_post_di_h": {
+      "rho": 0.414,
+      "p": 0.0,
+      "n": 207
+    },
+    "immediate_incremental_tg_beyond_ab": {
+      "delta_r2": 0.0039,
+      "f": 5.6136,
+      "p": 0.018798,
+      "tg_coef": 0.0674
+    },
+    "medium_tg_dose_post_ab_h": {
+      "rho": 0.6702,
+      "p": 0.0,
+      "n": 207
+    },
+    "medium_tg_dose_post_di_h": {
+      "rho": 0.5598,
+      "p": 0.0,
+      "n": 207
+    },
+    "medium_ab_dose_post_ab_h": {
+      "rho": 0.7409,
+      "p": 0.0,
+      "n": 207
+    },
+    "medium_ab_dose_post_di_h": {
+      "rho": 0.4502,
+      "p": 0.0,
+      "n": 207
+    },
+    "medium_incremental_tg_beyond_ab": {
+      "delta_r2": 0.0009,
+      "f": 6.6381,
+      "p": 0.010721,
+      "tg_coef": 0.1673
+    },
+    "all_post_tg_dose_post_ab_h": {
+      "rho": 0.6455,
+      "p": 0.0,
+      "n": 207
+    },
+    "all_post_tg_dose_post_di_h": {
+      "rho": 0.5759,
+      "p": 0.0,
+      "n": 207
+    },
+    "all_post_ab_dose_post_ab_h": {
+      "rho": 0.6668,
+      "p": 0.0,
+      "n": 207
+    },
+    "all_post_ab_dose_post_di_h": {
+      "rho": 0.3648,
+      "p": 0.0,
+      "n": 207
+    },
+    "all_post_incremental_tg_beyond_ab": {
+      "delta_r2": 0.0012,
+      "f": 12.578,
+      "p": 0.000489,
+      "tg_coef": 0.3431
+    }
+  },
+  "onset_dose_response": {
+    "tg_dose_vs_Ab-E_peak_t": {
+      "rho": 0.1653,
+      "p": 0.017308,
+      "n": 207
+    },
+    "tg_dose_vs_Ab-E_onset_t": {
+      "rho": 0.461,
+      "p": 0.0,
+      "n": 207
+    },
+    "tg_dose_vs_Ab-E_center_of_mass": {
+      "rho": 0.2831,
+      "p": 3.6e-05,
+      "n": 207
+    },
+    "tg_dose_vs_Di-E_peak_t": {
+      "rho": -0.4489,
+      "p": 0.0,
+      "n": 207
+    },
+    "tg_dose_vs_Di-E_onset_t": {
+      "rho": 0.4222,
+      "p": 0.0,
+      "n": 207
+    },
+    "tg_dose_vs_Di-E_center_of_mass": {
+      "rho": 0.1825,
+      "p": 0.008475,
+      "n": 207
+    },
+    "median_split_post_ab_h": {
+      "high_mean": 3504.93,
+      "low_mean": 1965.71,
+      "U": 8067.0,
+      "p": 0.0
+    },
+    "median_split_post_di_h": {
+      "high_mean": 7077.6,
+      "low_mean": 4386.26,
+      "U": 7663.5,
+      "p": 0.0
+    }
+  },
+  "cutoff_sweep": [
+    {
+      "max_transition": 1,
+      "n_obs": 207,
+      "mean_tg": 3566.5,
+      "tg_ab_F": 0.79,
+      "tg_ab_p": 0.377,
+      "tg_ab_coef": 0.0624,
+      "tg_di_F": 6.43,
+      "tg_di_p": 0.0122,
+      "tg_di_coef": 0.054
+    },
+    {
+      "max_transition": 2,
+      "n_obs": 414,
+      "mean_tg": 3211.8,
+      "tg_ab_F": 21.03,
+      "tg_ab_p": 6.26e-06,
+      "tg_ab_coef": 0.0154,
+      "tg_di_F": 50.34,
+      "tg_di_p": 6.97e-12,
+      "tg_di_coef": 0.014
+    },
+    {
+      "max_transition": 3,
+      "n_obs": 621,
+      "mean_tg": 2956.1,
+      "tg_ab_F": 18.02,
+      "tg_ab_p": 2.56e-05,
+      "tg_ab_coef": 0.014,
+      "tg_di_F": 3.72,
+      "tg_di_p": 0.0541,
+      "tg_di_coef": 0.0043
+    },
+    {
+      "max_transition": 4,
+      "n_obs": 828,
+      "mean_tg": 2815.2,
+      "tg_ab_F": 10.6,
+      "tg_ab_p": 0.00118,
+      "tg_ab_coef": 0.0103,
+      "tg_di_F": 0.46,
+      "tg_di_p": 0.499,
+      "tg_di_coef": -0.002
+    },
+    {
+      "max_transition": 5,
+      "n_obs": 1035,
+      "mean_tg": 2829.5,
+      "tg_ab_F": 2.04,
+      "tg_ab_p": 0.154,
+      "tg_ab_coef": -0.006,
+      "tg_di_F": 2.95,
+      "tg_di_p": 0.0863,
+      "tg_di_coef": -0.0076
+    },
+    {
+      "max_transition": 6,
+      "n_obs": 1242,
+      "mean_tg": 2721.5,
+      "tg_ab_F": 0.96,
+      "tg_ab_p": 0.327,
+      "tg_ab_coef": 0.0037,
+      "tg_di_F": 4.79,
+      "tg_di_p": 0.0287,
+      "tg_di_coef": -0.0127
+    },
+    {
+      "max_transition": 7,
+      "n_obs": 1449,
+      "mean_tg": 2564.8,
+      "tg_ab_F": 12.15,
+      "tg_ab_p": 0.000507,
+      "tg_ab_coef": 0.0124,
+      "tg_di_F": 9.62,
+      "tg_di_p": 0.00196,
+      "tg_di_coef": -0.0352
+    },
+    {
+      "max_transition": 8,
+      "n_obs": 1656,
+      "mean_tg": 2419.7,
+      "tg_ab_F": 28.18,
+      "tg_ab_p": 1.26e-07,
+      "tg_ab_coef": 0.0167,
+      "tg_di_F": 14.6,
+      "tg_di_p": 0.000138,
+      "tg_di_coef": -0.0393
+    }
+  ]
+}

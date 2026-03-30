@@ -1,0 +1,614 @@
+{
+  "ResNet18-CIFAR100-seed42": {
+    "n_total_tracked": 10096,
+    "overall_survival_rate": 0.2198,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1553,
+    "high_ssi_n": 5048,
+    "low_ssi_n": 5048,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 36.6624,
+    "logrank_p": 0.0,
+    "ssi_survival_corr": 0.0571,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.0724,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "avgpool": {
+        "n_tracked": 3758,
+        "survival_rate": 0.2123,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.85
+      },
+      "layer1": {
+        "n_tracked": 769,
+        "survival_rate": 0.2718,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.45
+      },
+      "layer2": {
+        "n_tracked": 1004,
+        "survival_rate": 0.2022,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.88
+      },
+      "layer3": {
+        "n_tracked": 913,
+        "survival_rate": 0.2903,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.8
+      },
+      "layer4": {
+        "n_tracked": 3652,
+        "survival_rate": 0.2037,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.8
+      }
+    }
+  },
+  "ResNet18-CIFAR100-seed137": {
+    "n_total_tracked": 10143,
+    "overall_survival_rate": 0.2236,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1532,
+    "high_ssi_n": 5072,
+    "low_ssi_n": 5071,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 22.9524,
+    "logrank_p": 2e-06,
+    "ssi_survival_corr": 0.0597,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.0546,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "avgpool": {
+        "n_tracked": 3702,
+        "survival_rate": 0.2112,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.83
+      },
+      "layer1": {
+        "n_tracked": 799,
+        "survival_rate": 0.3329,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.63
+      },
+      "layer2": {
+        "n_tracked": 979,
+        "survival_rate": 0.2165,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.04
+      },
+      "layer3": {
+        "n_tracked": 871,
+        "survival_rate": 0.3134,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.84
+      },
+      "layer4": {
+        "n_tracked": 3792,
+        "survival_rate": 0.1938,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.81
+      }
+    }
+  },
+  "ResNet18-CIFAR100-seed256": {
+    "n_total_tracked": 9929,
+    "overall_survival_rate": 0.226,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1514,
+    "high_ssi_n": 4965,
+    "low_ssi_n": 4964,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 37.1116,
+    "logrank_p": 0.0,
+    "ssi_survival_corr": 0.0633,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.0578,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "avgpool": {
+        "n_tracked": 3687,
+        "survival_rate": 0.2129,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.86
+      },
+      "layer1": {
+        "n_tracked": 813,
+        "survival_rate": 0.3112,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.62
+      },
+      "layer2": {
+        "n_tracked": 991,
+        "survival_rate": 0.1806,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.92
+      },
+      "layer3": {
+        "n_tracked": 850,
+        "survival_rate": 0.3118,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.87
+      },
+      "layer4": {
+        "n_tracked": 3588,
+        "survival_rate": 0.2124,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.86
+      }
+    }
+  },
+  "ViTSmall-CIFAR100-seed42": {
+    "n_total_tracked": 19997,
+    "overall_survival_rate": 0.2694,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1195,
+    "high_ssi_n": 9999,
+    "low_ssi_n": 9998,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 25.8845,
+    "logrank_p": 0.0,
+    "ssi_survival_corr": 0.0743,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.1206,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "encoder.layers.0": {
+        "n_tracked": 1533,
+        "survival_rate": 0.274,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.87
+      },
+      "encoder.layers.11": {
+        "n_tracked": 3979,
+        "survival_rate": 0.2491,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.32
+      },
+      "encoder.layers.3": {
+        "n_tracked": 2990,
+        "survival_rate": 0.2806,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.52
+      },
+      "encoder.layers.6": {
+        "n_tracked": 3618,
+        "survival_rate": 0.309,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.45
+      },
+      "encoder.layers.9": {
+        "n_tracked": 3871,
+        "survival_rate": 0.2712,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.4
+      },
+      "encoder.ln": {
+        "n_tracked": 4006,
+        "survival_rate": 0.2421,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.29
+      }
+    }
+  },
+  "ViTSmall-CIFAR100-seed137": {
+    "n_total_tracked": 20025,
+    "overall_survival_rate": 0.2712,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.117,
+    "high_ssi_n": 10013,
+    "low_ssi_n": 10012,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 13.6159,
+    "logrank_p": 0.000224,
+    "ssi_survival_corr": 0.0602,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.1185,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "encoder.layers.0": {
+        "n_tracked": 1433,
+        "survival_rate": 0.344,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.15
+      },
+      "encoder.layers.11": {
+        "n_tracked": 4048,
+        "survival_rate": 0.25,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.31
+      },
+      "encoder.layers.3": {
+        "n_tracked": 3006,
+        "survival_rate": 0.2871,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.48
+      },
+      "encoder.layers.6": {
+        "n_tracked": 3586,
+        "survival_rate": 0.2942,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.41
+      },
+      "encoder.layers.9": {
+        "n_tracked": 3912,
+        "survival_rate": 0.2656,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.34
+      },
+      "encoder.ln": {
+        "n_tracked": 4040,
+        "survival_rate": 0.2399,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.27
+      }
+    }
+  },
+  "ViTSmall-CIFAR100-seed256": {
+    "n_total_tracked": 20149,
+    "overall_survival_rate": 0.3193,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1196,
+    "high_ssi_n": 10075,
+    "low_ssi_n": 10074,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 103.2739,
+    "logrank_p": 0.0,
+    "ssi_survival_corr": 0.024,
+    "ssi_survival_p": 0.000674,
+    "csi_survival_corr": -0.1182,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "encoder.layers.0": {
+        "n_tracked": 1154,
+        "survival_rate": 0.3076,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.25
+      },
+      "encoder.layers.11": {
+        "n_tracked": 5290,
+        "survival_rate": 0.3255,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.19
+      },
+      "encoder.layers.3": {
+        "n_tracked": 2153,
+        "survival_rate": 0.2815,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.61
+      },
+      "encoder.layers.6": {
+        "n_tracked": 2735,
+        "survival_rate": 0.3155,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.5
+      },
+      "encoder.layers.9": {
+        "n_tracked": 3442,
+        "survival_rate": 0.3388,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.35
+      },
+      "encoder.ln": {
+        "n_tracked": 5375,
+        "survival_rate": 0.3204,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.18
+      }
+    }
+  },
+  "CCT7-CIFAR100-seed42": {
+    "n_total_tracked": 21936,
+    "overall_survival_rate": 0.2925,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1338,
+    "high_ssi_n": 10968,
+    "low_ssi_n": 10968,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 30.0021,
+    "logrank_p": 0.0,
+    "ssi_survival_corr": 0.0185,
+    "ssi_survival_p": 0.006181,
+    "csi_survival_corr": -0.1345,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "norm": {
+        "n_tracked": 4455,
+        "survival_rate": 0.2741,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.35
+      },
+      "transformer.layers.0": {
+        "n_tracked": 1865,
+        "survival_rate": 0.3517,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.18
+      },
+      "transformer.layers.1": {
+        "n_tracked": 3001,
+        "survival_rate": 0.2869,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.68
+      },
+      "transformer.layers.3": {
+        "n_tracked": 3868,
+        "survival_rate": 0.2934,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.49
+      },
+      "transformer.layers.5": {
+        "n_tracked": 4309,
+        "survival_rate": 0.2959,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.4
+      },
+      "transformer.layers.6": {
+        "n_tracked": 4438,
+        "survival_rate": 0.2857,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.37
+      }
+    }
+  },
+  "CCT7-CIFAR100-seed137": {
+    "n_total_tracked": 21987,
+    "overall_survival_rate": 0.2974,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1387,
+    "high_ssi_n": 10994,
+    "low_ssi_n": 10993,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 12.2561,
+    "logrank_p": 0.000464,
+    "ssi_survival_corr": -0.0056,
+    "ssi_survival_p": 0.407871,
+    "csi_survival_corr": -0.1378,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "norm": {
+        "n_tracked": 4341,
+        "survival_rate": 0.2806,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.35
+      },
+      "transformer.layers.0": {
+        "n_tracked": 2030,
+        "survival_rate": 0.3172,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.11
+      },
+      "transformer.layers.1": {
+        "n_tracked": 3187,
+        "survival_rate": 0.2868,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.63
+      },
+      "transformer.layers.3": {
+        "n_tracked": 3948,
+        "survival_rate": 0.3032,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.5
+      },
+      "transformer.layers.5": {
+        "n_tracked": 4200,
+        "survival_rate": 0.3098,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.46
+      },
+      "transformer.layers.6": {
+        "n_tracked": 4281,
+        "survival_rate": 0.2953,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.41
+      }
+    }
+  },
+  "CCT7-CIFAR100-seed256": {
+    "n_total_tracked": 21424,
+    "overall_survival_rate": 0.2817,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1421,
+    "high_ssi_n": 10712,
+    "low_ssi_n": 10712,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 5.4088,
+    "logrank_p": 0.020035,
+    "ssi_survival_corr": -0.0383,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.1827,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "norm": {
+        "n_tracked": 3995,
+        "survival_rate": 0.2608,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.38
+      },
+      "transformer.layers.0": {
+        "n_tracked": 2151,
+        "survival_rate": 0.3152,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.11
+      },
+      "transformer.layers.1": {
+        "n_tracked": 3381,
+        "survival_rate": 0.2822,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.64
+      },
+      "transformer.layers.3": {
+        "n_tracked": 3956,
+        "survival_rate": 0.2821,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.5
+      },
+      "transformer.layers.5": {
+        "n_tracked": 4087,
+        "survival_rate": 0.2953,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.44
+      },
+      "transformer.layers.6": {
+        "n_tracked": 3854,
+        "survival_rate": 0.2696,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.46
+      }
+    }
+  },
+  "ResNet18-CIFAR100-200ep-seed42": {
+    "n_total_tracked": 9923,
+    "overall_survival_rate": 0.2208,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1484,
+    "high_ssi_n": 4962,
+    "low_ssi_n": 4961,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 4.0629,
+    "logrank_p": 0.043835,
+    "ssi_survival_corr": 0.0185,
+    "ssi_survival_p": 0.065579,
+    "csi_survival_corr": -0.0918,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "avgpool": {
+        "n_tracked": 3546,
+        "survival_rate": 0.1698,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.82
+      },
+      "layer1": {
+        "n_tracked": 764,
+        "survival_rate": 0.3154,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.67
+      },
+      "layer2": {
+        "n_tracked": 910,
+        "survival_rate": 0.2396,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.96
+      },
+      "layer3": {
+        "n_tracked": 1240,
+        "survival_rate": 0.4613,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.83
+      },
+      "layer4": {
+        "n_tracked": 3463,
+        "survival_rate": 0.1611,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.77
+      }
+    }
+  },
+  "ResNet18-CIFAR100-8x-seed42": {
+    "n_total_tracked": 12903,
+    "overall_survival_rate": 0.2193,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1711,
+    "high_ssi_n": 6452,
+    "low_ssi_n": 6451,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 42.871,
+    "logrank_p": 0.0,
+    "ssi_survival_corr": 0.0517,
+    "ssi_survival_p": 0.0,
+    "csi_survival_corr": -0.0651,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "avgpool": {
+        "n_tracked": 4855,
+        "survival_rate": 0.2066,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.67
+      },
+      "layer1": {
+        "n_tracked": 888,
+        "survival_rate": 0.2376,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.49
+      },
+      "layer2": {
+        "n_tracked": 1149,
+        "survival_rate": 0.2167,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.9
+      },
+      "layer3": {
+        "n_tracked": 1136,
+        "survival_rate": 0.3556,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.77
+      },
+      "layer4": {
+        "n_tracked": 4875,
+        "survival_rate": 0.1973,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.67
+      }
+    }
+  },
+  "ResNet18-TinyImageNet-seed42": {
+    "n_total_tracked": 7178,
+    "overall_survival_rate": 0.2914,
+    "overall_median_lifespan": 0.0,
+    "ssi_median_threshold": 0.1555,
+    "high_ssi_n": 3589,
+    "low_ssi_n": 3589,
+    "high_ssi_median_survival": 0.0,
+    "low_ssi_median_survival": 0.0,
+    "logrank_chi2": 10.3368,
+    "logrank_p": 0.001304,
+    "ssi_survival_corr": 0.0419,
+    "ssi_survival_p": 0.000379,
+    "csi_survival_corr": -0.0761,
+    "csi_survival_p": 0.0,
+    "per_layer": {
+      "avgpool": {
+        "n_tracked": 2337,
+        "survival_rate": 0.2691,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.78
+      },
+      "layer1": {
+        "n_tracked": 636,
+        "survival_rate": 0.3239,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 1.34
+      },
+      "layer2": {
+        "n_tracked": 783,
+        "survival_rate": 0.2388,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.74
+      },
+      "layer3": {
+        "n_tracked": 1070,
+        "survival_rate": 0.4271,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.86
+      },
+      "layer4": {
+        "n_tracked": 2352,
+        "survival_rate": 0.2606,
+        "median_lifespan": 0.0,
+        "mean_lifespan": 0.77
+      }
+    }
+  }
+}
