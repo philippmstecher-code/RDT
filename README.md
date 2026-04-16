@@ -1,6 +1,6 @@
 # Scaffolded representation learning in deep networks
 
-Philipp Stecher<sup>1</sup>, Sandro Radovanovic<sup>2</sup>, Vlasta Sikimic<sup>3</sup>, Reinhard Kahle<sup>1,4</sup>
+Philipp Stecher, Sandro Radovanovic, Vlasta Sikimic, Reinhard Kahle
 
 ---
 
