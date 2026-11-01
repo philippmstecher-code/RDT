@@ -1,0 +1,1403 @@
+{
+ "levels|epochs 1-3": {
+  "epoch": {
+   "gradenergy": 2.0,
+   "gradenergy_l2": 2.0,
+   "gradrand": 2.0,
+   "gradrg": 2.0,
+   "gradsc": 2.0,
+   "gradsc_l2": 2.0,
+   "sham": 2.0
+  },
+  "n_class_selective": {
+   "gradenergy": 10.4444,
+   "gradenergy_l2": 18.7778,
+   "gradrand": 13.3333,
+   "gradrg": 19.0,
+   "gradsc": 16.4444,
+   "gradsc_l2": 10.4444,
+   "sham": 18.5556
+  },
+  "off_superclass_share": {
+   "gradenergy": 0.7254,
+   "gradenergy_l2": 0.7601,
+   "gradrand": 0.7584,
+   "gradrg": 0.8009,
+   "gradsc": 0.7697,
+   "gradsc_l2": 0.794,
+   "sham": 0.7335
+  },
+  "own_direction_ratio": {
+   "gradenergy": 2.8751,
+   "gradenergy_l2": 2.9085,
+   "gradrand": 3.0724,
+   "gradrg": 2.2633,
+   "gradsc": 2.7202,
+   "gradsc_l2": 1.6792,
+   "sham": 3.0837
+  }
+ },
+ "epochs 1-3|gradsc - gradenergy|off_superclass_share": {
+  "mean_ci": [
+   0.04433968477831914,
+   -0.07216537410940532,
+   0.16084474366604362
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0587,
+   -0.0081,
+   0.0824
+  ]
+ },
+ "epochs 1-3|gradsc - gradenergy|own_direction_ratio": {
+  "mean_ci": [
+   -0.15492794630473009,
+   -4.993633665880853,
+   4.683777773271392
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -2.1046,
+   1.7911,
+   -0.1513
+  ]
+ },
+ "epochs 1-3|gradsc - gradenergy|n_class_selective": {
+  "mean_ci": [
+   6.0,
+   -10.540203976322278,
+   22.540203976322278
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   1.6667,
+   13.6667,
+   2.6667
+  ]
+ },
+ "epochs 1-3|gradrg - gradenergy|off_superclass_share": {
+  "mean_ci": [
+   0.07548347898625692,
+   0.030245158468519703,
+   0.12072179950399413
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0549,
+   0.0822,
+   0.0894
+  ]
+ },
+ "epochs 1-3|gradrg - gradenergy|own_direction_ratio": {
+  "mean_ci": [
+   -0.6118512249303195,
+   -3.7908388057424176,
+   2.567136355881779
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -1.8308,
+   -0.7257,
+   0.721
+  ]
+ },
+ "epochs 1-3|gradrg - gradenergy|n_class_selective": {
+  "mean_ci": [
+   8.555555555555557,
+   -11.901256633190009,
+   29.012367744301123
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   1.0,
+   7.3333,
+   17.3333
+  ]
+ },
+ "epochs 1-3|gradsc - sham|off_superclass_share": {
+  "mean_ci": [
+   0.036172116491521446,
+   -0.23669595694940246,
+   0.30904018993244536
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.1607,
+   -0.047,
+   -0.0052
+  ]
+ },
+ "epochs 1-3|gradsc - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.363564853735919,
+   -2.416583596635548,
+   1.6894538891637096
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -1.208,
+   0.4437,
+   -0.3264
+  ]
+ },
+ "epochs 1-3|gradsc - sham|n_class_selective": {
+  "mean_ci": [
+   -2.1111111111111107,
+   -20.484278575769824,
+   16.262056353547603
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.0,
+   4.0,
+   -10.3333
+  ]
+ },
+ "epochs 1-3|gradrg - sham|off_superclass_share": {
+  "mean_ci": [
+   0.06731591069945923,
+   -0.13211741666581223,
+   0.2667492380647307
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.1569,
+   0.0432,
+   0.0018
+  ]
+ },
+ "epochs 1-3|gradrg - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.8204881323615086,
+   -4.082524496683308,
+   2.4415482319602906
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -0.9342,
+   -2.0731,
+   0.5458
+  ]
+ },
+ "epochs 1-3|gradrg - sham|n_class_selective": {
+  "mean_ci": [
+   0.44444444444444525,
+   -8.17413057645933,
+   9.06301946534822
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -0.6667,
+   -2.3333,
+   4.3333
+  ]
+ },
+ "epochs 1-3|gradenergy - sham|off_superclass_share": {
+  "mean_ci": [
+   -0.008167568286797692,
+   -0.2527686282290424,
+   0.23643349165544703
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.102,
+   -0.0389,
+   -0.0876
+  ]
+ },
+ "epochs 1-3|gradenergy - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.20863690743118898,
+   -2.996801921405703,
+   2.5795281065433247
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.8966,
+   -1.3474,
+   -0.1752
+  ]
+ },
+ "epochs 1-3|gradenergy - sham|n_class_selective": {
+  "mean_ci": [
+   -8.11111111111111,
+   -22.580211260485868,
+   6.357989038263648
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.6667,
+   -9.6667,
+   -13.0
+  ]
+ },
+ "epochs 1-3|gradrand - sham|off_superclass_share": {
+  "mean_ci": [
+   0.024818829097095135,
+   -0.1723281362706697,
+   0.22196579446485995
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.1156,
+   -0.0312,
+   -0.0099
+  ]
+ },
+ "epochs 1-3|gradrand - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.011332725692352627,
+   -0.7365435108533693,
+   0.713878059468664
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.3182,
+   -0.2375,
+   -0.1148
+  ]
+ },
+ "epochs 1-3|gradrand - sham|n_class_selective": {
+  "mean_ci": [
+   -5.222222222222222,
+   -19.011942255668256,
+   8.567497811223813
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   1.0,
+   -7.0,
+   -9.6667
+  ]
+ },
+ "epochs 1-3|gradsc - gradrand|off_superclass_share": {
+  "mean_ci": [
+   0.011353287394426315,
+   -0.06551703158760988,
+   0.08822360637646251
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0451,
+   -0.0158,
+   0.0048
+  ]
+ },
+ "epochs 1-3|gradsc - gradrand|own_direction_ratio": {
+  "mean_ci": [
+   -0.35223212804356635,
+   -3.1105412962614714,
+   2.4060770401743388
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -1.5262,
+   0.6811,
+   -0.2116
+  ]
+ },
+ "epochs 1-3|gradsc - gradrand|n_class_selective": {
+  "mean_ci": [
+   3.111111111111111,
+   -13.865512855887516,
+   20.087735078109738
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -1.0,
+   11.0,
+   -0.6667
+  ]
+ },
+ "epochs 1-3|gradrg - gradrand|off_superclass_share": {
+  "mean_ci": [
+   0.042497081602364095,
+   -0.035427093371747986,
+   0.12042125657647618
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0413,
+   0.0745,
+   0.0118
+  ]
+ },
+ "epochs 1-3|gradrg - gradrand|own_direction_ratio": {
+  "mean_ci": [
+   -0.8091554066691559,
+   -4.052997417168785,
+   2.4346866038304738
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -1.2524,
+   -1.8356,
+   0.6606
+  ]
+ },
+ "epochs 1-3|gradrg - gradrand|n_class_selective": {
+  "mean_ci": [
+   5.666666666666667,
+   -13.910972379379814,
+   25.24430571271315
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   -1.6667,
+   4.6667,
+   14.0
+  ]
+ },
+ "epochs 1-3|gradsc_l2 - gradenergy_l2|off_superclass_share": {
+  "mean_ci": [
+   0.033870785053964604,
+   -0.06655923086466961,
+   0.1343008009725988
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0326,
+   -0.0059,
+   0.0749
+  ]
+ },
+ "epochs 1-3|gradsc_l2 - gradenergy_l2|own_direction_ratio": {
+  "mean_ci": [
+   -1.2293375315631687,
+   -3.859107491613889,
+   1.4004324284875516
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -2.2372,
+   -0.1264,
+   -1.3244
+  ]
+ },
+ "epochs 1-3|gradsc_l2 - gradenergy_l2|n_class_selective": {
+  "mean_ci": [
+   -8.333333333333334,
+   -32.60228379097136,
+   15.935617124304693
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -19.3333,
+   -5.0,
+   -0.6667
+  ]
+ },
+ "epochs 1-3|gradsc_l2 - sham|off_superclass_share": {
+  "mean_ci": [
+   0.06047330583141989,
+   -0.15839009684547925,
+   0.27933670850831904
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.1618,
+   0.0176,
+   0.002
+  ]
+ },
+ "epochs 1-3|gradsc_l2 - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.4045876143800846,
+   -2.1468917773285714,
+   -0.6622834514315978
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.2536,
+   -1.2114,
+   -1.7488
+  ]
+ },
+ "epochs 1-3|gradsc_l2 - sham|n_class_selective": {
+  "mean_ci": [
+   -8.11111111111111,
+   -19.13791376199263,
+   2.915691539770405
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -4.3333,
+   -7.0,
+   -13.0
+  ]
+ },
+ "epochs 1-3|gradenergy_l2 - sham|off_superclass_share": {
+  "mean_ci": [
+   0.026602520777455285,
+   -0.22448198153676424,
+   0.2776870230916748
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.1292,
+   0.0235,
+   -0.0729
+  ]
+ },
+ "epochs 1-3|gradenergy_l2 - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.17525008281691568,
+   -2.7999873342436095,
+   2.449487168609778
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.9836,
+   -1.085,
+   -0.4244
+  ]
+ },
+ "epochs 1-3|gradenergy_l2 - sham|n_class_selective": {
+  "mean_ci": [
+   0.22222222222222202,
+   -34.06261153695283,
+   34.50705598139727
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   15.0,
+   -2.0,
+   -12.3333
+  ]
+ },
+ "levels|block (1-10)": {
+  "epoch": {
+   "gradenergy": 5.5,
+   "gradenergy_l2": 5.5,
+   "gradrand": 5.5,
+   "gradrg": 5.5,
+   "gradsc": 5.5,
+   "gradsc_l2": 5.5,
+   "sham": 5.5
+  },
+  "n_class_selective": {
+   "gradenergy": 13.7333,
+   "gradenergy_l2": 17.0667,
+   "gradrand": 24.5333,
+   "gradrg": 20.4,
+   "gradsc": 20.6,
+   "gradsc_l2": 20.2333,
+   "sham": 45.7667
+  },
+  "off_superclass_share": {
+   "gradenergy": 0.7052,
+   "gradenergy_l2": 0.7185,
+   "gradrand": 0.7627,
+   "gradrg": 0.7969,
+   "gradsc": 0.7876,
+   "gradsc_l2": 0.7955,
+   "sham": 0.7223
+  },
+  "own_direction_ratio": {
+   "gradenergy": 3.9618,
+   "gradenergy_l2": 4.2578,
+   "gradrand": 3.7534,
+   "gradrg": 2.6339,
+   "gradsc": 2.7807,
+   "gradsc_l2": 2.6668,
+   "sham": 4.5247
+  }
+ },
+ "block (1-10)|gradsc - gradenergy|off_superclass_share": {
+  "mean_ci": [
+   0.08243900587753938,
+   0.0008625600079431861,
+   0.16401545174713558
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0898,
+   0.0465,
+   0.111
+  ]
+ },
+ "block (1-10)|gradsc - gradenergy|own_direction_ratio": {
+  "mean_ci": [
+   -1.1811285493518457,
+   -2.2961194042864115,
+   -0.06613769441728001
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.5784,
+   -0.6942,
+   -1.2707
+  ]
+ },
+ "block (1-10)|gradsc - gradenergy|n_class_selective": {
+  "mean_ci": [
+   6.866666666666667,
+   -6.717577180956237,
+   20.45091051428957
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   2.5,
+   13.0,
+   5.1
+  ]
+ },
+ "block (1-10)|gradrg - gradenergy|off_superclass_share": {
+  "mean_ci": [
+   0.09178325159512501,
+   0.04580537957277455,
+   0.13776112361747547
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0822,
+   0.08,
+   0.1131
+  ]
+ },
+ "block (1-10)|gradrg - gradenergy|own_direction_ratio": {
+  "mean_ci": [
+   -1.327900278088213,
+   -2.2323793634763147,
+   -0.42342119270011136
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.7481,
+   -1.1301,
+   -1.1055
+  ]
+ },
+ "block (1-10)|gradrg - gradenergy|n_class_selective": {
+  "mean_ci": [
+   6.666666666666668,
+   -6.251645607883436,
+   19.58497894121677
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   1.1,
+   7.5,
+   11.4
+  ]
+ },
+ "block (1-10)|gradsc - sham|off_superclass_share": {
+  "mean_ci": [
+   0.06531263973747074,
+   -0.031324566605645365,
+   0.16194984608058685
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.1061,
+   0.0287,
+   0.0611
+  ]
+ },
+ "block (1-10)|gradsc - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.7439921226014212,
+   -1.9124009491423046,
+   -1.5755832960605378
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.8203,
+   -1.6908,
+   -1.7208
+  ]
+ },
+ "block (1-10)|gradsc - sham|n_class_selective": {
+  "mean_ci": [
+   -25.166666666666668,
+   -34.37586249199733,
+   -15.957470841336004
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -21.0,
+   -28.1,
+   -26.4
+  ]
+ },
+ "block (1-10)|gradrg - sham|off_superclass_share": {
+  "mean_ci": [
+   0.07465688545505637,
+   0.02331389124308244,
+   0.1259998796670303
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0985,
+   0.0622,
+   0.0633
+  ]
+ },
+ "block (1-10)|gradrg - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.8907638513377885,
+   -2.6315712493581724,
+   -1.1499564533174045
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.99,
+   -2.1267,
+   -1.5556
+  ]
+ },
+ "block (1-10)|gradrg - sham|n_class_selective": {
+  "mean_ci": [
+   -25.366666666666664,
+   -43.308149579648216,
+   -7.425183753685111
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -22.4,
+   -33.6,
+   -20.1
+  ]
+ },
+ "block (1-10)|gradenergy - sham|off_superclass_share": {
+  "mean_ci": [
+   -0.017126366140068645,
+   -0.09931172925235833,
+   0.06505899697222105
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.0163,
+   -0.0178,
+   -0.0498
+  ]
+ },
+ "block (1-10)|gradenergy - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.5628635732495755,
+   -1.5310662649838909,
+   0.40533911848474
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -0.2419,
+   -0.9966,
+   -0.4501
+  ]
+ },
+ "block (1-10)|gradenergy - sham|n_class_selective": {
+  "mean_ci": [
+   -32.03333333333333,
+   -53.92383524795543,
+   -10.142831418711232
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -23.5,
+   -41.1,
+   -31.5
+  ]
+ },
+ "block (1-10)|gradrand - sham|off_superclass_share": {
+  "mean_ci": [
+   0.04042509943171994,
+   0.0220821613794166,
+   0.058768037484023275
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0484,
+   0.0338,
+   0.039
+  ]
+ },
+ "block (1-10)|gradrand - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.7712461001317537,
+   -1.7447662746084143,
+   0.20227407434490696
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -0.3412,
+   -1.1082,
+   -0.8643
+  ]
+ },
+ "block (1-10)|gradrand - sham|n_class_selective": {
+  "mean_ci": [
+   -21.233333333333334,
+   -42.63779941149487,
+   0.17113274482819918
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -13.3,
+   -30.4,
+   -20.0
+  ]
+ },
+ "block (1-10)|gradsc - gradrand|off_superclass_share": {
+  "mean_ci": [
+   0.0248875403057508,
+   -0.05346061325616616,
+   0.10323569386766776
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0577,
+   -0.0051,
+   0.0221
+  ]
+ },
+ "block (1-10)|gradsc - gradrand|own_direction_ratio": {
+  "mean_ci": [
+   -0.9727460224696677,
+   -2.1140532647294594,
+   0.16856121979012395
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.4791,
+   -0.5826,
+   -0.8565
+  ]
+ },
+ "block (1-10)|gradsc - gradrand|n_class_selective": {
+  "mean_ci": [
+   -3.9333333333333322,
+   -17.440130187271762,
+   9.573463520605097
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -7.7,
+   2.3,
+   -6.4
+  ]
+ },
+ "block (1-10)|gradrg - gradrand|off_superclass_share": {
+  "mean_ci": [
+   0.03423178602333643,
+   -0.0003125844901208166,
+   0.06877615653679367
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0501,
+   0.0284,
+   0.0242
+  ]
+ },
+ "block (1-10)|gradrg - gradrand|own_direction_ratio": {
+  "mean_ci": [
+   -1.1195177512060348,
+   -2.3285374369520593,
+   0.08950193453998945
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.6488,
+   -1.0185,
+   -0.6913
+  ]
+ },
+ "block (1-10)|gradrg - gradrand|n_class_selective": {
+  "mean_ci": [
+   -4.133333333333332,
+   -15.490851520561527,
+   7.224184853894864
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -9.1,
+   -3.2,
+   -0.1
+  ]
+ },
+ "block (1-10)|gradsc_l2 - gradenergy_l2|off_superclass_share": {
+  "mean_ci": [
+   0.07695172733514943,
+   0.013329893590338052,
+   0.14057356107996083
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0921,
+   0.0474,
+   0.0914
+  ]
+ },
+ "block (1-10)|gradsc_l2 - gradenergy_l2|own_direction_ratio": {
+  "mean_ci": [
+   -1.5909377383634744,
+   -2.8535742098769425,
+   -0.32830126685000605
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.8532,
+   -1.0051,
+   -1.9146
+  ]
+ },
+ "block (1-10)|gradsc_l2 - gradenergy_l2|n_class_selective": {
+  "mean_ci": [
+   3.1666666666666674,
+   -7.255862623727131,
+   13.589195957060467
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   -1.6,
+   4.8,
+   6.3
+  ]
+ },
+ "block (1-10)|gradsc_l2 - sham|off_superclass_share": {
+  "mean_ci": [
+   0.0731845161693629,
+   -0.002537126098959286,
+   0.1489061584376851
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.108,
+   0.0602,
+   0.0513
+  ]
+ },
+ "block (1-10)|gradsc_l2 - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.8578378037009429,
+   -2.438370248065085,
+   -1.277305359336801
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.7151,
+   -1.7309,
+   -2.1275
+  ]
+ },
+ "block (1-10)|gradsc_l2 - sham|n_class_selective": {
+  "mean_ci": [
+   -25.53333333333333,
+   -40.44919612979814,
+   -10.617470536868527
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -19.4,
+   -31.4,
+   -25.8
+  ]
+ },
+ "block (1-10)|gradenergy_l2 - sham|off_superclass_share": {
+  "mean_ci": [
+   -0.003767211165786525,
+   -0.08189217693833735,
+   0.07435775460676429
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0159,
+   0.0128,
+   -0.04
+  ]
+ },
+ "block (1-10)|gradenergy_l2 - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.26690006533746846,
+   -1.3461346221103452,
+   0.8123344914354083
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   0.1381,
+   -0.7258,
+   -0.213
+  ]
+ },
+ "block (1-10)|gradenergy_l2 - sham|n_class_selective": {
+  "mean_ci": [
+   -28.7,
+   -52.696050244788765,
+   -4.70394975521123
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -17.8,
+   -36.2,
+   -32.1
+  ]
+ },
+ "levels|release (11-15)": {
+  "epoch": {
+   "gradenergy": 13.0,
+   "gradenergy_l2": 13.0,
+   "gradrand": 13.0,
+   "gradrg": 13.0,
+   "gradsc": 13.0,
+   "gradsc_l2": 13.0,
+   "sham": 13.0
+  },
+  "n_class_selective": {
+   "gradenergy": 43.3333,
+   "gradenergy_l2": 38.5333,
+   "gradrand": 43.4667,
+   "gradrg": 35.2,
+   "gradsc": 36.3333,
+   "gradsc_l2": 42.4,
+   "sham": 72.2667
+  },
+  "off_superclass_share": {
+   "gradenergy": 0.7063,
+   "gradenergy_l2": 0.6985,
+   "gradrand": 0.7484,
+   "gradrg": 0.7542,
+   "gradsc": 0.7516,
+   "gradsc_l2": 0.753,
+   "sham": 0.6985
+  },
+  "own_direction_ratio": {
+   "gradenergy": 5.0967,
+   "gradenergy_l2": 5.4734,
+   "gradrand": 4.5914,
+   "gradrg": 4.2552,
+   "gradsc": 4.0635,
+   "gradsc_l2": 4.5352,
+   "sham": 6.0697
+  }
+ },
+ "release (11-15)|gradsc - gradenergy|off_superclass_share": {
+  "mean_ci": [
+   0.045240739171229616,
+   0.039274781796011744,
+   0.05120669654644749
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0475,
+   0.0454,
+   0.0427
+  ]
+ },
+ "release (11-15)|gradsc - gradenergy|own_direction_ratio": {
+  "mean_ci": [
+   -1.0332295389403663,
+   -2.2699396358539814,
+   0.20348055797324882
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.2225,
+   -0.4685,
+   -1.4087
+  ]
+ },
+ "release (11-15)|gradsc - gradenergy|n_class_selective": {
+  "mean_ci": [
+   -7.0,
+   -20.768488735198275,
+   6.768488735198273
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -0.6,
+   -10.2,
+   -10.2
+  ]
+ },
+ "release (11-15)|gradrg - gradenergy|off_superclass_share": {
+  "mean_ci": [
+   0.04786157229271711,
+   0.03217458488225402,
+   0.06354855970318021
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.055,
+   0.0429,
+   0.0457
+  ]
+ },
+ "release (11-15)|gradrg - gradenergy|own_direction_ratio": {
+  "mean_ci": [
+   -0.8415728851384262,
+   -1.9471970877939655,
+   0.2640513175171132
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.1827,
+   -0.3381,
+   -1.0039
+  ]
+ },
+ "release (11-15)|gradrg - gradenergy|n_class_selective": {
+  "mean_ci": [
+   -8.133333333333333,
+   -20.94853086397201,
+   4.681864197305343
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -2.4,
+   -12.4,
+   -9.6
+  ]
+ },
+ "release (11-15)|gradsc - sham|off_superclass_share": {
+  "mean_ci": [
+   0.05308494238574124,
+   0.040714548239072994,
+   0.06545533653240948
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.057,
+   0.0548,
+   0.0475
+  ]
+ },
+ "release (11-15)|gradsc - sham|own_direction_ratio": {
+  "mean_ci": [
+   -2.006226657963032,
+   -2.757558576782099,
+   -1.2548947391439649
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.6966,
+   -2.0212,
+   -2.3009
+  ]
+ },
+ "release (11-15)|gradsc - sham|n_class_selective": {
+  "mean_ci": [
+   -35.93333333333333,
+   -56.3052820937317,
+   -15.561384572934962
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -31.0,
+   -31.4,
+   -45.4
+  ]
+ },
+ "release (11-15)|gradrg - sham|off_superclass_share": {
+  "mean_ci": [
+   0.05570577550722874,
+   0.036761291486742814,
+   0.07465025952771466
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0644,
+   0.0523,
+   0.0504
+  ]
+ },
+ "release (11-15)|gradrg - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.814570004161092,
+   -2.154079397141897,
+   -1.4750606111802869
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.6568,
+   -1.8907,
+   -1.8962
+  ]
+ },
+ "release (11-15)|gradrg - sham|n_class_selective": {
+  "mean_ci": [
+   -37.06666666666666,
+   -53.733237606562696,
+   -20.400095726770626
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -32.8,
+   -33.6,
+   -44.8
+  ]
+ },
+ "release (11-15)|gradenergy - sham|off_superclass_share": {
+  "mean_ci": [
+   0.007844203214511625,
+   0.0011546619441376756,
+   0.014533744484885574
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0095,
+   0.0093,
+   0.0047
+  ]
+ },
+ "release (11-15)|gradenergy - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.9729971190226658,
+   -2.323805619616996,
+   0.37781138157166416
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -0.4741,
+   -1.5526,
+   -0.8922
+  ]
+ },
+ "release (11-15)|gradenergy - sham|n_class_selective": {
+  "mean_ci": [
+   -28.933333333333334,
+   -46.60624627522981,
+   -11.26042039143686
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -30.4,
+   -21.2,
+   -35.2
+  ]
+ },
+ "release (11-15)|gradrand - sham|off_superclass_share": {
+  "mean_ci": [
+   0.04987872971350501,
+   0.04652780033323124,
+   0.053229659093778775
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0511,
+   0.0502,
+   0.0484
+  ]
+ },
+ "release (11-15)|gradrand - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.478358274745343,
+   -2.466573145197941,
+   -0.4901434042927447
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.2583,
+   -1.2392,
+   -1.9376
+  ]
+ },
+ "release (11-15)|gradrand - sham|n_class_selective": {
+  "mean_ci": [
+   -28.799999999999997,
+   -40.48337265438352,
+   -17.11662734561647
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -25.6,
+   -26.6,
+   -34.2
+  ]
+ },
+ "release (11-15)|gradsc - gradrand|off_superclass_share": {
+  "mean_ci": [
+   0.003206212672236234,
+   -0.005845046433187303,
+   0.01225747177765977
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0059,
+   0.0046,
+   -0.0009
+  ]
+ },
+ "release (11-15)|gradsc - gradrand|own_direction_ratio": {
+  "mean_ci": [
+   -0.527868383217689,
+   -1.0822814101589997,
+   0.02654464372362153
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -0.4383,
+   -0.7819,
+   -0.3634
+  ]
+ },
+ "release (11-15)|gradsc - gradrand|n_class_selective": {
+  "mean_ci": [
+   -7.1333333333333355,
+   -15.913744060378654,
+   1.6470773937119843
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -5.4,
+   -4.8,
+   -11.2
+  ]
+ },
+ "release (11-15)|gradrg - gradrand|off_superclass_share": {
+  "mean_ci": [
+   0.0058270457937237286,
+   -0.01042186299910455,
+   0.022075954586552007
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0134,
+   0.0021,
+   0.002
+  ]
+ },
+ "release (11-15)|gradrg - gradrand|own_direction_ratio": {
+  "mean_ci": [
+   -0.336211729415749,
+   -1.207236060085561,
+   0.534812601254063
+  ],
+  "n_pos": 1,
+  "per_seed": [
+   -0.3985,
+   -0.6515,
+   0.0414
+  ]
+ },
+ "release (11-15)|gradrg - gradrand|n_class_selective": {
+  "mean_ci": [
+   -8.266666666666667,
+   -13.2925710728124,
+   -3.2407622605209356
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -7.2,
+   -7.0,
+   -10.6
+  ]
+ },
+ "release (11-15)|gradsc_l2 - gradenergy_l2|off_superclass_share": {
+  "mean_ci": [
+   0.05445124004946522,
+   0.028541265059906375,
+   0.08036121503902408
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0568,
+   0.0635,
+   0.0431
+  ]
+ },
+ "release (11-15)|gradsc_l2 - gradenergy_l2|own_direction_ratio": {
+  "mean_ci": [
+   -0.9381677014178882,
+   -1.695349923105665,
+   -0.18098547973011148
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.2114,
+   -0.6094,
+   -0.9937
+  ]
+ },
+ "release (11-15)|gradsc_l2 - gradenergy_l2|n_class_selective": {
+  "mean_ci": [
+   3.866666666666665,
+   -1.848649886669922,
+   9.581983220003252
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   6.2,
+   3.8,
+   1.6
+  ]
+ },
+ "release (11-15)|gradsc_l2 - sham|off_superclass_share": {
+  "mean_ci": [
+   0.05450650568055752,
+   0.03112662920851423,
+   0.0778863821526008
+  ],
+  "n_pos": 3,
+  "per_seed": [
+   0.0631,
+   0.0559,
+   0.0445
+  ]
+ },
+ "release (11-15)|gradsc_l2 - sham|own_direction_ratio": {
+  "mean_ci": [
+   -1.5345413319981158,
+   -2.1366408189044095,
+   -0.9324418450918222
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -1.7776,
+   -1.2929,
+   -1.5331
+  ]
+ },
+ "release (11-15)|gradsc_l2 - sham|n_class_selective": {
+  "mean_ci": [
+   -29.866666666666664,
+   -46.1663459322088,
+   -13.566987401124525
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -25.4,
+   -26.8,
+   -37.4
+  ]
+ },
+ "release (11-15)|gradenergy_l2 - sham|off_superclass_share": {
+  "mean_ci": [
+   5.5265631092297575e-05,
+   -0.01758251041348851,
+   0.017693041675673107
+  ],
+  "n_pos": 2,
+  "per_seed": [
+   0.0064,
+   -0.0076,
+   0.0014
+  ]
+ },
+ "release (11-15)|gradenergy_l2 - sham|own_direction_ratio": {
+  "mean_ci": [
+   -0.5963736305802275,
+   -0.7867521980684165,
+   -0.40599506309203853
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -0.5663,
+   -0.6835,
+   -0.5394
+  ]
+ },
+ "release (11-15)|gradenergy_l2 - sham|n_class_selective": {
+  "mean_ci": [
+   -33.73333333333333,
+   -45.13152882204384,
+   -22.335137844622814
+  ],
+  "n_pos": 0,
+  "per_seed": [
+   -31.6,
+   -30.6,
+   -39.0
+  ]
+ }
+}

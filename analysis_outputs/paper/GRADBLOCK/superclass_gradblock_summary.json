@@ -1,0 +1,3902 @@
+{
+ "seed7_epoch1": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.536,
+    0.015
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.208,
+    0.3793
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.474,
+    0.0349
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.259,
+    0.2692
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.195,
+    0.4088
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.18,
+    0.4465
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.005,
+    0.9849
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.262,
+    0.2651
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.083,
+    0.7289
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.165,
+    0.4858
+   ]
+  }
+ },
+ "seed7_epoch2": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.418,
+    0.0666
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.002,
+    0.995
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.353,
+    0.1271
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.135,
+    0.5694
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.05,
+    0.8354
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.17,
+    0.4738
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.171,
+    0.4699
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.206,
+    0.3833
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.271,
+    0.2484
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.119,
+    0.6179
+   ]
+  }
+ },
+ "seed7_epoch3": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.511,
+    0.0212
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.396,
+    0.084
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.363,
+    0.116
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.349,
+    0.1315
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.382,
+    0.0965
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.319,
+    0.1707
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.05,
+    0.8354
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.004,
+    0.9874
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.006,
+    0.9799
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.012,
+    0.9599
+   ]
+  }
+ },
+ "seed7_epoch4": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.212,
+    0.3695
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.111,
+    0.6399
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.132,
+    0.5781
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.104,
+    0.6633
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.398,
+    0.0818
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.233,
+    0.3227
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.335,
+    0.1482
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.122,
+    0.609
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.421,
+    0.0645
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.077,
+    0.7479
+   ]
+  }
+ },
+ "seed7_epoch5": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.117,
+    0.6224
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.072,
+    0.762
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.19,
+    0.4233
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.068,
+    0.7743
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.218,
+    0.3557
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.03,
+    0.8998
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.233,
+    0.3227
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.19,
+    0.4235
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.327,
+    0.1591
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.241,
+    0.3069
+   ]
+  }
+ },
+ "seed7_epoch6": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.095,
+    0.691
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.034,
+    0.8873
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.295,
+    0.2071
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.241,
+    0.3067
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.072,
+    0.7623
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.014,
+    0.9548
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.048,
+    0.8403
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.329,
+    0.1561
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.042,
+    0.8601
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.105,
+    0.6587
+   ]
+  }
+ },
+ "seed7_epoch7": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.23,
+    0.3291
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.125,
+    0.5987
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.116,
+    0.6269
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.111,
+    0.6402
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.053,
+    0.8256
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.017,
+    0.9448
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.275,
+    0.2403
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.218,
+    0.3557
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.141,
+    0.5522
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.044,
+    0.8551
+   ]
+  }
+ },
+ "seed7_epoch8": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.235,
+    0.3195
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.49,
+    0.0282
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.063,
+    0.7914
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.459,
+    0.042
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.057,
+    0.8109
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.101,
+    0.6726
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.302,
+    0.1951
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.498,
+    0.0255
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.285,
+    0.2231
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.422,
+    0.0639
+   ]
+  }
+ },
+ "seed7_epoch9": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.379,
+    0.0994
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.453,
+    0.045
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.214,
+    0.366
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.321,
+    0.1674
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.095,
+    0.6912
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.045,
+    0.8502
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.252,
+    0.2838
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.547,
+    0.0125
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.262,
+    0.2651
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.484,
+    0.0305
+   ]
+  }
+ },
+ "seed7_epoch10": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.214,
+    0.366
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.292,
+    0.212
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.209,
+    0.3765
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.277,
+    0.2373
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.116,
+    0.6269
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.183,
+    0.4388
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.298,
+    0.2023
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.418,
+    0.0666
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.313,
+    0.179
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.472,
+    0.0355
+   ]
+  }
+ },
+ "seed7_epoch11": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.207,
+    0.3816
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.092,
+    0.7005
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.143,
+    0.5478
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.213,
+    0.3676
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.083,
+    0.7289
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.304,
+    0.1929
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.029,
+    0.9048
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.063,
+    0.7914
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.162,
+    0.4939
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.102,
+    0.6679
+   ]
+  }
+ },
+ "seed7_epoch12": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.117,
+    0.6224
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.195,
+    0.4088
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.105,
+    0.6587
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.098,
+    0.6818
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.17,
+    0.4738
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.149,
+    0.531
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.224,
+    0.3423
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.325,
+    0.1623
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.429,
+    0.0594
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.388,
+    0.091
+   ]
+  }
+ },
+ "seed7_epoch13": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.296,
+    0.2045
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.25,
+    0.2868
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.226,
+    0.3371
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.25,
+    0.2868
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.186,
+    0.4312
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.427,
+    0.0604
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.026,
+    0.9123
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.026,
+    0.9123
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.077,
+    0.7478
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.053,
+    0.823
+   ]
+  }
+ },
+ "seed7_epoch14": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.06,
+    0.8011
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.048,
+    0.8403
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.02,
+    0.9348
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.153,
+    0.5204
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.487,
+    0.0293
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.499,
+    0.025
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.122,
+    0.6088
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.2,
+    0.397
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.477,
+    0.0335
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.384,
+    0.095
+   ]
+  }
+ },
+ "seed7_epoch15": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.245,
+    0.2976
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.166,
+    0.4848
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.062,
+    0.7962
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.201,
+    0.3959
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.226,
+    0.339
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.03,
+    0.8998
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.326,
+    0.1603
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.235,
+    0.3195
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.026,
+    0.9148
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.002,
+    0.995
+   ]
+  }
+ },
+ "seed42_epoch1": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.236,
+    0.3161
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.039,
+    0.87
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.111,
+    0.6405
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.048,
+    0.8403
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.077,
+    0.7479
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.023,
+    0.9248
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.093,
+    0.6958
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.083,
+    0.7264
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.068,
+    0.7743
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.016,
+    0.9473
+   ]
+  }
+ },
+ "seed42_epoch2": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.557,
+    0.0107
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.109,
+    0.647
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.452,
+    0.0454
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.196,
+    0.4081
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.039,
+    0.87
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.274,
+    0.243
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.438,
+    0.0537
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.011,
+    0.9649
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.337,
+    0.1456
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.124,
+    0.6022
+   ]
+  }
+ },
+ "seed42_epoch3": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.06,
+    0.8032
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.235,
+    0.3193
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.105,
+    0.6587
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.356,
+    0.123
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.086,
+    0.7194
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.146,
+    0.5395
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.009,
+    0.9699
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.101,
+    0.6724
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.032,
+    0.8949
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.009,
+    0.9699
+   ]
+  }
+ },
+ "seed42_epoch4": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.265,
+    0.2595
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.063,
+    0.7913
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.208,
+    0.378
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.149,
+    0.5309
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.197,
+    0.4052
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.186,
+    0.4312
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.298,
+    0.2023
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.34,
+    0.1426
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.316,
+    0.175
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.221,
+    0.349
+   ]
+  }
+ },
+ "seed42_epoch5": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.159,
+    0.5038
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.062,
+    0.7962
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.293,
+    0.2096
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.037,
+    0.8774
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.123,
+    0.6045
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.165,
+    0.4858
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.085,
+    0.7216
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.153,
+    0.5185
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.036,
+    0.8799
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.081,
+    0.7336
+   ]
+  }
+ },
+ "seed42_epoch6": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.029,
+    0.9048
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.065,
+    0.7864
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.185,
+    0.435
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.008,
+    0.9724
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.11,
+    0.645
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.209,
+    0.3765
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.033,
+    0.8899
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.105,
+    0.6585
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.257,
+    0.2738
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.087,
+    0.7146
+   ]
+  }
+ },
+ "seed42_epoch7": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.003,
+    0.99
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.071,
+    0.7672
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.072,
+    0.7623
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.17,
+    0.4738
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.039,
+    0.87
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.278,
+    0.235
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.173,
+    0.4656
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.048,
+    0.8403
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.102,
+    0.6679
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.144,
+    0.5437
+   ]
+  }
+ },
+ "seed42_epoch8": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.014,
+    0.9548
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.008,
+    0.9749
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.101,
+    0.6726
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.096,
+    0.6887
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.057,
+    0.8109
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.128,
+    0.5912
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.22,
+    0.3523
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.175,
+    0.4618
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.293,
+    0.2096
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.138,
+    0.5608
+   ]
+  }
+ },
+ "seed42_epoch9": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.012,
+    0.9599
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.217,
+    0.3591
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.134,
+    0.5738
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.06,
+    0.8011
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.092,
+    0.7005
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.104,
+    0.6633
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.105,
+    0.6587
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.289,
+    0.2168
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.065,
+    0.7865
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.26,
+    0.268
+   ]
+  }
+ },
+ "seed42_epoch10": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.186,
+    0.4312
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.444,
+    0.0499
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.131,
+    0.5823
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.475,
+    0.0342
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.072,
+    0.7623
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.183,
+    0.4388
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.138,
+    0.5605
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.238,
+    0.3131
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.005,
+    0.9824
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.208,
+    0.38
+   ]
+  }
+ },
+ "seed42_epoch11": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.277,
+    0.2374
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.328,
+    0.1582
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.126,
+    0.5957
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.258,
+    0.2719
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.174,
+    0.462
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.186,
+    0.4312
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.304,
+    0.1929
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.271,
+    0.2484
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.129,
+    0.5869
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.101,
+    0.6726
+   ]
+  }
+ },
+ "seed42_epoch12": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.042,
+    0.8601
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.072,
+    0.7623
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.023,
+    0.9248
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.181,
+    0.4463
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.161,
+    0.498
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.224,
+    0.3423
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.202,
+    0.3943
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.245,
+    0.2974
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.2,
+    0.3979
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.266,
+    0.2567
+   ]
+  }
+ },
+ "seed42_epoch13": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.437,
+    0.054
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.217,
+    0.3591
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.056,
+    0.8131
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.135,
+    0.5714
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.347,
+    0.1334
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.186,
+    0.4312
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.014,
+    0.9548
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.203,
+    0.3905
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.54,
+    0.014
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.122,
+    0.609
+   ]
+  }
+ },
+ "seed42_epoch14": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.011,
+    0.9623
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.056,
+    0.8133
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.289,
+    0.217
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.041,
+    0.8648
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.035,
+    0.8849
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.307,
+    0.1883
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.192,
+    0.4162
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.114,
+    0.6335
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.261,
+    0.2662
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.046,
+    0.8477
+   ]
+  }
+ },
+ "seed42_epoch15": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.247,
+    0.2928
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.369,
+    0.1097
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.396,
+    0.0842
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.389,
+    0.0896
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.12,
+    0.6134
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.135,
+    0.5694
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.084,
+    0.7263
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.023,
+    0.9247
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.015,
+    0.9498
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.14,
+    0.5565
+   ]
+  }
+ },
+ "seed137_epoch1": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.269,
+    0.2523
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.13,
+    0.5845
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.317,
+    0.1737
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.259,
+    0.2709
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.078,
+    0.7431
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.165,
+    0.4858
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.232,
+    0.3259
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.409,
+    0.0733
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.247,
+    0.2946
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.35,
+    0.1299
+   ]
+  }
+ },
+ "seed137_epoch2": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.43,
+    0.0587
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.054,
+    0.8205
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.039,
+    0.87
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.196,
+    0.4081
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.534,
+    0.0153
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.05,
+    0.8354
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.035,
+    0.8823
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.013,
+    0.9573
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.059,
+    0.806
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.003,
+    0.99
+   ]
+  }
+ },
+ "seed137_epoch3": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.234,
+    0.3209
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.243,
+    0.302
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.081,
+    0.7336
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.082,
+    0.7311
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.325,
+    0.1623
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.269,
+    0.2511
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.2,
+    0.3979
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.406,
+    0.0757
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.366,
+    0.113
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.414,
+    0.0699
+   ]
+  }
+ },
+ "seed137_epoch4": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.126,
+    0.5957
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.129,
+    0.5867
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.156,
+    0.5103
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.134,
+    0.5738
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.083,
+    0.7289
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.032,
+    0.8949
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.09,
+    0.7052
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.213,
+    0.3676
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.074,
+    0.7574
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.102,
+    0.6679
+   ]
+  }
+ },
+ "seed137_epoch5": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.024,
+    0.9198
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.357,
+    0.122
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.047,
+    0.8453
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.185,
+    0.435
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.003,
+    0.99
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.208,
+    0.38
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.18,
+    0.448
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.408,
+    0.0744
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.245,
+    0.2976
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.288,
+    0.2181
+   ]
+  }
+ },
+ "seed137_epoch6": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.08,
+    0.7384
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.214,
+    0.3641
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.217,
+    0.3571
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.297,
+    0.2033
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.092,
+    0.7005
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.126,
+    0.5957
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.311,
+    0.1816
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.244,
+    0.3007
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.118,
+    0.62
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.133,
+    0.5758
+   ]
+  }
+ },
+ "seed137_epoch7": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.174,
+    0.462
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.196,
+    0.4086
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.292,
+    0.2113
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.188,
+    0.4274
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.165,
+    0.4858
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.068,
+    0.7768
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.128,
+    0.5912
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.057,
+    0.8109
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.031,
+    0.8973
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.021,
+    0.9298
+   ]
+  }
+ },
+ "seed137_epoch8": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.075,
+    0.7527
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.144,
+    0.5455
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.138,
+    0.5608
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.153,
+    0.5185
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.18,
+    0.4465
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.232,
+    0.3259
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.102,
+    0.67
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.219,
+    0.3539
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.005,
+    0.9824
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.143,
+    0.548
+   ]
+  }
+ },
+ "seed137_epoch9": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.185,
+    0.435
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.18,
+    0.4465
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.079,
+    0.7407
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.274,
+    0.243
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.087,
+    0.7146
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.107,
+    0.6541
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.344,
+    0.1369
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.224,
+    0.3423
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.202,
+    0.3943
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.165,
+    0.4858
+   ]
+  }
+ },
+ "seed137_epoch10": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.03,
+    0.8998
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.159,
+    0.5039
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.068,
+    0.7768
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.024,
+    0.9198
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.039,
+    0.87
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.186,
+    0.4312
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.2,
+    0.3979
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.435,
+    0.0555
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.015,
+    0.9498
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.419,
+    0.0659
+   ]
+  }
+ },
+ "seed137_epoch11": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.308,
+    0.1861
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.324,
+    0.1632
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.217,
+    0.3591
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.224,
+    0.3423
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.026,
+    0.9148
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.057,
+    0.8109
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.581,
+    0.0072
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.279,
+    0.2335
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.427,
+    0.0604
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.149,
+    0.531
+   ]
+  }
+ },
+ "seed137_epoch12": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.223,
+    0.3456
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.272,
+    0.2467
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.193,
+    0.4142
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.171,
+    0.4697
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.377,
+    0.1009
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.633,
+    0.0027
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.081,
+    0.7336
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.083,
+    0.7289
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.208,
+    0.38
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.106,
+    0.6563
+   ]
+  }
+ },
+ "seed137_epoch13": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.202,
+    0.3943
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.205,
+    0.3871
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.221,
+    0.349
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.233,
+    0.3227
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.152,
+    0.5227
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.159,
+    0.5021
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.019,
+    0.9373
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.05,
+    0.8329
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.026,
+    0.9148
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.065,
+    0.7865
+   ]
+  }
+ },
+ "seed137_epoch14": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.176,
+    0.4581
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.202,
+    0.3943
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.05,
+    0.8328
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.186,
+    0.4329
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.341,
+    0.1408
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.215,
+    0.3626
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.023,
+    0.9247
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.135,
+    0.5694
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.138,
+    0.5608
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.017,
+    0.9448
+   ]
+  }
+ },
+ "seed137_epoch15": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.21,
+    0.3745
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.095,
+    0.691
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.113,
+    0.6358
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.051,
+    0.8305
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.098,
+    0.6818
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.081,
+    0.7336
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.14,
+    0.5565
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.023,
+    0.9223
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.144,
+    0.5437
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.077,
+    0.7479
+   ]
+  }
+ },
+ "seed256_epoch1": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.003,
+    0.99
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.317,
+    0.1736
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.068,
+    0.7743
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.027,
+    0.9098
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.02,
+    0.9348
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.119,
+    0.6179
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.192,
+    0.4162
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.037,
+    0.8774
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.215,
+    0.3626
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.029,
+    0.9048
+   ]
+  }
+ },
+ "seed256_epoch2": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.159,
+    0.5038
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.012,
+    0.9599
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.129,
+    0.5869
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.328,
+    0.1582
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.138,
+    0.5608
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.093,
+    0.6958
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.202,
+    0.3943
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.038,
+    0.875
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.101,
+    0.6724
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.084,
+    0.7241
+   ]
+  }
+ },
+ "seed256_epoch3": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.011,
+    0.9649
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.011,
+    0.9648
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.092,
+    0.7005
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.044,
+    0.8526
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.155,
+    0.5144
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.057,
+    0.8109
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.152,
+    0.5227
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.071,
+    0.7672
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.167,
+    0.4818
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.074,
+    0.7575
+   ]
+  }
+ },
+ "seed256_epoch4": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.122,
+    0.609
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.152,
+    0.5227
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.006,
+    0.9799
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.296,
+    0.2057
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.146,
+    0.5395
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.144,
+    0.5437
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.087,
+    0.7146
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.198,
+    0.403
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.086,
+    0.7194
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.229,
+    0.332
+   ]
+  }
+ },
+ "seed256_epoch5": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.191,
+    0.4199
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.335,
+    0.1482
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.055,
+    0.8182
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.206,
+    0.3835
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.298,
+    0.2023
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.293,
+    0.2096
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.112,
+    0.6381
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.0,
+    1.0
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.156,
+    0.5122
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.146,
+    0.5395
+   ]
+  }
+ },
+ "seed256_epoch6": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.243,
+    0.3016
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.193,
+    0.416
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.143,
+    0.5478
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.184,
+    0.4386
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.198,
+    0.4015
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.206,
+    0.3835
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.254,
+    0.2796
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.082,
+    0.7311
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.226,
+    0.3386
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.246,
+    0.2959
+   ]
+  }
+ },
+ "seed256_epoch7": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.182,
+    0.4426
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.507,
+    0.0225
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.185,
+    0.435
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.424,
+    0.0627
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.146,
+    0.5395
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.092,
+    0.7005
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.355,
+    0.1245
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.117,
+    0.6224
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.343,
+    0.1389
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.162,
+    0.4939
+   ]
+  }
+ },
+ "seed256_epoch8": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.053,
+    0.8256
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.009,
+    0.9699
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.117,
+    0.6224
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.092,
+    0.7004
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.385,
+    0.0937
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.203,
+    0.3907
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.088,
+    0.7122
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.085,
+    0.7216
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.099,
+    0.6793
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.039,
+    0.87
+   ]
+  }
+ },
+ "seed256_epoch9": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.129,
+    0.5869
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.138,
+    0.5608
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.032,
+    0.8948
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.263,
+    0.2635
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.026,
+    0.9148
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.021,
+    0.9298
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.114,
+    0.6314
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.049,
+    0.8378
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.035,
+    0.8849
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.122,
+    0.609
+   ]
+  }
+ },
+ "seed256_epoch10": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.058,
+    0.8084
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.091,
+    0.7028
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.032,
+    0.8923
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.112,
+    0.6381
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.269,
+    0.2511
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.189,
+    0.4237
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.224,
+    0.3423
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.099,
+    0.6794
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.113,
+    0.6359
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.07,
+    0.7695
+   ]
+  }
+ },
+ "seed256_epoch11": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.062,
+    0.7962
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.15,
+    0.5269
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.043,
+    0.8576
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.107,
+    0.654
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.226,
+    0.339
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.087,
+    0.7146
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.226,
+    0.339
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.377,
+    0.1009
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.194,
+    0.4125
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.436,
+    0.0546
+   ]
+  }
+ },
+ "seed256_epoch12": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.157,
+    0.508
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.025,
+    0.9173
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.062,
+    0.7937
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.027,
+    0.9098
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.626,
+    0.0032
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.233,
+    0.3227
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.004,
+    0.9874
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.01,
+    0.9674
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.063,
+    0.7914
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.033,
+    0.8899
+   ]
+  }
+ },
+ "seed256_epoch13": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.045,
+    0.8502
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.147,
+    0.5372
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.056,
+    0.8133
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.208,
+    0.38
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.281,
+    0.2297
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.349,
+    0.1317
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.06,
+    0.801
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.053,
+    0.8256
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.174,
+    0.462
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.055,
+    0.8182
+   ]
+  }
+ },
+ "seed256_epoch14": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.199,
+    0.401
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.162,
+    0.4954
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.316,
+    0.1748
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.253,
+    0.2826
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.215,
+    0.3626
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.198,
+    0.4015
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.153,
+    0.5182
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.05,
+    0.8354
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.152,
+    0.5227
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.026,
+    0.9148
+   ]
+  }
+ },
+ "seed256_epoch15": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.347,
+    0.1334
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.214,
+    0.3658
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.176,
+    0.4581
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.215,
+    0.3624
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.299,
+    0.1999
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.125,
+    0.6001
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.032,
+    0.8948
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.261,
+    0.2664
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.145,
+    0.5414
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.253,
+    0.2826
+   ]
+  }
+ },
+ "seed314_epoch1": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.361,
+    0.118
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.018,
+    0.9398
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.256,
+    0.2765
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.086,
+    0.7194
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.186,
+    0.4312
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.179,
+    0.4503
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.06,
+    0.8011
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.021,
+    0.9298
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.062,
+    0.7962
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.093,
+    0.6958
+   ]
+  }
+ },
+ "seed314_epoch2": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.429,
+    0.0594
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.075,
+    0.7527
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.337,
+    0.1463
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.233,
+    0.3223
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.074,
+    0.7575
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.185,
+    0.435
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.167,
+    0.4818
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.184,
+    0.4386
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.217,
+    0.3573
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.198,
+    0.4015
+   ]
+  }
+ },
+ "seed314_epoch3": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.411,
+    0.0722
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.146,
+    0.5395
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.417,
+    0.0677
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.023,
+    0.9248
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.068,
+    0.7768
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.045,
+    0.8502
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.514,
+    0.0203
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.18,
+    0.4465
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.595,
+    0.0056
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.361,
+    0.118
+   ]
+  }
+ },
+ "seed314_epoch4": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.195,
+    0.4088
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.15,
+    0.5288
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.14,
+    0.5563
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.221,
+    0.349
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.52,
+    0.0187
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.137,
+    0.5651
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.038,
+    0.875
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.083,
+    0.7289
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.117,
+    0.6224
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.145,
+    0.5414
+   ]
+  }
+ },
+ "seed314_epoch5": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.082,
+    0.7311
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.118,
+    0.6199
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.158,
+    0.5061
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.17,
+    0.4738
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.042,
+    0.8601
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.244,
+    0.3007
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.071,
+    0.7672
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.126,
+    0.5955
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.031,
+    0.8973
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.218,
+    0.3556
+   ]
+  }
+ },
+ "seed314_epoch6": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.119,
+    0.6179
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.053,
+    0.8231
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.132,
+    0.5801
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.071,
+    0.7672
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.02,
+    0.9348
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.035,
+    0.8849
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.23,
+    0.3291
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.133,
+    0.5758
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.106,
+    0.6563
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.027,
+    0.9097
+   ]
+  }
+ },
+ "seed314_epoch7": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.153,
+    0.5184
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.054,
+    0.8207
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.155,
+    0.5144
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.211,
+    0.3728
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.033,
+    0.8899
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.09,
+    0.7052
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.129,
+    0.5869
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.362,
+    0.1163
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.144,
+    0.5437
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.286,
+    0.2219
+   ]
+  }
+ },
+ "seed314_epoch8": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.199,
+    0.3995
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.158,
+    0.5058
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.033,
+    0.8899
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.053,
+    0.8256
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.095,
+    0.6912
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.113,
+    0.6359
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.149,
+    0.531
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.243,
+    0.302
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.128,
+    0.5911
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.208,
+    0.3798
+   ]
+  }
+ },
+ "seed314_epoch9": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.041,
+    0.865
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.026,
+    0.9148
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.024,
+    0.9198
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.026,
+    0.9123
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.302,
+    0.1952
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.202,
+    0.3943
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.117,
+    0.6245
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.209,
+    0.3765
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.062,
+    0.7962
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.305,
+    0.1906
+   ]
+  }
+ },
+ "seed314_epoch10": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.078,
+    0.7431
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.081,
+    0.7336
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.093,
+    0.6981
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.104,
+    0.6631
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.066,
+    0.7817
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.096,
+    0.6865
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.104,
+    0.6633
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.251,
+    0.2855
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.182,
+    0.4426
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.177,
+    0.456
+   ]
+  }
+ },
+ "seed314_epoch11": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.022,
+    0.9273
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.032,
+    0.8949
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.042,
+    0.8601
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.061,
+    0.7986
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.119,
+    0.6179
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.06,
+    0.8011
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.183,
+    0.4388
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.116,
+    0.6269
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.108,
+    0.6496
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.033,
+    0.8899
+   ]
+  }
+ },
+ "seed314_epoch12": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.067,
+    0.7792
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.026,
+    0.9148
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.159,
+    0.5021
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.192,
+    0.4175
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.071,
+    0.7672
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.108,
+    0.6496
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.146,
+    0.5395
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.129,
+    0.5869
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.205,
+    0.3871
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.096,
+    0.6865
+   ]
+  }
+ },
+ "seed314_epoch13": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.028,
+    0.9072
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.035,
+    0.8824
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.147,
+    0.5349
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.293,
+    0.2094
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.089,
+    0.7099
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.119,
+    0.6179
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.011,
+    0.9623
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.051,
+    0.8305
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.245,
+    0.2976
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.205,
+    0.3871
+   ]
+  }
+ },
+ "seed314_epoch14": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.203,
+    0.3907
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.299,
+    0.1996
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.183,
+    0.4388
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.193,
+    0.414
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.065,
+    0.7865
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.138,
+    0.5608
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.036,
+    0.8799
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.209,
+    0.3765
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.023,
+    0.9248
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.221,
+    0.3488
+   ]
+  }
+ },
+ "seed314_epoch15": {
+  "fresh_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.158,
+    0.5061
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.165,
+    0.4857
+   ]
+  },
+  "fresh_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.018,
+    0.9398
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.041,
+    0.865
+   ]
+  },
+  "fresh_within": {
+   "rho_blocked_vs_gradsc_deficit": [
+    0.215,
+    0.3626
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    0.168,
+    0.4778
+   ]
+  },
+  "net_fine": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.005,
+    0.9849
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.074,
+    0.7575
+   ]
+  },
+  "net_assignment": {
+   "rho_blocked_vs_gradsc_deficit": [
+    -0.167,
+    0.4815
+   ],
+   "rho_blocked_vs_gradrand_deficit": [
+    -0.087,
+    0.7146
+   ]
+  }
+ }
+}

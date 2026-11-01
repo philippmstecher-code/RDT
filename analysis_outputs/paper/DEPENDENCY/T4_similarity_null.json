@@ -1,0 +1,132 @@
+{
+ "7": {
+  "observed_median_ratio": 2.351013500076135,
+  "n_features": 92,
+  "matched_null_mean": 2.4035722674777675,
+  "matched_null_95": [
+   1.6619419537520719,
+   3.223130681349854
+  ],
+  "matched_null_max": 3.492033262422117,
+  "n_null": 100,
+  "rank_of_observed": 53,
+  "p": 0.5247524752475248,
+  "similarity_target": 0.7566622533235784,
+  "similarity_random_mean": 0.560050539819951,
+  "tol": 0.0019661171350362737,
+  "similarity_achieved_mean": 0.7554493773645649,
+  "similarity_achieved_range": [
+   0.7546976434190694,
+   0.7570662651633522
+  ],
+  "ari_vs_true_mean": 0.3518626315789474,
+  "ari_vs_true_max": 0.43205263157894735,
+  "pair_overlap_true_mean": 0.37805,
+  "pair_overlap_true_max": 0.455,
+  "n_not_converged": 0
+ },
+ "42": {
+  "observed_median_ratio": 2.3433817275860394,
+  "n_features": 181,
+  "matched_null_mean": 2.500743601542624,
+  "matched_null_95": [
+   1.9802317122313242,
+   3.116388976087193
+  ],
+  "matched_null_max": 3.424886474197674,
+  "n_null": 100,
+  "rank_of_observed": 71,
+  "p": 0.7029702970297029,
+  "similarity_target": 0.7570370278947468,
+  "similarity_random_mean": 0.5620603518075589,
+  "tol": 0.0019497667608718795,
+  "similarity_achieved_mean": 0.7557311346465059,
+  "similarity_achieved_range": [
+   0.7550939819440815,
+   0.7584180779720391
+  ],
+  "ari_vs_true_mean": 0.3521752631578947,
+  "ari_vs_true_max": 0.43205263157894735,
+  "pair_overlap_true_mean": 0.3783500000000001,
+  "pair_overlap_true_max": 0.455,
+  "n_not_converged": 0
+ },
+ "137": {
+  "observed_median_ratio": 2.9108450708305007,
+  "n_features": 116,
+  "matched_null_mean": 2.8701086892932466,
+  "matched_null_95": [
+   2.0661417297115876,
+   3.7284163156037855
+  ],
+  "matched_null_max": 4.0399424582292704,
+  "n_null": 100,
+  "rank_of_observed": 47,
+  "p": 0.46534653465346537,
+  "similarity_target": 0.7564415344107118,
+  "similarity_random_mean": 0.5672948131475546,
+  "tol": 0.0018914672126315725,
+  "similarity_achieved_mean": 0.7552312851821434,
+  "similarity_achieved_range": [
+   0.7545528183511871,
+   0.7581086154608799
+  ],
+  "ari_vs_true_mean": 0.3352931578947368,
+  "ari_vs_true_max": 0.4268421052631579,
+  "pair_overlap_true_mean": 0.36215,
+  "pair_overlap_true_max": 0.45,
+  "n_not_converged": 0
+ },
+ "256": {
+  "observed_median_ratio": 2.3288470775353565,
+  "n_features": 110,
+  "matched_null_mean": 2.0470190398679766,
+  "matched_null_95": [
+   1.616334054434815,
+   2.4925994811107954
+  ],
+  "matched_null_max": 2.8023889865862595,
+  "n_null": 100,
+  "rank_of_observed": 16,
+  "p": 0.15841584158415842,
+  "similarity_target": 0.7597476945225407,
+  "similarity_random_mean": 0.5663184893916583,
+  "tol": 0.0019342920513088235,
+  "similarity_achieved_mean": 0.7585005014742431,
+  "similarity_achieved_range": [
+   0.7578161106846621,
+   0.76096886847322
+  ],
+  "ari_vs_true_mean": 0.3642115789473683,
+  "ari_vs_true_max": 0.4685263157894737,
+  "pair_overlap_true_mean": 0.3899,
+  "pair_overlap_true_max": 0.49,
+  "n_not_converged": 0
+ },
+ "314": {
+  "observed_median_ratio": 2.734845886526318,
+  "n_features": 85,
+  "matched_null_mean": 2.358994043591267,
+  "matched_null_95": [
+   1.7408885715810007,
+   3.0614653629772244
+  ],
+  "matched_null_max": 3.2816612372618263,
+  "n_null": 100,
+  "rank_of_observed": 18,
+  "p": 0.1782178217821782,
+  "similarity_target": 0.7549150782131306,
+  "similarity_random_mean": 0.5601645635004846,
+  "tol": 0.0019475051471264605,
+  "similarity_achieved_mean": 0.7537840069173919,
+  "similarity_achieved_range": [
+   0.7530149949658496,
+   0.75603088776009
+  ],
+  "ari_vs_true_mean": 0.3508726315789474,
+  "ari_vs_true_max": 0.4268421052631579,
+  "pair_overlap_true_mean": 0.3771,
+  "pair_overlap_true_max": 0.45,
+  "n_not_converged": 0
+ }
+}

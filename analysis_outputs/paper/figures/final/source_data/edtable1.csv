@@ -1,0 +1,53 @@
+experiment,figure,condition,runs,architecture,params_M,dataset,seeds,seeds_short,n,epochs,checkpoints,interval_updates,sae,val_acc
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,1,ResNet-18,11.2,CIFAR-100,42,42,1,50,11,"342–4,768",4×,59.8
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,2,ResNet-18,11.2,CIFAR-100,137,137,1,50,11,"277–5,512",4×,59.6
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,3,ResNet-18,11.2,CIFAR-100,256,256,1,50,11,"323–4,988",4×,59.0
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,4,ViT-Small,5.4,CIFAR-100,42,42,1,100,9,"266–28,896",4×,49.2
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,5,ViT-Small,5.4,CIFAR-100,137,137,1,100,9,"277–19,026",4×,48.1
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,6,ViT-Small,21.7,CIFAR-100,256,256,1,50,9,"429–8,135",4×,48.2
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,7,CCT-7,3.7,CIFAR-100,42,42,1,50,10,"171–8,298",4×,53.0
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,8,CCT-7,3.7,CIFAR-100,137,137,1,50,10,"133–14,114",4×,52.4
+Standard replication,"Figs 1–4; ED 1–6; Supp. Figs 4, 5",Standard,9,CCT-7,3.7,CIFAR-100,256,256,1,50,10,"133–12,463",4×,53.0
+Ablations,ED 1c–f; Supp. Fig. 4,200 epochs,10,ResNet-18,11.2,CIFAR-100,42,42,1,200,11,"296–32,491",4×,60.9
+Ablations,ED 1c–f; Supp. Fig. 4,SAE expansion 8×ᵃ,11,ResNet-18,11.2,CIFAR-100,256,256,1,50,11,"323–4,988",8×,59.0
+Ablations,ED 1c–f; Supp. Fig. 4,Independent SAE seedᵃ,12,ResNet-18,11.2,CIFAR-100,256,256,1,50,11,"323–4,988",4×,59.0
+Cross-dataset,"Fig. 2; ED 1, 2","Tiny ImageNet, 200 classes",13,ResNet-18,11.2,Tiny ImageNet,42,42,1,50,9,–ᵈ,4×,53.0
+Curriculum sweep,Fig. 6b; ED 9e,0 superclass epochs,14,ResNet-18,11.2,CIFAR-100,42,42,1,50,12,"1,759–1,954",4×,59.1
+Curriculum sweep,Fig. 6b; ED 9e,5 superclass epochs,15,ResNet-18,11.2,CIFAR-100,42,42,1,50,12,"1,759–1,954",4×,57.9
+Curriculum sweep,Fig. 6b; ED 9e,10 superclass epochs,16,ResNet-18,11.2,CIFAR-100,42,42,1,50,12,"1,759–1,954",4×,58.2
+Curriculum sweep,Fig. 6b; ED 9e,11 superclass epochsᵇ,17,ResNet-18,11.2,CIFAR-100,42,42,1,46,12,"195–1,954",4×,57.1
+Curriculum sweep,Fig. 6b; ED 9e,20 superclass epochs,18,ResNet-18,11.2,CIFAR-100,42,42,1,50,12,"1,759–1,954",4×,57.9
+Curriculum sweep,Fig. 6b; ED 9e,25 superclass epochs,19,ResNet-18,11.2,CIFAR-100,42,42,1,50,12,"1,759–1,954",4×,58.2
+Curriculum sweep,Fig. 6b; ED 9e,30 superclass epochs,20,ResNet-18,11.2,CIFAR-100,42,42,1,50,12,"1,759–1,954",4×,58.2
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3",No noise,21–25,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,58.3 ± 0.4
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3","Within-superclass, p = 0.1",26–30,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,57.5 ± 0.1
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3","Within-superclass, p = 0.3",31–35,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,55.4 ± 0.4
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3","Between-superclass, p = 0.1",36–40,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,57.4 ± 0.2
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3","Between-superclass, p = 0.3",41–45,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,54.5 ± 0.6
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3","Random, p = 0.1",46–50,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,57.5 ± 0.4
+"Label noise, redrawn","ED 1, 5, 6, 8a,f; Supp. Fig. 3","Random, p = 0.3",51–55,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,54.5 ± 1.0
+"Label noise, fixed","ED 1, 5, 6, 7g, 8; Supp. Fig. 3",No noise,56–60,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,57.9 ± 0.2
+"Label noise, fixed","ED 1, 5, 6, 7g, 8; Supp. Fig. 3","Within-superclass, p = 0.3",61–65,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,50.8 ± 0.5
+"Label noise, fixed","ED 1, 5, 6, 7g, 8; Supp. Fig. 3","Between-superclass, p = 0.3",66–70,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,48.3 ± 0.5
+"Label noise, fixed","ED 1, 5, 6, 7g, 8; Supp. Fig. 3","Similarity-matched, p = 0.3",71–75,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",–,49.5 ± 0.8
+"Suppression, last block","ED 6c–g, 7g",Superclass directions,76–80,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",4×,57.5 ± 0.3
+"Suppression, last block","ED 6c–g, 7g",Random directions,81–85,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",4×,58.3 ± 0.5
+"Suppression, last block","ED 6c–g, 7g",Random grouping,86–90,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",–,57.9 ± 0.5
+Sham control,"Fig. 5; ED 6, 7; Supp. Figs 1, 6","No projection, epoch 0ᶠ",91–95,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",–,57.8 ± 0.4
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,Superclass directions,96–100,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,31,391,–ʲ,55.4 ± 0.3
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,Random groupingⁱ,101–105,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",–ʲ,55.4 ± 0.3
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,Random directions,106–110,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,31,391,–ʲ,55.4 ± 0.3
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,"Random, redrawnⁱ",111–115,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",–,58.0 ± 0.5
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,Energy-matched,116–120,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,31,391,–ʲ,57.6 ± 0.3
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,Jointly matchedⁱ,121–125,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,19,"391–1,955",–,57.8 ± 0.3
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,"Superclass, layer3+ᵍ",126–130,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,15,16,391,–,40.4 ± 0.8
+Acquisition blocking,Fig. 5; ED 7; Supp. Fig. 6; Supp. Methods,"Jointly matched, layer3+ᵍ",131–135,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,15,16,391,–,41.9 ± 2.1
+Controlled curriculum,Fig. 6; ED 9; Supp. Note 4,"Superclasses 20, fine 30",136–140,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,50,12,"391–1,955",4×,58.1 ± 0.5
+Controlled curriculum,Fig. 6; ED 9; Supp. Note 4,"Random grouping 20, fine 30",141–145,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,50,12,"391–1,955",4×,57.9 ± 0.3
+Controlled curriculum,Fig. 6; ED 9; Supp. Note 4,"Fine classes only, 30",56–60,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",fiveᵉ,5,30,7,"1,955",4×,57.9 ± 0.2
+Controlled curriculum,Fig. 6; ED 9; Supp. Note 4,"Superclasses 30, fine 20",146–150,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,50,12,"391–1,955",4×,58.3 ± 0.6
+Controlled curriculum,Fig. 6; ED 9; Supp. Note 4,"Random grouping 30, fine 20",151–155,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,50,12,"391–1,955",4×,57.9 ± 0.6
+Controlled curriculum,Fig. 6; ED 9; Supp. Note 4,"Fine classes only, 20",156–160,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,20,5,"1,955",4×,55.0 ± 0.2
+Superclass-blind,Supp. Note 4,5-way within-superclass,161–165,ResNet-18,11.2,CIFAR-100,"7, 42, 137, 256, 314",five,5,30,7,"1,955",4×,43.8 ± 0.4ᶜ
+Self-supervised,ED 1h; Supp. Note 1,"SimCLR, no labelsʰ",166–168,ResNet-18,11.2,CIFAR-100,"7, 42, 137",three,3,100,15,"195–1,950",–,–
+Per-epoch run,Supp. Fig. 2,"Standard, 50 epochs",169,CCT-7,3.7,CIFAR-100,42,42,1,50,51,391,4×,53.4

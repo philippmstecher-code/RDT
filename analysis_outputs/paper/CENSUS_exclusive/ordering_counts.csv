@@ -1,0 +1,13 @@
+variant,checkpoints,definition,n_runs,n_order_com,n_order_argmax,n_ab_rise_fall,n_tg_peak_init,n_all3,fail_order_com,fail_all3
+dedup_stored,with_terminal,overlapping,11,11,11,11,10,11,,
+dedup_stored,with_terminal,exclusive,11,11,11,11,10,11,,
+dedup_stored,with_terminal,ab_ex_only,11,11,11,11,10,11,,
+dedup_stored,no_terminal,overlapping,11,11,11,11,10,11,,
+dedup_stored,no_terminal,exclusive,11,11,11,11,10,11,,
+dedup_stored,no_terminal,ab_ex_only,11,11,11,11,10,11,,
+a_alive_pooled,with_terminal,overlapping,11,11,11,11,10,11,,
+a_alive_pooled,with_terminal,exclusive,11,11,11,11,10,11,,
+a_alive_pooled,with_terminal,ab_ex_only,11,11,11,11,10,11,,
+a_alive_pooled,no_terminal,overlapping,11,11,11,10,10,10,,VitSmall-100class-10ms-seed256
+a_alive_pooled,no_terminal,exclusive,11,11,11,11,10,11,,
+a_alive_pooled,no_terminal,ab_ex_only,11,11,11,11,10,11,,

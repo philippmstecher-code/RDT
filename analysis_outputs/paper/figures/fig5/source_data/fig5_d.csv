@@ -1,0 +1,16 @@
+arm,arm_label,epochs,seed,class_selective_per_checkpoint,class_selective_confined,class_selective_total,share_confined_pct
+sham,no block,1-10,7,41.1,156,411,37.956204379562045
+sham,no block,1-10,42,61.1,240,611,39.27986906710311
+sham,no block,1-10,137,46.4,143,464,30.81896551724138
+sham,no block,1-10,256,38.4,133,384,34.635416666666664
+sham,no block,1-10,314,36.3,133,363,36.63911845730028
+gradjoint,matched block,1-10,7,14.2,51,142,35.91549295774648
+gradjoint,matched block,1-10,42,24.6,82,246,33.333333333333336
+gradjoint,matched block,1-10,137,11.5,45,115,39.130434782608695
+gradjoint,matched block,1-10,256,17.0,40,170,23.529411764705884
+gradjoint,matched block,1-10,314,8.7,31,87,35.632183908045974
+gradsc,coarse block,1-10,7,19.6,37,196,18.877551020408163
+gradsc,coarse block,1-10,42,28.7,60,287,20.905923344947734
+gradsc,coarse block,1-10,137,17.1,21,171,12.280701754385966
+gradsc,coarse block,1-10,256,15.9,22,159,13.836477987421384
+gradsc,coarse block,1-10,314,11.8,22,118,18.64406779661017

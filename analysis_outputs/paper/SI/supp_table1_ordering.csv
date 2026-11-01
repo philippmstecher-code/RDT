@@ -1,0 +1,10 @@
+arch,seed,n_transitions,event_com_tg,event_com_ab,event_com_di,event_order,event_cr_first,event_cr_last,event_cr_declines,event_cr_last_below1,feature_com_tg,feature_com_ab,feature_com_di,feature_order,feature_cr_first,feature_cr_last,feature_cr_declines,feature_cr_last_below1,feature_order_mutual_best,feature_order_greedy,feature_order_confirmed
+ResNet-18,42,10,0.190266,0.436101,0.581746,True,39.4401,1.44615,True,False,0.205761,0.522337,0.617219,True,10.5,0.421053,True,True,True,True,True
+ResNet-18,137,10,0.156434,0.440703,0.578686,True,inf,1.95996,True,False,0.166667,0.479798,0.646991,True,inf,0.833333,True,True,True,True,True
+ResNet-18,256,10,0.191082,0.464719,0.657311,True,inf,0.244745,True,True,0.197531,0.506173,0.640404,True,inf,0.4,True,True,True,True,True
+ViT-Small,42,8,0.421216,0.525423,0.758029,True,inf,1.76477,True,False,0.478521,0.597164,0.750659,True,inf,0.655738,True,True,True,True,True
+ViT-Small,137,8,0.384638,0.515718,0.75935,True,69.4415,0.525115,True,True,0.449113,0.574144,0.748631,True,9.0,0.380282,True,True,True,True,True
+ViT-Small,256,8,0.385116,0.665609,0.795497,True,17.1083,0.535157,True,True,0.457983,0.745038,0.839802,True,3.0,0.288557,True,True,True,True,True
+CCT-7,42,9,0.504804,0.610525,0.781639,True,12.5975,0.81837,True,True,0.545646,0.671533,0.809879,True,2.2,0.378995,True,True,True,True,True
+CCT-7,137,9,0.483916,0.585293,0.79013,True,84.2699,1.56566,True,False,0.541274,0.634048,0.807243,True,12.5,0.495798,True,True,True,True,True
+CCT-7,256,9,0.445949,0.560216,0.772627,True,44.8334,0.792809,True,True,0.538793,0.622977,0.78556,True,2.85714,0.563218,True,True,True,True,False

@@ -1,0 +1,128 @@
+{
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/06c7ede9-f78b-4e76-b7a5-4f83dc1f8503": {
+  "title": "ResNet-18 — between-superclass label noise p=0.3 (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/0779bfb6-3dae-440e-b727-c43f227b05d1": {
+  "title": "ResNet-18 — between-superclass label noise p=0.3 (seed 256)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/0bd1c27f-38f5-449d-8159-144392a92026": {
+  "title": "ResNet-18 — baseline run (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/1d305862-9868-46f5-9c1b-f87ea15d6c9c": {
+  "title": "ResNet-18 — within-superclass label noise p=0.3 (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/1da28ac9-4274-4ecd-a2b4-96a6adffc13a": {
+  "title": "ResNet-18 — baseline run (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/2c232b40-b019-4efb-a289-4dc3f67388b3": {
+  "title": "ResNet-18 — within-superclass label noise p=0.1 (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/2cbde09a-7366-42d0-ae18-4ec30b6b33fe": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.1 (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/2cc9ed75-ab1f-444f-a59b-5cc9ac6c8f9f": {
+  "title": "ResNet-18 — baseline run (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/3330407b-e267-4e8f-8601-069b5e81636a": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.1 (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/498bb1e8-47b0-4e99-be8d-e35e566b1aa7": {
+  "title": "ResNet-18 — baseline run (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/50010fbd-19e5-4e6f-b402-90705f911b19": {
+  "title": "ResNet-18 — between-superclass label noise p=0.1 (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/5873b71b-8b50-43a4-a92e-d8aba066a742": {
+  "title": "ResNet-18 — within-superclass label noise p=0.1 (seed 256)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/5a1e6fe5-6b82-4532-8766-0895df9d2799": {
+  "title": "ResNet-18 — baseline run (seed 256)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/5a7bc461-9c6a-4104-a7e4-05a557f320b8": {
+  "title": "ResNet-18 — between-superclass label noise p=0.1 (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/65d133b3-3193-4bf1-8bca-663ff2cbb7b2": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.3 (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/66500891-ddb0-458a-afab-dda1cf399f4f": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.3 (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/6c73afbf-8154-4392-a0b1-aba69df5d192": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.1 (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/7dffadbd-62ad-41f3-a048-c2844d5200b4": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.1 (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/7e8baaf1-9b15-44b4-8724-6bf2e4f25b2b": {
+  "title": "ResNet-18 — within-superclass label noise p=0.3 (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/82355f3b-9e7b-4d39-82ac-60555b062a54": {
+  "title": "ResNet-18 — between-superclass label noise p=0.3 (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/898cb32e-d92b-481e-abcb-96013a984853": {
+  "title": "ResNet-18 — between-superclass label noise p=0.1 (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/917ecf12-ca56-4c84-a918-1d5dacdb34a6": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.1 (seed 256)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/933179ec-85ba-4104-a395-f4e9e25df9bd": {
+  "title": "ResNet-18 — within-superclass label noise p=0.1 (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/a260fd6a-d707-4833-9ab5-23e034f4492a": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.3 (seed 256)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/a297f27b-484d-470d-a2fa-44b87c4438b6": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.3 (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/a4fe72ad-bf53-465c-9ac2-5de096a5c28f": {
+  "title": "ResNet-18 — between-superclass label noise p=0.1 (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/b344d18f-aad4-4856-9da2-14fc85d59aa2": {
+  "title": "ResNet-18 — within-superclass label noise p=0.3 (seed 137)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/bb57ac0e-c0a0-47c9-aaaf-379e62e045ba": {
+  "title": "ResNet-18 — between-superclass label noise p=0.3 (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/bedfa129-70ed-4038-ab29-c70a3fe84f96": {
+  "title": "ResNet-18 — within-superclass label noise p=0.3 (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/bfc357cc-64f9-4703-832e-03b7bed1da20": {
+  "title": "ResNet-18 — between-superclass label noise p=0.3 (seed 7)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/d92a3253-3c02-4ef0-8a66-2cf50a404948": {
+  "title": "ResNet-18 — within-superclass label noise p=0.1 (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/de0c0bf4-cd60-4d8c-b74d-36dd6aa4771c": {
+  "title": "ResNet-18 — random (unstructured) label noise p=0.3 (seed 314)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/e097a0ba-d304-41fc-9fc9-42858548b257": {
+  "title": "ResNet-18 — within-superclass label noise p=0.1 (seed 42)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/f1a8c1f2-cb27-472e-8e25-5b3a62a730ee": {
+  "title": "ResNet-18 — between-superclass label noise p=0.1 (seed 256)"
+ },
+ "0c28799c-ec9d-4e45-ac30-302dff810a8d/f517eb35-83aa-4118-9085-051e033a13d7": {
+  "title": "ResNet-18 — within-superclass label noise p=0.3 (seed 256)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/115664cf-b4de-4078-b330-28a98cd1fd03": {
+  "title": "ResNet-18 — baseline run (seed 42)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/34b9988c-544c-47f3-bc07-03d220b5487b": {
+  "title": "ResNet-18 — superclass→fine curriculum, switch @ epoch 20 (seed 42)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/377bbdec-e4e7-4883-8758-63ec7938056d": {
+  "title": "ResNet-18 — superclass→fine curriculum, switch @ epoch 15 (seed 42)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/81d4fc64-e074-4ed7-a183-c11aec2b68c9": {
+  "title": "ResNet-18 — superclass→fine curriculum, switch @ epoch 5 (seed 42)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/a1e6afb7-848a-4a58-8dc4-80723a4a00a0": {
+  "title": "ResNet-18 — superclass→fine curriculum, switch @ epoch 30 (seed 42)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/a929ee3d-3abe-4515-b7c8-2c33b01d26d3": {
+  "title": "ResNet-18 — superclass→fine curriculum, switch @ epoch 25 (seed 42)"
+ },
+ "7885dc97-1062-4b2f-9999-61d63b93d097/eb2f6ef2-4086-45a3-a7fb-0c51aef200bf": {
+  "title": "ResNet-18 — superclass→fine curriculum, switch @ epoch 10 (seed 42)"
+ }
+}

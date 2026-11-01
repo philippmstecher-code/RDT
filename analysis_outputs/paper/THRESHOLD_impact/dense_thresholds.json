@@ -1,0 +1,67 @@
+[
+ {
+  "seed": 7,
+  "alive": {
+   "ssi": 0.251708984375,
+   "sai": 0.99696204662323,
+   "csi": 0.251953125
+  },
+  "stored": {
+   "ssi_abstraction_thresh": 0.5608094334602356,
+   "csi_differentiation_thresh": 0.7,
+   "sai_task_general_thresh": 0.9964990019798279
+  }
+ },
+ {
+  "seed": 42,
+  "alive": {
+   "ssi": 0.2322998046875,
+   "sai": 0.9951284527778625,
+   "csi": 0.261962890625
+  },
+  "stored": {
+   "ssi_abstraction_thresh": 0.5978181183338129,
+   "csi_differentiation_thresh": 0.7,
+   "sai_task_general_thresh": 0.9945744276046753
+  }
+ },
+ {
+  "seed": 137,
+  "alive": {
+   "ssi": 0.2310791015625,
+   "sai": 0.9957056045532227,
+   "csi": 0.2481689453125
+  },
+  "stored": {
+   "ssi_abstraction_thresh": 0.5784921050071716,
+   "csi_differentiation_thresh": 0.7,
+   "sai_task_general_thresh": 0.9950062036514282
+  }
+ },
+ {
+  "seed": 256,
+  "alive": {
+   "ssi": 0.234375,
+   "sai": 0.9955933451652527,
+   "csi": 0.24853515625
+  },
+  "stored": {
+   "ssi_abstraction_thresh": 0.5447810292243958,
+   "csi_differentiation_thresh": 0.7,
+   "sai_task_general_thresh": 0.9947825074195862
+  }
+ },
+ {
+  "seed": 314,
+  "alive": {
+   "ssi": 0.23681640625,
+   "sai": 0.9968337416648865,
+   "csi": 0.25634765625
+  },
+  "stored": {
+   "ssi_abstraction_thresh": 0.593789279460907,
+   "csi_differentiation_thresh": 0.7,
+   "sai_task_general_thresh": 0.9962960481643677
+  }
+ }
+]

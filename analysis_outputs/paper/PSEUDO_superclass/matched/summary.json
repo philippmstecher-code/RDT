@@ -1,0 +1,1174 @@
+{
+ "per_epoch": [
+  {
+   "epoch": 1,
+   "cost_fine": {
+    "margin_mean_ci": [
+     0.06250000000000036,
+     -0.17769981219776004,
+     0.30269981219776076
+    ],
+    "n_seeds_true_above_all": 1,
+    "n_seeds_true_above_mean": 3,
+    "rank_median": 6.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 8.72,
+      "matched_mean": 8.8495,
+      "matched_max": 9.05,
+      "rank": 18,
+      "margin_mean": -0.12950000000000017,
+      "margin_best": -0.33000000000000007
+     },
+     {
+      "seed": 42,
+      "true": 12.080000000000002,
+      "matched_mean": 12.221500000000002,
+      "matched_max": 12.5,
+      "rank": 17,
+      "margin_mean": -0.14150000000000063,
+      "margin_best": -0.41999999999999815
+     },
+     {
+      "seed": 137,
+      "true": 11.11,
+      "matched_mean": 11.017,
+      "matched_max": 11.31,
+      "rank": 6,
+      "margin_mean": 0.09299999999999997,
+      "margin_best": -0.20000000000000107
+     },
+     {
+      "seed": 256,
+      "true": 11.260000000000002,
+      "matched_mean": 10.972999999999999,
+      "matched_max": 11.220000000000002,
+      "rank": 1,
+      "margin_mean": 0.2870000000000026,
+      "margin_best": 0.03999999999999915
+     },
+     {
+      "seed": 314,
+      "true": 10.71,
+      "matched_mean": 10.5065,
+      "matched_max": 10.74,
+      "rank": 4,
+      "margin_mean": 0.20350000000000001,
+      "margin_best": -0.02999999999999936
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     0.3675000000000018,
+     -0.014678450329732307,
+     0.749678450329736
+    ],
+    "n_seeds_true_above_all": 1,
+    "n_seeds_true_above_mean": 4,
+    "rank_median": 2.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 17.61,
+      "matched_mean": 17.633999999999997,
+      "matched_max": 18.52,
+      "rank": 12,
+      "margin_mean": -0.023999999999997357,
+      "margin_best": -0.9100000000000001
+     },
+     {
+      "seed": 42,
+      "true": 19.43,
+      "matched_mean": 19.0275,
+      "matched_max": 19.98,
+      "rank": 2,
+      "margin_mean": 0.40249999999999986,
+      "margin_best": -0.5500000000000007
+     },
+     {
+      "seed": 137,
+      "true": 18.74,
+      "matched_mean": 18.534999999999997,
+      "matched_max": 19.04,
+      "rank": 5,
+      "margin_mean": 0.20500000000000185,
+      "margin_best": -0.3000000000000007
+     },
+     {
+      "seed": 256,
+      "true": 19.42,
+      "matched_mean": 18.615,
+      "matched_max": 19.229999999999997,
+      "rank": 1,
+      "margin_mean": 0.8050000000000033,
+      "margin_best": 0.19000000000000483
+     },
+     {
+      "seed": 314,
+      "true": 18.53,
+      "matched_mean": 18.081,
+      "matched_max": 19.02,
+      "rank": 2,
+      "margin_mean": 0.4490000000000016,
+      "margin_best": -0.48999999999999844
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "cost_fine": {
+    "margin_mean_ci": [
+     0.16600000000000037,
+     -0.1806700533734682,
+     0.5126700533734689
+    ],
+    "n_seeds_true_above_all": 1,
+    "n_seeds_true_above_mean": 4,
+    "rank_median": 9.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 15.350000000000003,
+      "matched_mean": 14.784500000000003,
+      "matched_max": 15.250000000000004,
+      "rank": 1,
+      "margin_mean": 0.5655000000000001,
+      "margin_best": 0.09999999999999964
+     },
+     {
+      "seed": 42,
+      "true": 15.45,
+      "matched_mean": 15.339500000000001,
+      "matched_max": 16.08,
+      "rank": 10,
+      "margin_mean": 0.11049999999999827,
+      "margin_best": -0.629999999999999
+     },
+     {
+      "seed": 137,
+      "true": 15.38,
+      "matched_mean": 15.546500000000004,
+      "matched_max": 16.01,
+      "rank": 15,
+      "margin_mean": -0.16650000000000276,
+      "margin_best": -0.6300000000000008
+     },
+     {
+      "seed": 256,
+      "true": 16.7,
+      "matched_mean": 16.678499999999996,
+      "matched_max": 17.2,
+      "rank": 9,
+      "margin_mean": 0.021500000000003183,
+      "margin_best": -0.5
+     },
+     {
+      "seed": 314,
+      "true": 16.790000000000003,
+      "matched_mean": 16.491,
+      "matched_max": 17.020000000000003,
+      "rank": 5,
+      "margin_mean": 0.29900000000000304,
+      "margin_best": -0.23000000000000043
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     0.9328999999999986,
+     0.26270180698541157,
+     1.6030981930145858
+    ],
+    "n_seeds_true_above_all": 3,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 1.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 24.37,
+      "matched_mean": 22.795,
+      "matched_max": 23.25,
+      "rank": 1,
+      "margin_mean": 1.5749999999999993,
+      "margin_best": 1.120000000000001
+     },
+     {
+      "seed": 42,
+      "true": 24.300000000000004,
+      "matched_mean": 22.9205,
+      "matched_max": 24.03,
+      "rank": 1,
+      "margin_mean": 1.3795000000000037,
+      "margin_best": 0.2700000000000031
+     },
+     {
+      "seed": 137,
+      "true": 23.71,
+      "matched_mean": 23.309,
+      "matched_max": 24.340000000000003,
+      "rank": 5,
+      "margin_mean": 0.4009999999999998,
+      "margin_best": -0.6300000000000026
+     },
+     {
+      "seed": 256,
+      "true": 25.56,
+      "matched_mean": 25.146,
+      "matched_max": 25.72,
+      "rank": 4,
+      "margin_mean": 0.4139999999999979,
+      "margin_best": -0.16000000000000014
+     },
+     {
+      "seed": 314,
+      "true": 25.129999999999995,
+      "matched_mean": 24.235000000000003,
+      "matched_max": 24.729999999999997,
+      "rank": 1,
+      "margin_mean": 0.8949999999999925,
+      "margin_best": 0.3999999999999986
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "cost_fine": {
+    "margin_mean_ci": [
+     0.10579999999999963,
+     -0.3885266560276932,
+     0.6001266560276924
+    ],
+    "n_seeds_true_above_all": 1,
+    "n_seeds_true_above_mean": 2,
+    "rank_median": 11.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 18.19,
+      "matched_mean": 17.4895,
+      "matched_max": 17.95,
+      "rank": 1,
+      "margin_mean": 0.7005000000000017,
+      "margin_best": 0.240000000000002
+     },
+     {
+      "seed": 42,
+      "true": 18.53,
+      "matched_mean": 18.223000000000003,
+      "matched_max": 19.249999999999996,
+      "rank": 4,
+      "margin_mean": 0.3069999999999986,
+      "margin_best": -0.7199999999999953
+     },
+     {
+      "seed": 137,
+      "true": 15.750000000000002,
+      "matched_mean": 16.038000000000004,
+      "matched_max": 16.580000000000002,
+      "rank": 16,
+      "margin_mean": -0.28800000000000203,
+      "margin_best": -0.8300000000000001
+     },
+     {
+      "seed": 256,
+      "true": 18.22,
+      "matched_mean": 18.359499999999997,
+      "matched_max": 19.25,
+      "rank": 13,
+      "margin_mean": -0.13949999999999818,
+      "margin_best": -1.0300000000000011
+     },
+     {
+      "seed": 314,
+      "true": 18.15,
+      "matched_mean": 18.201,
+      "matched_max": 19.13,
+      "rank": 11,
+      "margin_mean": -0.05100000000000193,
+      "margin_best": -0.9800000000000004
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     1.1691999999999978,
+     0.35145789299970365,
+     1.986942107000292
+    ],
+    "n_seeds_true_above_all": 2,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 2.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 27.280000000000005,
+      "matched_mean": 25.275500000000005,
+      "matched_max": 25.770000000000003,
+      "rank": 1,
+      "margin_mean": 2.0045,
+      "margin_best": 1.5100000000000016
+     },
+     {
+      "seed": 42,
+      "true": 27.74,
+      "matched_mean": 26.011000000000003,
+      "matched_max": 27.39,
+      "rank": 1,
+      "margin_mean": 1.7289999999999957,
+      "margin_best": 0.34999999999999787
+     },
+     {
+      "seed": 137,
+      "true": 25.24,
+      "matched_mean": 24.581000000000003,
+      "matched_max": 25.630000000000003,
+      "rank": 3,
+      "margin_mean": 0.6589999999999954,
+      "margin_best": -0.3900000000000041
+     },
+     {
+      "seed": 256,
+      "true": 27.77,
+      "matched_mean": 27.232999999999997,
+      "matched_max": 28.03,
+      "rank": 5,
+      "margin_mean": 0.5370000000000026,
+      "margin_best": -0.26000000000000156
+     },
+     {
+      "seed": 314,
+      "true": 27.159999999999997,
+      "matched_mean": 26.2435,
+      "matched_max": 27.24,
+      "rank": 2,
+      "margin_mean": 0.9164999999999957,
+      "margin_best": -0.08000000000000185
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.2947000000000003,
+     -0.4868345149560681,
+     -0.10256548504393251
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 15.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 18.29,
+      "matched_mean": 18.6375,
+      "matched_max": 19.5,
+      "rank": 17,
+      "margin_mean": -0.34750000000000014,
+      "margin_best": -1.2100000000000009
+     },
+     {
+      "seed": 42,
+      "true": 21.4,
+      "matched_mean": 21.565,
+      "matched_max": 22.41,
+      "rank": 14,
+      "margin_mean": -0.1650000000000027,
+      "margin_best": -1.0100000000000016
+     },
+     {
+      "seed": 137,
+      "true": 20.79,
+      "matched_mean": 21.329500000000003,
+      "matched_max": 22.05,
+      "rank": 19,
+      "margin_mean": -0.5395000000000039,
+      "margin_best": -1.2600000000000016
+     },
+     {
+      "seed": 256,
+      "true": 19.479999999999997,
+      "matched_mean": 19.723499999999994,
+      "matched_max": 20.69,
+      "rank": 15,
+      "margin_mean": -0.24349999999999739,
+      "margin_best": -1.2100000000000044
+     },
+     {
+      "seed": 314,
+      "true": 19.160000000000004,
+      "matched_mean": 19.338,
+      "matched_max": 20.370000000000005,
+      "rank": 15,
+      "margin_mean": -0.17799999999999727,
+      "margin_best": -1.2100000000000009
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     1.0872,
+     0.7654758368392185,
+     1.4089241631607814
+    ],
+    "n_seeds_true_above_all": 2,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 2.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 27.95,
+      "matched_mean": 26.845999999999997,
+      "matched_max": 28.18,
+      "rank": 2,
+      "margin_mean": 1.1040000000000028,
+      "margin_best": -0.23000000000000043
+     },
+     {
+      "seed": 42,
+      "true": 31.679999999999996,
+      "matched_mean": 30.647499999999997,
+      "matched_max": 31.79,
+      "rank": 2,
+      "margin_mean": 1.0324999999999989,
+      "margin_best": -0.11000000000000298
+     },
+     {
+      "seed": 137,
+      "true": 30.269999999999996,
+      "matched_mean": 29.458999999999996,
+      "matched_max": 30.129999999999995,
+      "rank": 1,
+      "margin_mean": 0.8109999999999999,
+      "margin_best": 0.14000000000000057
+     },
+     {
+      "seed": 256,
+      "true": 29.29,
+      "matched_mean": 27.7815,
+      "matched_max": 28.71,
+      "rank": 1,
+      "margin_mean": 1.508499999999998,
+      "margin_best": 0.5799999999999983
+     },
+     {
+      "seed": 314,
+      "true": 28.890000000000004,
+      "matched_mean": 27.910000000000004,
+      "matched_max": 29.450000000000003,
+      "rank": 4,
+      "margin_mean": 0.9800000000000004,
+      "margin_best": -0.5599999999999987
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 10,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.7093000000000018,
+     -0.8623206681816513,
+     -0.5562793318183523
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 20.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 20.02,
+      "matched_mean": 20.794000000000004,
+      "matched_max": 21.58,
+      "rank": 20,
+      "margin_mean": -0.7740000000000045,
+      "margin_best": -1.5599999999999987
+     },
+     {
+      "seed": 42,
+      "true": 21.090000000000003,
+      "matched_mean": 21.623000000000005,
+      "matched_max": 22.74,
+      "rank": 18,
+      "margin_mean": -0.5330000000000013,
+      "margin_best": -1.649999999999995
+     },
+     {
+      "seed": 137,
+      "true": 21.72,
+      "matched_mean": 22.353500000000004,
+      "matched_max": 23.4,
+      "rank": 19,
+      "margin_mean": -0.6335000000000051,
+      "margin_best": -1.6799999999999997
+     },
+     {
+      "seed": 256,
+      "true": 21.770000000000003,
+      "matched_mean": 22.540000000000003,
+      "matched_max": 23.66,
+      "rank": 20,
+      "margin_mean": -0.7699999999999996,
+      "margin_best": -1.889999999999997
+     },
+     {
+      "seed": 314,
+      "true": 21.290000000000003,
+      "matched_mean": 22.126,
+      "matched_max": 22.85,
+      "rank": 20,
+      "margin_mean": -0.8359999999999985,
+      "margin_best": -1.5599999999999987
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     1.0600999999999998,
+     0.47832966587380077,
+     1.6418703341261989
+    ],
+    "n_seeds_true_above_all": 3,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 1.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 29.31000000000001,
+      "matched_mean": 28.53000000000001,
+      "matched_max": 29.300000000000004,
+      "rank": 1,
+      "margin_mean": 0.7800000000000011,
+      "margin_best": 0.010000000000005116
+     },
+     {
+      "seed": 42,
+      "true": 30.209999999999994,
+      "matched_mean": 28.734999999999992,
+      "matched_max": 29.96999999999999,
+      "rank": 1,
+      "margin_mean": 1.4750000000000014,
+      "margin_best": 0.240000000000002
+     },
+     {
+      "seed": 137,
+      "true": 31.800000000000008,
+      "matched_mean": 30.17100000000001,
+      "matched_max": 31.390000000000008,
+      "rank": 1,
+      "margin_mean": 1.6289999999999978,
+      "margin_best": 0.41000000000000014
+     },
+     {
+      "seed": 256,
+      "true": 31.619999999999997,
+      "matched_mean": 30.744,
+      "matched_max": 31.79,
+      "rank": 2,
+      "margin_mean": 0.8759999999999977,
+      "margin_best": -0.1700000000000017
+     },
+     {
+      "seed": 314,
+      "true": 30.97,
+      "matched_mean": 30.429499999999997,
+      "matched_max": 31.45,
+      "rank": 5,
+      "margin_mean": 0.5405000000000015,
+      "margin_best": -0.4800000000000004
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 11,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.5761000000000003,
+     -1.1677716891826093,
+     0.015571689182608872
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 17.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 22.05,
+      "matched_mean": 22.441499999999998,
+      "matched_max": 23.380000000000003,
+      "rank": 17,
+      "margin_mean": -0.3914999999999971,
+      "margin_best": -1.3300000000000018
+     },
+     {
+      "seed": 42,
+      "true": 20.949999999999992,
+      "matched_mean": 21.484999999999996,
+      "matched_max": 22.069999999999997,
+      "rank": 18,
+      "margin_mean": -0.5350000000000037,
+      "margin_best": -1.1200000000000045
+     },
+     {
+      "seed": 137,
+      "true": 21.03,
+      "matched_mean": 21.311000000000003,
+      "matched_max": 22.35,
+      "rank": 12,
+      "margin_mean": -0.28100000000000236,
+      "margin_best": -1.3200000000000003
+     },
+     {
+      "seed": 256,
+      "true": 20.910000000000004,
+      "matched_mean": 22.316500000000005,
+      "matched_max": 23.06,
+      "rank": 21,
+      "margin_mean": -1.4065000000000012,
+      "margin_best": -2.149999999999995
+     },
+     {
+      "seed": 314,
+      "true": 21.82,
+      "matched_mean": 22.086499999999997,
+      "matched_max": 22.81,
+      "rank": 15,
+      "margin_mean": -0.2664999999999971,
+      "margin_best": -0.9899999999999984
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     1.1824999999999988,
+     0.6615646084965773,
+     1.7034353915034202
+    ],
+    "n_seeds_true_above_all": 3,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 1.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 31.530000000000005,
+      "matched_mean": 30.131000000000007,
+      "matched_max": 30.890000000000008,
+      "rank": 1,
+      "margin_mean": 1.3989999999999974,
+      "margin_best": 0.639999999999997
+     },
+     {
+      "seed": 42,
+      "true": 30.43999999999999,
+      "matched_mean": 29.236499999999996,
+      "matched_max": 30.289999999999996,
+      "rank": 1,
+      "margin_mean": 1.2034999999999947,
+      "margin_best": 0.14999999999999503
+     },
+     {
+      "seed": 137,
+      "true": 30.19,
+      "matched_mean": 28.557000000000006,
+      "matched_max": 29.9,
+      "rank": 1,
+      "margin_mean": 1.6329999999999956,
+      "margin_best": 0.2900000000000027
+     },
+     {
+      "seed": 256,
+      "true": 30.77,
+      "matched_mean": 30.260999999999996,
+      "matched_max": 30.93,
+      "rank": 6,
+      "margin_mean": 0.5090000000000039,
+      "margin_best": -0.16000000000000014
+     },
+     {
+      "seed": 314,
+      "true": 31.35,
+      "matched_mean": 30.182,
+      "matched_max": 31.700000000000003,
+      "rank": 2,
+      "margin_mean": 1.1680000000000028,
+      "margin_best": -0.3500000000000014
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 12,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.9352000000000004,
+     -1.6641295550697413,
+     -0.2062704449302596
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 19.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 21.41,
+      "matched_mean": 21.948,
+      "matched_max": 22.85,
+      "rank": 18,
+      "margin_mean": -0.5380000000000003,
+      "margin_best": -1.4400000000000013
+     },
+     {
+      "seed": 42,
+      "true": 22.53,
+      "matched_mean": 23.2445,
+      "matched_max": 24.610000000000003,
+      "rank": 18,
+      "margin_mean": -0.7144999999999975,
+      "margin_best": -2.080000000000002
+     },
+     {
+      "seed": 137,
+      "true": 21.450000000000003,
+      "matched_mean": 22.14350000000001,
+      "matched_max": 23.230000000000004,
+      "rank": 19,
+      "margin_mean": -0.6935000000000073,
+      "margin_best": -1.7800000000000011
+     },
+     {
+      "seed": 256,
+      "true": 21.26,
+      "matched_mean": 23.235,
+      "matched_max": 24.119999999999997,
+      "rank": 21,
+      "margin_mean": -1.9749999999999979,
+      "margin_best": -2.859999999999996
+     },
+     {
+      "seed": 314,
+      "true": 21.27,
+      "matched_mean": 22.025,
+      "matched_max": 23.01,
+      "rank": 19,
+      "margin_mean": -0.754999999999999,
+      "margin_best": -1.740000000000002
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     0.8218999999999973,
+     -0.06063833415869657,
+     1.704438334158691
+    ],
+    "n_seeds_true_above_all": 1,
+    "n_seeds_true_above_mean": 4,
+    "rank_median": 3.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 30.82,
+      "matched_mean": 29.547000000000008,
+      "matched_max": 30.630000000000003,
+      "rank": 1,
+      "margin_mean": 1.2729999999999926,
+      "margin_best": 0.18999999999999773
+     },
+     {
+      "seed": 42,
+      "true": 32.260000000000005,
+      "matched_mean": 31.202000000000005,
+      "matched_max": 32.47,
+      "rank": 2,
+      "margin_mean": 1.0579999999999998,
+      "margin_best": -0.20999999999999375
+     },
+     {
+      "seed": 137,
+      "true": 30.99,
+      "matched_mean": 29.704500000000003,
+      "matched_max": 31.23,
+      "rank": 3,
+      "margin_mean": 1.2854999999999954,
+      "margin_best": -0.240000000000002
+     },
+     {
+      "seed": 256,
+      "true": 30.340000000000007,
+      "matched_mean": 30.758500000000005,
+      "matched_max": 31.790000000000003,
+      "rank": 17,
+      "margin_mean": -0.4184999999999981,
+      "margin_best": -1.4499999999999957
+     },
+     {
+      "seed": 314,
+      "true": 30.429999999999993,
+      "matched_mean": 29.518499999999996,
+      "matched_max": 30.879999999999995,
+      "rank": 4,
+      "margin_mean": 0.9114999999999966,
+      "margin_best": -0.45000000000000284
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 13,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.9918999999999997,
+     -1.4069572782700124,
+     -0.576842721729987
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 20.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 21.270000000000003,
+      "matched_mean": 22.2505,
+      "matched_max": 23.45,
+      "rank": 20,
+      "margin_mean": -0.9804999999999957,
+      "margin_best": -2.179999999999996
+     },
+     {
+      "seed": 42,
+      "true": 24.02,
+      "matched_mean": 24.9015,
+      "matched_max": 25.71,
+      "rank": 20,
+      "margin_mean": -0.8814999999999991,
+      "margin_best": -1.6900000000000013
+     },
+     {
+      "seed": 137,
+      "true": 20.73,
+      "matched_mean": 21.8585,
+      "matched_max": 22.489999999999995,
+      "rank": 21,
+      "margin_mean": -1.128499999999999,
+      "margin_best": -1.7599999999999945
+     },
+     {
+      "seed": 256,
+      "true": 20.209999999999997,
+      "matched_mean": 21.6505,
+      "matched_max": 22.48,
+      "rank": 21,
+      "margin_mean": -1.4405000000000037,
+      "margin_best": -2.270000000000003
+     },
+     {
+      "seed": 314,
+      "true": 22.46,
+      "matched_mean": 22.988500000000002,
+      "matched_max": 24.4,
+      "rank": 17,
+      "margin_mean": -0.5285000000000011,
+      "margin_best": -1.9399999999999977
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     0.7262999999999984,
+     0.34424950110765934,
+     1.1083504988923374
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 4.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 30.739999999999995,
+      "matched_mean": 30.137999999999995,
+      "matched_max": 31.729999999999997,
+      "rank": 4,
+      "margin_mean": 0.6020000000000003,
+      "margin_best": -0.990000000000002
+     },
+     {
+      "seed": 42,
+      "true": 33.67999999999999,
+      "matched_mean": 32.841499999999996,
+      "matched_max": 33.8,
+      "rank": 3,
+      "margin_mean": 0.8384999999999962,
+      "margin_best": -0.12000000000000455
+     },
+     {
+      "seed": 137,
+      "true": 30.289999999999996,
+      "matched_mean": 29.72,
+      "matched_max": 30.489999999999995,
+      "rank": 5,
+      "margin_mean": 0.5699999999999967,
+      "margin_best": -0.1999999999999993
+     },
+     {
+      "seed": 256,
+      "true": 29.979999999999993,
+      "matched_mean": 29.564499999999992,
+      "matched_max": 30.539999999999992,
+      "rank": 6,
+      "margin_mean": 0.41550000000000153,
+      "margin_best": -0.5599999999999987
+     },
+     {
+      "seed": 314,
+      "true": 32.3,
+      "matched_mean": 31.0945,
+      "matched_max": 32.76,
+      "rank": 2,
+      "margin_mean": 1.2054999999999971,
+      "margin_best": -0.46000000000000085
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 15,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.8262,
+     -1.144223759392529,
+     -0.508176240607471
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 20.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 21.78,
+      "matched_mean": 22.327999999999996,
+      "matched_max": 22.96,
+      "rank": 18,
+      "margin_mean": -0.5479999999999947,
+      "margin_best": -1.1799999999999997
+     },
+     {
+      "seed": 42,
+      "true": 19.51,
+      "matched_mean": 20.515499999999996,
+      "matched_max": 21.209999999999997,
+      "rank": 21,
+      "margin_mean": -1.0054999999999943,
+      "margin_best": -1.6999999999999957
+     },
+     {
+      "seed": 137,
+      "true": 21.789999999999996,
+      "matched_mean": 22.894000000000002,
+      "matched_max": 23.819999999999997,
+      "rank": 20,
+      "margin_mean": -1.1040000000000063,
+      "margin_best": -2.030000000000001
+     },
+     {
+      "seed": 256,
+      "true": 23.87,
+      "matched_mean": 24.779500000000006,
+      "matched_max": 25.53,
+      "rank": 20,
+      "margin_mean": -0.9095000000000049,
+      "margin_best": -1.6600000000000001
+     },
+     {
+      "seed": 314,
+      "true": 21.22,
+      "matched_mean": 21.784,
+      "matched_max": 22.66,
+      "rank": 19,
+      "margin_mean": -0.5640000000000001,
+      "margin_best": -1.4400000000000013
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     1.044400000000003,
+     0.6519955238209191,
+     1.4368044761790872
+    ],
+    "n_seeds_true_above_all": 2,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 3.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 30.22,
+      "matched_mean": 29.028999999999996,
+      "matched_max": 29.79,
+      "rank": 1,
+      "margin_mean": 1.1910000000000025,
+      "margin_best": 0.4299999999999997
+     },
+     {
+      "seed": 42,
+      "true": 28.949999999999996,
+      "matched_mean": 28.0935,
+      "matched_max": 29.22,
+      "rank": 3,
+      "margin_mean": 0.8564999999999969,
+      "margin_best": -0.2700000000000031
+     },
+     {
+      "seed": 137,
+      "true": 30.78,
+      "matched_mean": 29.569499999999998,
+      "matched_max": 31.28,
+      "rank": 4,
+      "margin_mean": 1.2105000000000032,
+      "margin_best": -0.5
+     },
+     {
+      "seed": 256,
+      "true": 32.870000000000005,
+      "matched_mean": 32.279999999999994,
+      "matched_max": 33.03,
+      "rank": 4,
+      "margin_mean": 0.5900000000000105,
+      "margin_best": -0.1599999999999966
+     },
+     {
+      "seed": 314,
+      "true": 30.52,
+      "matched_mean": 29.145999999999997,
+      "matched_max": 30.05,
+      "rank": 1,
+      "margin_mean": 1.3740000000000023,
+      "margin_best": 0.46999999999999886
+     }
+    ]
+   }
+  },
+  {
+   "epoch": 20,
+   "cost_fine": {
+    "margin_mean_ci": [
+     -0.7425000000000012,
+     -1.048231868117059,
+     -0.4367681318829433
+    ],
+    "n_seeds_true_above_all": 0,
+    "n_seeds_true_above_mean": 0,
+    "rank_median": 20.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 22.620000000000005,
+      "matched_mean": 23.3035,
+      "matched_max": 23.9,
+      "rank": 19,
+      "margin_mean": -0.6834999999999951,
+      "margin_best": -1.279999999999994
+     },
+     {
+      "seed": 42,
+      "true": 24.49,
+      "matched_mean": 25.477000000000004,
+      "matched_max": 26.47,
+      "rank": 20,
+      "margin_mean": -0.9870000000000054,
+      "margin_best": -1.9800000000000004
+     },
+     {
+      "seed": 137,
+      "true": 21.020000000000003,
+      "matched_mean": 21.75700000000001,
+      "matched_max": 22.550000000000004,
+      "rank": 21,
+      "margin_mean": -0.7370000000000054,
+      "margin_best": -1.5300000000000011
+     },
+     {
+      "seed": 256,
+      "true": 23.290000000000003,
+      "matched_mean": 24.227999999999998,
+      "matched_max": 25.01,
+      "rank": 21,
+      "margin_mean": -0.9379999999999953,
+      "margin_best": -1.7199999999999989
+     },
+     {
+      "seed": 314,
+      "true": 22.679999999999996,
+      "matched_mean": 23.047,
+      "matched_max": 23.86,
+      "rank": 17,
+      "margin_mean": -0.36700000000000443,
+      "margin_best": -1.1800000000000033
+     }
+    ]
+   },
+   "cost_assignment": {
+    "margin_mean_ci": [
+     1.208699999999999,
+     0.8605567001978147,
+     1.5568432998021833
+    ],
+    "n_seeds_true_above_all": 3,
+    "n_seeds_true_above_mean": 5,
+    "rank_median": 1.0,
+    "per_seed": [
+     {
+      "seed": 7,
+      "true": 31.62,
+      "matched_mean": 30.263000000000005,
+      "matched_max": 30.89,
+      "rank": 1,
+      "margin_mean": 1.3569999999999958,
+      "margin_best": 0.7300000000000004
+     },
+     {
+      "seed": 42,
+      "true": 33.0,
+      "matched_mean": 31.949000000000005,
+      "matched_max": 33.22,
+      "rank": 2,
+      "margin_mean": 1.0509999999999948,
+      "margin_best": -0.21999999999999886
+     },
+     {
+      "seed": 137,
+      "true": 29.58,
+      "matched_mean": 28.302,
+      "matched_max": 29.370000000000005,
+      "rank": 1,
+      "margin_mean": 1.2779999999999987,
+      "margin_best": 0.20999999999999375
+     },
+     {
+      "seed": 256,
+      "true": 31.910000000000004,
+      "matched_mean": 31.0925,
+      "matched_max": 31.97,
+      "rank": 2,
+      "margin_mean": 0.8175000000000026,
+      "margin_best": -0.05999999999999517
+     },
+     {
+      "seed": 314,
+      "true": 31.840000000000003,
+      "matched_mean": 30.3,
+      "matched_max": 31.49,
+      "rank": 1,
+      "margin_mean": 1.5400000000000027,
+      "margin_best": 0.350000000000005
+     }
+    ]
+   }
+  }
+ ]
+}

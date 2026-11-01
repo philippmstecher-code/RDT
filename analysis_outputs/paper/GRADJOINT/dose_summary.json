@@ -1,0 +1,162 @@
+{
+ "epochs_1_3": {
+  "gradjoint|avgpool": {
+   "target_share": 0.35,
+   "achieved_share": 0.35,
+   "shadow_rank": 66.063,
+   "rank": 66.063
+  },
+  "gradjoint|layer1": {
+   "target_share": 0.663,
+   "achieved_share": 0.388,
+   "shadow_rank": 34.063,
+   "rank": 34.063
+  },
+  "gradjoint|layer2": {
+   "target_share": 0.526,
+   "achieved_share": 0.477,
+   "shadow_rank": 48.695,
+   "rank": 48.695
+  },
+  "gradjoint|layer3": {
+   "target_share": 0.416,
+   "achieved_share": 0.418,
+   "shadow_rank": 54.379,
+   "rank": 54.379
+  },
+  "gradjoint|layer4": {
+   "target_share": 0.35,
+   "achieved_share": 0.35,
+   "shadow_rank": 66.063,
+   "rank": 66.063
+  },
+  "gradjoint_l3|avgpool": {
+   "target_share": 0.352,
+   "achieved_share": 0.352,
+   "shadow_rank": 66.768,
+   "rank": 66.768
+  },
+  "gradjoint_l3|layer3": {
+   "target_share": 0.41,
+   "achieved_share": 0.408,
+   "shadow_rank": 53.611,
+   "rank": 53.611
+  },
+  "gradjoint_l3|layer4": {
+   "target_share": 0.352,
+   "achieved_share": 0.352,
+   "shadow_rank": 66.768,
+   "rank": 66.768
+  },
+  "gradrandfresh|avgpool": {
+   "target_share": 0.352,
+   "achieved_share": 0.097,
+   "shadow_rank": 66.895,
+   "rank": 66.895
+  },
+  "gradrandfresh|layer1": {
+   "target_share": 0.695,
+   "achieved_share": 0.29,
+   "shadow_rank": 33.832,
+   "rank": 33.832
+  },
+  "gradrandfresh|layer2": {
+   "target_share": 0.545,
+   "achieved_share": 0.257,
+   "shadow_rank": 47.758,
+   "rank": 47.758
+  },
+  "gradrandfresh|layer3": {
+   "target_share": 0.406,
+   "achieved_share": 0.132,
+   "shadow_rank": 47.853,
+   "rank": 47.853
+  },
+  "gradrandfresh|layer4": {
+   "target_share": 0.352,
+   "achieved_share": 0.097,
+   "shadow_rank": 66.895,
+   "rank": 66.895
+  }
+ },
+ "epochs_1_10": {
+  "gradjoint|avgpool": {
+   "target_share": 0.677,
+   "achieved_share": 0.586,
+   "shadow_rank": 217.836,
+   "rank": 217.836
+  },
+  "gradjoint|layer1": {
+   "target_share": 0.783,
+   "achieved_share": 0.348,
+   "shadow_rank": 40.905,
+   "rank": 40.905
+  },
+  "gradjoint|layer2": {
+   "target_share": 0.721,
+   "achieved_share": 0.526,
+   "shadow_rank": 76.446,
+   "rank": 76.446
+  },
+  "gradjoint|layer3": {
+   "target_share": 0.669,
+   "achieved_share": 0.628,
+   "shadow_rank": 134.764,
+   "rank": 134.764
+  },
+  "gradjoint|layer4": {
+   "target_share": 0.677,
+   "achieved_share": 0.586,
+   "shadow_rank": 217.836,
+   "rank": 217.836
+  },
+  "gradjoint_l3|avgpool": {
+   "target_share": 0.679,
+   "achieved_share": 0.584,
+   "shadow_rank": 219.669,
+   "rank": 219.669
+  },
+  "gradjoint_l3|layer3": {
+   "target_share": 0.669,
+   "achieved_share": 0.615,
+   "shadow_rank": 134.131,
+   "rank": 134.131
+  },
+  "gradjoint_l3|layer4": {
+   "target_share": 0.679,
+   "achieved_share": 0.584,
+   "shadow_rank": 219.669,
+   "rank": 219.669
+  },
+  "gradrandfresh|avgpool": {
+   "target_share": 0.667,
+   "achieved_share": 0.309,
+   "shadow_rank": 221.63,
+   "rank": 221.63
+  },
+  "gradrandfresh|layer1": {
+   "target_share": 0.8,
+   "achieved_share": 0.293,
+   "shadow_rank": 40.833,
+   "rank": 40.833
+  },
+  "gradrandfresh|layer2": {
+   "target_share": 0.725,
+   "achieved_share": 0.388,
+   "shadow_rank": 76.075,
+   "rank": 76.075
+  },
+  "gradrandfresh|layer3": {
+   "target_share": 0.674,
+   "achieved_share": 0.378,
+   "shadow_rank": 130.0,
+   "rank": 130.0
+  },
+  "gradrandfresh|layer4": {
+   "target_share": 0.667,
+   "achieved_share": 0.309,
+   "shadow_rank": 221.63,
+   "rank": 221.63
+  }
+ }
+}

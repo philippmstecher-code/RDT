@@ -1,0 +1,182 @@
+{
+  "test": "mode_strength",
+  "verdict": "SUPPORTED",
+  "rule": "(1) Spearman rho(s, lead) >= 0.6 in every one of the 7 networks AND (2) pooled partial rho given the final level > 0 (Fisher-z DerSimonian-Laird random effects, SE 1/sqrt(20-4), one-sided p < 0.05)",
+  "open_estimate": "rho(s, lead) 0.86/0.86/0.88 (core ResNet/ViT/CCT s42), 0.68-0.85 (six 30-epoch ResNets); partial 0.58/0.63/0.70 and 0.07-0.61",
+  "criterion1": {
+    "holds": true,
+    "n_networks": 7,
+    "of": 7
+  },
+  "criterion2": {
+    "holds": true,
+    "k": 7,
+    "z_re": 0.46462065310735273,
+    "se": 0.0944911182523068,
+    "Z": 4.917082808425859,
+    "p_one_sided": 4.39216998439687e-07,
+    "pooled_rho": 0.4338426752504759,
+    "ci95_rho": [
+      0.27236639755896797,
+      0.5715509636739329
+    ],
+    "tau2": 0.0,
+    "Q": 5.8546279575841185
+  },
+  "per_network": [
+    {
+      "lane": "core_ResNet-18_s137",
+      "arch": "ResNet-18",
+      "rho_lead": 0.8165,
+      "partial_lead": 0.4052,
+      "rho_final": 0.8045,
+      "rho_t50": -0.7338,
+      "slope_logt50_logs": -1.416,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0,
+      "frac_rand_partial_ge_true": 0.7333
+    },
+    {
+      "lane": "core_ViT-Small_s137",
+      "arch": "ViT-Small",
+      "rho_lead": 0.8752,
+      "partial_lead": 0.6232,
+      "rho_final": 0.812,
+      "rho_t50": -0.9068,
+      "slope_logt50_logs": -1.3482,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0,
+      "frac_rand_partial_ge_true": 0.2667
+    },
+    {
+      "lane": "core_CCT-7_s137",
+      "arch": "CCT-7",
+      "rho_lead": 0.7549,
+      "partial_lead": 0.4611,
+      "rho_final": 0.7383,
+      "rho_t50": -0.6677,
+      "slope_logt50_logs": -1.0727,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0667,
+      "frac_rand_partial_ge_true": 0.5
+    },
+    {
+      "lane": "clean_ResNet-18_s256",
+      "arch": "ResNet-18",
+      "rho_lead": 0.7023,
+      "partial_lead": -0.0456,
+      "rho_final": 0.8271,
+      "rho_t50": -0.7684,
+      "slope_logt50_logs": -1.0566,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0333,
+      "frac_rand_partial_ge_true": 0.9667
+    },
+    {
+      "lane": "clean_ResNet-18_s314",
+      "arch": "ResNet-18",
+      "rho_lead": 0.8301,
+      "partial_lead": 0.481,
+      "rho_final": 0.8015,
+      "rho_t50": -0.8872,
+      "slope_logt50_logs": -1.08,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0,
+      "frac_rand_partial_ge_true": 0.1667
+    },
+    {
+      "lane": "noise_std_ResNet-18_s256",
+      "arch": "ResNet-18",
+      "rho_lead": 0.8526,
+      "partial_lead": 0.5612,
+      "rho_final": 0.782,
+      "rho_t50": -0.618,
+      "slope_logt50_logs": -0.9771,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0,
+      "frac_rand_partial_ge_true": 0.1
+    },
+    {
+      "lane": "noise_std_ResNet-18_s314",
+      "arch": "ResNet-18",
+      "rho_lead": 0.8135,
+      "partial_lead": 0.4466,
+      "rho_final": 0.7729,
+      "rho_t50": -0.8481,
+      "slope_logt50_logs": -1.2433,
+      "n_t50": 20,
+      "frac_rand_rho_lead_ge_true": 0.0,
+      "frac_rand_partial_ge_true": 0.2
+    }
+  ],
+  "mode_strength_check": {
+    "max_abs_diff_vs_timetable_saxe": 0.0,
+    "max_abs_diff_vs_timetable_predictors": 4.650000000006038e-05
+  },
+  "secondary": {
+    "slope_core": {
+      "rule": "slope of log t50 on log s within [-2, -0.7] in the three core networks",
+      "slopes": {
+        "core_ResNet-18_s137": -1.416,
+        "core_ViT-Small_s137": -1.348,
+        "core_CCT-7_s137": -1.073
+      },
+      "within": {
+        "core_ResNet-18_s137": true,
+        "core_ViT-Small_s137": true,
+        "core_CCT-7_s137": true
+      },
+      "holds": true
+    },
+    "within_superclass": {
+      "rule": "partial rho(pws lead | pt final): class-within-superclass contrast strength > class-versus-rest strength",
+      "per_network": [
+        {
+          "lane": "core_ResNet-18_s137",
+          "partial_ws_contrast": 0.5205,
+          "partial_cls_vs_rest": 0.0815,
+          "ws_better": true
+        },
+        {
+          "lane": "core_ViT-Small_s137",
+          "partial_ws_contrast": 0.5999,
+          "partial_cls_vs_rest": 0.1653,
+          "ws_better": true
+        },
+        {
+          "lane": "core_CCT-7_s137",
+          "partial_ws_contrast": 0.5286,
+          "partial_cls_vs_rest": 0.0001,
+          "ws_better": true
+        },
+        {
+          "lane": "clean_ResNet-18_s256",
+          "partial_ws_contrast": 0.258,
+          "partial_cls_vs_rest": 0.0922,
+          "ws_better": true
+        },
+        {
+          "lane": "clean_ResNet-18_s314",
+          "partial_ws_contrast": 0.2848,
+          "partial_cls_vs_rest": -0.0998,
+          "ws_better": true
+        },
+        {
+          "lane": "noise_std_ResNet-18_s256",
+          "partial_ws_contrast": 0.3139,
+          "partial_cls_vs_rest": -0.0654,
+          "ws_better": true
+        },
+        {
+          "lane": "noise_std_ResNet-18_s314",
+          "partial_ws_contrast": 0.2827,
+          "partial_cls_vs_rest": -0.1035,
+          "ws_better": true
+        }
+      ],
+      "holds_in": 7,
+      "of": 7
+    }
+  },
+  "multiplicity": "no correction (a separate test with its own decision rule)"
+}

@@ -1,0 +1,172 @@
+{
+ "epoch_ge_10": {
+  "per_lane": [
+   {
+    "arch": "CCT-7",
+    "seed": 42,
+    "image_share_misrouted": 0.3674,
+    "signal_share_misrouted": 0.7121,
+    "code_share_misrouted": 0.2564,
+    "code_share_routed": 0.1096,
+    "code_share_correct": 0.2009,
+    "random_share_misrouted": 0.0739,
+    "random_share_routed": 0.0713,
+    "misrouted_minus_routed_code": 0.1468,
+    "signal_over_image": 1.9381
+   },
+   {
+    "arch": "CCT-7",
+    "seed": 137,
+    "image_share_misrouted": 0.3701,
+    "signal_share_misrouted": 0.7193,
+    "code_share_misrouted": 0.2593,
+    "code_share_routed": 0.1084,
+    "code_share_correct": 0.1999,
+    "random_share_misrouted": 0.0724,
+    "random_share_routed": 0.0746,
+    "misrouted_minus_routed_code": 0.1509,
+    "signal_over_image": 1.9433
+   },
+   {
+    "arch": "ViT-Small",
+    "seed": 42,
+    "image_share_misrouted": 0.4189,
+    "signal_share_misrouted": 0.7311,
+    "code_share_misrouted": 0.2585,
+    "code_share_routed": 0.1063,
+    "code_share_correct": 0.202,
+    "random_share_misrouted": 0.0996,
+    "random_share_routed": 0.1011,
+    "misrouted_minus_routed_code": 0.1523,
+    "signal_over_image": 1.7453
+   },
+   {
+    "arch": "ViT-Small",
+    "seed": 137,
+    "image_share_misrouted": 0.4185,
+    "signal_share_misrouted": 0.7336,
+    "code_share_misrouted": 0.2561,
+    "code_share_routed": 0.1044,
+    "code_share_correct": 0.2042,
+    "random_share_misrouted": 0.0979,
+    "random_share_routed": 0.0947,
+    "misrouted_minus_routed_code": 0.1517,
+    "signal_over_image": 1.7529
+   }
+  ],
+  "by_arch": {
+   "CCT-7": {
+    "seed": 89.5,
+    "image_share_misrouted": 0.3688,
+    "signal_share_misrouted": 0.7157,
+    "code_share_misrouted": 0.2579,
+    "code_share_routed": 0.109,
+    "code_share_correct": 0.2004,
+    "random_share_misrouted": 0.0731,
+    "random_share_routed": 0.0729,
+    "misrouted_minus_routed_code": 0.1489,
+    "signal_over_image": 1.9407
+   },
+   "ViT-Small": {
+    "seed": 89.5,
+    "image_share_misrouted": 0.4187,
+    "signal_share_misrouted": 0.7323,
+    "code_share_misrouted": 0.2573,
+    "code_share_routed": 0.1053,
+    "code_share_correct": 0.2031,
+    "random_share_misrouted": 0.0987,
+    "random_share_routed": 0.0979,
+    "misrouted_minus_routed_code": 0.152,
+    "signal_over_image": 1.7491
+   }
+  },
+  "n_lanes_misrouted_code_gt_routed": 4,
+  "n_lanes_signal_gt_image": 4,
+  "n_lanes": 4
+ },
+ "epochs_1_9": {
+  "per_lane": [
+   {
+    "arch": "CCT-7",
+    "seed": 42,
+    "image_share_misrouted": 0.5976,
+    "signal_share_misrouted": 0.7162,
+    "code_share_misrouted": 0.1708,
+    "code_share_routed": 0.1163,
+    "code_share_correct": 0.147,
+    "random_share_misrouted": 0.0755,
+    "random_share_routed": 0.0749,
+    "misrouted_minus_routed_code": 0.0544,
+    "signal_over_image": 1.1985
+   },
+   {
+    "arch": "CCT-7",
+    "seed": 137,
+    "image_share_misrouted": 0.5968,
+    "signal_share_misrouted": 0.7168,
+    "code_share_misrouted": 0.1747,
+    "code_share_routed": 0.1203,
+    "code_share_correct": 0.1505,
+    "random_share_misrouted": 0.0749,
+    "random_share_routed": 0.0733,
+    "misrouted_minus_routed_code": 0.0544,
+    "signal_over_image": 1.2011
+   },
+   {
+    "arch": "ViT-Small",
+    "seed": 42,
+    "image_share_misrouted": 0.6332,
+    "signal_share_misrouted": 0.7341,
+    "code_share_misrouted": 0.1883,
+    "code_share_routed": 0.135,
+    "code_share_correct": 0.1678,
+    "random_share_misrouted": 0.1003,
+    "random_share_routed": 0.103,
+    "misrouted_minus_routed_code": 0.0533,
+    "signal_over_image": 1.1592
+   },
+   {
+    "arch": "ViT-Small",
+    "seed": 137,
+    "image_share_misrouted": 0.6319,
+    "signal_share_misrouted": 0.7321,
+    "code_share_misrouted": 0.1946,
+    "code_share_routed": 0.1381,
+    "code_share_correct": 0.1756,
+    "random_share_misrouted": 0.099,
+    "random_share_routed": 0.0977,
+    "misrouted_minus_routed_code": 0.0565,
+    "signal_over_image": 1.1586
+   }
+  ],
+  "by_arch": {
+   "CCT-7": {
+    "seed": 89.5,
+    "image_share_misrouted": 0.5972,
+    "signal_share_misrouted": 0.7165,
+    "code_share_misrouted": 0.1727,
+    "code_share_routed": 0.1183,
+    "code_share_correct": 0.1487,
+    "random_share_misrouted": 0.0752,
+    "random_share_routed": 0.0741,
+    "misrouted_minus_routed_code": 0.0544,
+    "signal_over_image": 1.1998
+   },
+   "ViT-Small": {
+    "seed": 89.5,
+    "image_share_misrouted": 0.6326,
+    "signal_share_misrouted": 0.7331,
+    "code_share_misrouted": 0.1915,
+    "code_share_routed": 0.1365,
+    "code_share_correct": 0.1717,
+    "random_share_misrouted": 0.0996,
+    "random_share_routed": 0.1004,
+    "misrouted_minus_routed_code": 0.0549,
+    "signal_over_image": 1.1589
+   }
+  },
+  "n_lanes_misrouted_code_gt_routed": 4,
+  "n_lanes_signal_gt_image": 4,
+  "n_lanes": 4
+ }
+}

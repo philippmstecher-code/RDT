@@ -1,0 +1,26 @@
+arm,arm_label,epoch,seed,fine_accuracy_epochs_behind_no_block
+gradenergy,energy-matched,10,7,4.92578125
+gradenergy,energy-matched,10,42,5.043824701195222
+gradenergy,energy-matched,10,137,5.330749354005168
+gradenergy,energy-matched,10,256,4.9431818181818175
+gradenergy,energy-matched,10,314,4.600682593856656
+gradjoint,matched block,10,7,4.660156250000001
+gradjoint,matched block,10,42,3.9538904899135456
+gradjoint,matched block,10,137,5.51421188630491
+gradjoint,matched block,10,256,4.693181818181817
+gradjoint,matched block,10,314,4.639931740614336
+gradsc,coarse block,10,7,6.933194154488518
+gradsc,coarse block,10,42,7.684210526315789
+gradsc,coarse block,10,137,6.797169811320755
+gradsc,coarse block,10,256,7.362173038229376
+gradsc,coarse block,10,314,6.961325966850829
+gradsc minus gradjoint,extra cost,10,7,2.2730379044885174
+gradsc minus gradjoint,extra cost,10,42,3.7303200364022437
+gradsc minus gradjoint,extra cost,10,137,1.282957925015845
+gradsc minus gradjoint,extra cost,10,256,2.66899122004756
+gradsc minus gradjoint,extra cost,10,314,2.3213942262364933
+gradsc minus gradenergy,extra cost,10,7,2.0074129044885183
+gradsc minus gradenergy,extra cost,10,42,2.6403858251205676
+gradsc minus gradenergy,extra cost,10,137,1.4664204573155866
+gradsc minus gradenergy,extra cost,10,256,2.418991220047559
+gradsc minus gradenergy,extra cost,10,314,2.360643372994173

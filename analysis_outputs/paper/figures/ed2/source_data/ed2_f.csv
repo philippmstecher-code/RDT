@@ -1,0 +1,17 @@
+bar,seed,extra,source
+first stage,7,4.059999999999995,"read-out proxy, epoch 15"
+first stage,42,2.510000000000005,"read-out proxy, epoch 15"
+first stage,137,4.080000000000002,"read-out proxy, epoch 15"
+first stage,256,3.1899999999999977,"read-out proxy, epoch 15"
+first stage,314,2.6500000000000057,"read-out proxy, epoch 15"
+second stage,7,0.39000000000000057,"read-out proxy, epoch 15"
+second stage,42,0.0,"read-out proxy, epoch 15"
+second stage,137,0.11999999999999744,"read-out proxy, epoch 15"
+second stage,256,0.4100000000000037,"read-out proxy, epoch 15"
+second stage,314,-0.05000000000000426,"read-out proxy, epoch 15"
+"later stages
+retrained",7,4.169999999999995,"transplant from epoch 5, 15 epochs of training"
+"later stages
+retrained",42,3.759999999999998,"transplant from epoch 5, 15 epochs of training"
+"later stages
+retrained",137,4.990000000000002,"transplant from epoch 5, 15 epochs of training"

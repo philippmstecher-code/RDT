@@ -1,0 +1,9 @@
+{
+ "lesion": "critical / critical_sham (suppression, sham), prevention, xlayer, tg_suppression, blocking_rdt and sham_perepoch SAEs, curriculum (+ SAEs), perepoch_cct, static_noise matched arm",
+ "blind_pretraining": "blind_pretrain (superclass-blind pre-training)",
+ "placement": "placement_given (placement test)",
+ "task_irrelevant": "taskirr (superclass-blind five-way task)",
+ "random_groups_pretraining": "rand5_pretrain (five random groups of 20 classes, label-count control)",
+ "superclass_groups_pretraining": "sup5_pretrain (five groups of whole superclasses, label-count control)",
+ "random_grouping": "acquisition blocking and random grouping (identical to the main code)"
+}

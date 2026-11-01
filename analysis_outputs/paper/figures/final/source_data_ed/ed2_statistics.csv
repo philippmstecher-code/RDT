@@ -1,0 +1,53 @@
+version,statistic,value
+final transition kept,d: Ab-E(t) -> Di-E(t+1) Granger F,625.4941483653995
+final transition kept,d: beta,1.3467450961812468
+final transition kept,d: delta R2,0.0976542097800408
+final transition kept,d: P,1.4806063282174048e-118
+final transition kept,d: observations,1836.0
+final transition kept,d: reverse Di-E(t) -> Ab-E(t+1) F,52.57758114563712
+final transition kept,d: reverse beta,-0.048115985012234866
+final transition kept,d: forward/reverse F ratio,11.896594227733942
+final transition kept,b: Tg->Ab F at t <= 2,21.028983355275972
+final transition kept,b: Tg->Ab P at t <= 2,6.262838595537903e-06
+final transition kept,b: Tg->Di F at t <= 2,50.34103250131979
+final transition kept,b: last transition included,10.0
+final transition kept,b: Ab->Di F at full span,625.4941483653995
+final transition kept,b: Tg->Ab F at full span,36.58314917226927
+final transition kept,b: Tg->Ab P at full span,1.7787565696654941e-09
+final transition kept,b: Tg->Di F at full span,17.208978538965336
+final transition kept,b: Tg->Di P at full span,3.506282052244415e-05
+final transition kept,c: Spearman rho (Tg dose vs later Di-E),0.5758918454530474
+final transition kept,c: N superclass x runs,207.0
+final transition kept,c: incremental F (Tg dose beyond Ab dose),12.578004907801594
+final transition kept,c: incremental P,0.0004887937272423331
+final transition kept,e: beta min,0.8231289962984814
+final transition kept,e: beta max,3.2392281572224633
+final transition kept,e: positive and Bonferroni-significant (of 20),20.0
+final transition kept,f: Spearman rho (centres of mass),0.6013897457544566
+final transition kept,f: points above identity,206.0
+final transition removed,d: Ab-E(t) -> Di-E(t+1) Granger F,628.8786025006978
+final transition removed,d: beta,1.4816413522034622
+final transition removed,d: delta R2,0.11798627482132673
+final transition removed,d: P,4.955493939220537e-117
+final transition removed,d: observations,1629.0
+final transition removed,d: reverse Di-E(t) -> Ab-E(t+1) F,30.19750555265108
+final transition removed,d: reverse beta,-0.04196196205979779
+final transition removed,d: forward/reverse F ratio,20.82551492222468
+final transition removed,b: Tg->Ab F at t <= 2,21.028983355275972
+final transition removed,b: Tg->Ab P at t <= 2,6.262838595537903e-06
+final transition removed,b: Tg->Di F at t <= 2,50.34103250131979
+final transition removed,b: last transition included,9.0
+final transition removed,b: Ab->Di F at full span,628.8786025006978
+final transition removed,b: Tg->Ab F at full span,19.963429957319764
+final transition removed,b: Tg->Ab P at full span,8.457676963235286e-06
+final transition removed,b: Tg->Di F at full span,25.25755752741843
+final transition removed,b: Tg->Di P at full span,5.589260163681035e-07
+final transition removed,c: Spearman rho (Tg dose vs later Di-E),0.5780367466923336
+final transition removed,c: N superclass x runs,207.0
+final transition removed,c: incremental F (Tg dose beyond Ab dose),6.1439064614201255
+final transition removed,c: incremental P,0.014035653224526799
+final transition removed,e: beta min,0.9120653072222511
+final transition removed,e: beta max,3.4689095693542367
+final transition removed,e: positive and Bonferroni-significant (of 20),20.0
+final transition removed,f: Spearman rho (centres of mass),0.6765120520397009
+final transition removed,f: points above identity,204.0

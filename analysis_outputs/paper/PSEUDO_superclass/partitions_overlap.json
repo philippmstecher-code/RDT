@@ -1,0 +1,102 @@
+[
+ {
+  "partition": 0,
+  "pairs_shared": 6,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 1,
+  "pairs_shared": 9,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 2,
+  "pairs_shared": 8,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 3,
+  "pairs_shared": 5,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 4,
+  "pairs_shared": 8,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 5,
+  "pairs_shared": 5,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 6,
+  "pairs_shared": 7,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 7,
+  "pairs_shared": 3,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 8,
+  "pairs_shared": 9,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 9,
+  "pairs_shared": 11,
+  "max_classes_from_one_true_sc_in_a_group": 3
+ },
+ {
+  "partition": 10,
+  "pairs_shared": 5,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 11,
+  "pairs_shared": 8,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 12,
+  "pairs_shared": 9,
+  "max_classes_from_one_true_sc_in_a_group": 3
+ },
+ {
+  "partition": 13,
+  "pairs_shared": 12,
+  "max_classes_from_one_true_sc_in_a_group": 3
+ },
+ {
+  "partition": 14,
+  "pairs_shared": 8,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 15,
+  "pairs_shared": 12,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 16,
+  "pairs_shared": 8,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 17,
+  "pairs_shared": 4,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 18,
+  "pairs_shared": 3,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ },
+ {
+  "partition": 19,
+  "pairs_shared": 9,
+  "max_classes_from_one_true_sc_in_a_group": 2
+ }
+]

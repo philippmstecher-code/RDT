@@ -1,0 +1,52 @@
+{
+ "between|7": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.0958566480149214,
+  "other_draw_pred_eq_noisy": 0.0009454476694714947,
+  "n_other": 10577
+ },
+ "within|7": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.2257527311484146,
+  "other_draw_pred_eq_noisy": 0.024487094639311716,
+  "n_other": 10577
+ },
+ "between|42": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.10456387431076862,
+  "other_draw_pred_eq_noisy": 0.001524390243902439,
+  "n_other": 10496
+ },
+ "within|42": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.23065169733607918,
+  "other_draw_pred_eq_noisy": 0.024104420731707318,
+  "n_other": 10496
+ },
+ "between|137": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.08821566795675964,
+  "other_draw_pred_eq_noisy": 0.0013242527430949679,
+  "n_other": 10572
+ },
+ "within|137": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.23241692246096357,
+  "other_draw_pred_eq_noisy": 0.026674233825198637,
+  "n_other": 10572
+ },
+ "between|256": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.10115236875800256,
+  "other_draw_pred_eq_noisy": 0.0005673222390317701,
+  "n_other": 10576
+ },
+ "within|256": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.22434126288833478,
+  "other_draw_pred_eq_noisy": 0.025056732223903175,
+  "n_other": 10576
+ },
+ "between|314": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.07763437998935604,
+  "other_draw_pred_eq_noisy": 0.0019036740909956216,
+  "n_other": 10506
+ },
+ "within|314": {
+  "own_draw_pred_eq_noisy_on_flipped": 0.22106173496540713,
+  "other_draw_pred_eq_noisy": 0.024367028364743956,
+  "n_other": 10506
+ }
+}

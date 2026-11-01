@@ -1,0 +1,511 @@
+arm,seed,epoch,bent,origin,n
+between,7,10,False,born,20
+between,7,10,False,from bent class feature,2
+between,7,10,False,from non-class feature,53
+between,7,10,False,from unbent class feature,48
+between,7,10,True,born,3
+between,7,10,True,from bent class feature,3
+between,7,10,True,from non-class feature,4
+between,7,15,False,born,12
+between,7,15,False,from bent class feature,6
+between,7,15,False,from non-class feature,60
+between,7,15,False,from unbent class feature,69
+between,7,15,True,born,6
+between,7,15,True,from bent class feature,1
+between,7,15,True,from non-class feature,11
+between,7,15,True,from unbent class feature,12
+between,7,20,False,born,13
+between,7,20,False,from bent class feature,4
+between,7,20,False,from non-class feature,56
+between,7,20,False,from unbent class feature,77
+between,7,20,True,born,9
+between,7,20,True,from bent class feature,9
+between,7,20,True,from non-class feature,23
+between,7,20,True,from unbent class feature,18
+between,7,25,False,born,1
+between,7,25,False,from bent class feature,3
+between,7,25,False,from non-class feature,8
+between,7,25,False,from unbent class feature,32
+between,7,25,True,born,2
+between,7,25,True,from bent class feature,21
+between,7,25,True,from non-class feature,52
+between,7,25,True,from unbent class feature,56
+between,7,30,False,born,1
+between,7,30,False,from bent class feature,7
+between,7,30,False,from non-class feature,8
+between,7,30,False,from unbent class feature,10
+between,7,30,True,born,4
+between,7,30,True,from bent class feature,76
+between,7,30,True,from non-class feature,51
+between,7,30,True,from unbent class feature,13
+between,42,10,False,born,21
+between,42,10,False,from non-class feature,45
+between,42,10,False,from unbent class feature,23
+between,42,10,True,born,2
+between,42,10,True,from non-class feature,3
+between,42,15,False,born,13
+between,42,15,False,from non-class feature,40
+between,42,15,False,from unbent class feature,49
+between,42,15,True,born,5
+between,42,15,True,from bent class feature,5
+between,42,15,True,from non-class feature,6
+between,42,15,True,from unbent class feature,4
+between,42,20,False,born,8
+between,42,20,False,from bent class feature,4
+between,42,20,False,from non-class feature,48
+between,42,20,False,from unbent class feature,56
+between,42,20,True,born,2
+between,42,20,True,from bent class feature,9
+between,42,20,True,from non-class feature,20
+between,42,20,True,from unbent class feature,11
+between,42,25,False,from bent class feature,3
+between,42,25,False,from non-class feature,17
+between,42,25,False,from unbent class feature,21
+between,42,25,True,born,2
+between,42,25,True,from bent class feature,21
+between,42,25,True,from non-class feature,42
+between,42,25,True,from unbent class feature,40
+between,42,30,False,born,1
+between,42,30,False,from bent class feature,2
+between,42,30,False,from non-class feature,3
+between,42,30,False,from unbent class feature,12
+between,42,30,True,born,2
+between,42,30,True,from bent class feature,51
+between,42,30,True,from non-class feature,49
+between,42,30,True,from unbent class feature,12
+between,137,10,False,born,17
+between,137,10,False,from bent class feature,1
+between,137,10,False,from non-class feature,40
+between,137,10,False,from unbent class feature,45
+between,137,10,True,born,3
+between,137,10,True,from non-class feature,4
+between,137,10,True,from unbent class feature,4
+between,137,15,False,born,14
+between,137,15,False,from bent class feature,3
+between,137,15,False,from non-class feature,66
+between,137,15,False,from unbent class feature,65
+between,137,15,True,born,3
+between,137,15,True,from bent class feature,3
+between,137,15,True,from non-class feature,17
+between,137,15,True,from unbent class feature,4
+between,137,20,False,born,4
+between,137,20,False,from bent class feature,4
+between,137,20,False,from non-class feature,47
+between,137,20,False,from unbent class feature,72
+between,137,20,True,born,6
+between,137,20,True,from bent class feature,9
+between,137,20,True,from non-class feature,17
+between,137,20,True,from unbent class feature,23
+between,137,25,False,born,1
+between,137,25,False,from bent class feature,3
+between,137,25,False,from non-class feature,21
+between,137,25,False,from unbent class feature,34
+between,137,25,True,from bent class feature,26
+between,137,25,True,from non-class feature,43
+between,137,25,True,from unbent class feature,43
+between,137,30,False,from bent class feature,4
+between,137,30,False,from non-class feature,11
+between,137,30,False,from unbent class feature,15
+between,137,30,True,born,4
+between,137,30,True,from bent class feature,67
+between,137,30,True,from non-class feature,44
+between,137,30,True,from unbent class feature,22
+between,256,10,False,born,18
+between,256,10,False,from bent class feature,2
+between,256,10,False,from non-class feature,45
+between,256,10,False,from unbent class feature,15
+between,256,10,True,born,1
+between,256,10,True,from bent class feature,1
+between,256,10,True,from non-class feature,8
+between,256,10,True,from unbent class feature,2
+between,256,15,False,born,10
+between,256,15,False,from bent class feature,6
+between,256,15,False,from non-class feature,63
+between,256,15,False,from unbent class feature,35
+between,256,15,True,born,5
+between,256,15,True,from non-class feature,14
+between,256,15,True,from unbent class feature,9
+between,256,20,False,born,13
+between,256,20,False,from bent class feature,10
+between,256,20,False,from non-class feature,46
+between,256,20,False,from unbent class feature,50
+between,256,20,True,born,2
+between,256,20,True,from bent class feature,10
+between,256,20,True,from non-class feature,26
+between,256,20,True,from unbent class feature,15
+between,256,25,False,from bent class feature,1
+between,256,25,False,from non-class feature,12
+between,256,25,False,from unbent class feature,18
+between,256,25,True,born,3
+between,256,25,True,from bent class feature,26
+between,256,25,True,from non-class feature,40
+between,256,25,True,from unbent class feature,43
+between,256,30,False,born,1
+between,256,30,False,from bent class feature,3
+between,256,30,False,from non-class feature,7
+between,256,30,False,from unbent class feature,3
+between,256,30,True,born,5
+between,256,30,True,from bent class feature,65
+between,256,30,True,from non-class feature,50
+between,256,30,True,from unbent class feature,13
+between,314,10,False,born,30
+between,314,10,False,from bent class feature,1
+between,314,10,False,from non-class feature,57
+between,314,10,False,from unbent class feature,23
+between,314,10,True,born,5
+between,314,10,True,from non-class feature,10
+between,314,15,False,born,12
+between,314,15,False,from bent class feature,3
+between,314,15,False,from non-class feature,53
+between,314,15,False,from unbent class feature,66
+between,314,15,True,born,3
+between,314,15,True,from bent class feature,3
+between,314,15,True,from non-class feature,1
+between,314,15,True,from unbent class feature,8
+between,314,20,False,born,4
+between,314,20,False,from bent class feature,3
+between,314,20,False,from non-class feature,50
+between,314,20,False,from unbent class feature,77
+between,314,20,True,born,6
+between,314,20,True,from bent class feature,7
+between,314,20,True,from non-class feature,22
+between,314,20,True,from unbent class feature,12
+between,314,25,False,born,1
+between,314,25,False,from bent class feature,2
+between,314,25,False,from non-class feature,16
+between,314,25,False,from unbent class feature,22
+between,314,25,True,born,1
+between,314,25,True,from bent class feature,22
+between,314,25,True,from non-class feature,46
+between,314,25,True,from unbent class feature,58
+between,314,30,False,from bent class feature,7
+between,314,30,False,from non-class feature,5
+between,314,30,False,from unbent class feature,10
+between,314,30,True,born,2
+between,314,30,True,from bent class feature,67
+between,314,30,True,from non-class feature,49
+between,314,30,True,from unbent class feature,13
+clean,7,10,False,born,6
+clean,7,10,False,from bent class feature,1
+clean,7,10,False,from non-class feature,45
+clean,7,10,False,from unbent class feature,35
+clean,7,10,True,born,1
+clean,7,10,True,from bent class feature,2
+clean,7,10,True,from non-class feature,2
+clean,7,10,True,from unbent class feature,1
+clean,7,15,False,born,7
+clean,7,15,False,from bent class feature,1
+clean,7,15,False,from non-class feature,55
+clean,7,15,False,from unbent class feature,45
+clean,7,15,True,from non-class feature,4
+clean,7,15,True,from unbent class feature,1
+clean,7,20,False,born,2
+clean,7,20,False,from bent class feature,1
+clean,7,20,False,from non-class feature,51
+clean,7,20,False,from unbent class feature,54
+clean,7,20,True,from non-class feature,4
+clean,7,20,True,from unbent class feature,2
+clean,7,25,False,born,2
+clean,7,25,False,from bent class feature,2
+clean,7,25,False,from non-class feature,51
+clean,7,25,False,from unbent class feature,54
+clean,7,25,True,from bent class feature,1
+clean,7,25,True,from non-class feature,3
+clean,7,25,True,from unbent class feature,2
+clean,7,30,False,born,3
+clean,7,30,False,from bent class feature,1
+clean,7,30,False,from non-class feature,44
+clean,7,30,False,from unbent class feature,60
+clean,7,30,True,born,1
+clean,7,30,True,from unbent class feature,2
+clean,42,10,False,born,2
+clean,42,10,False,from bent class feature,1
+clean,42,10,False,from non-class feature,31
+clean,42,10,False,from unbent class feature,25
+clean,42,10,True,from bent class feature,1
+clean,42,10,True,from non-class feature,2
+clean,42,15,False,born,5
+clean,42,15,False,from bent class feature,2
+clean,42,15,False,from non-class feature,43
+clean,42,15,False,from unbent class feature,39
+clean,42,15,True,born,2
+clean,42,15,True,from bent class feature,1
+clean,42,15,True,from non-class feature,1
+clean,42,20,False,born,2
+clean,42,20,False,from non-class feature,39
+clean,42,20,False,from unbent class feature,45
+clean,42,20,True,from non-class feature,1
+clean,42,20,True,from unbent class feature,1
+clean,42,25,False,born,5
+clean,42,25,False,from bent class feature,1
+clean,42,25,False,from non-class feature,37
+clean,42,25,False,from unbent class feature,38
+clean,42,25,True,from unbent class feature,2
+clean,42,30,False,born,3
+clean,42,30,False,from bent class feature,1
+clean,42,30,False,from non-class feature,30
+clean,42,30,False,from unbent class feature,47
+clean,42,30,True,from non-class feature,3
+clean,137,10,False,born,14
+clean,137,10,False,from non-class feature,42
+clean,137,10,False,from unbent class feature,40
+clean,137,10,True,from non-class feature,4
+clean,137,10,True,from unbent class feature,1
+clean,137,15,False,born,5
+clean,137,15,False,from bent class feature,1
+clean,137,15,False,from non-class feature,36
+clean,137,15,False,from unbent class feature,50
+clean,137,15,True,from bent class feature,1
+clean,137,15,True,from non-class feature,1
+clean,137,15,True,from unbent class feature,3
+clean,137,20,False,born,3
+clean,137,20,False,from bent class feature,2
+clean,137,20,False,from non-class feature,44
+clean,137,20,False,from unbent class feature,48
+clean,137,20,True,born,1
+clean,137,20,True,from non-class feature,2
+clean,137,20,True,from unbent class feature,2
+clean,137,25,False,born,5
+clean,137,25,False,from bent class feature,2
+clean,137,25,False,from non-class feature,45
+clean,137,25,False,from unbent class feature,59
+clean,137,25,True,born,2
+clean,137,25,True,from non-class feature,1
+clean,137,25,True,from unbent class feature,2
+clean,137,30,False,from bent class feature,2
+clean,137,30,False,from non-class feature,33
+clean,137,30,False,from unbent class feature,56
+clean,137,30,True,born,1
+clean,137,30,True,from non-class feature,4
+clean,256,10,False,born,1
+clean,256,10,False,from bent class feature,2
+clean,256,10,False,from non-class feature,34
+clean,256,10,False,from unbent class feature,16
+clean,256,10,True,from bent class feature,1
+clean,256,10,True,from non-class feature,2
+clean,256,15,False,born,1
+clean,256,15,False,from bent class feature,1
+clean,256,15,False,from non-class feature,28
+clean,256,15,False,from unbent class feature,29
+clean,256,15,True,from non-class feature,6
+clean,256,15,True,from unbent class feature,1
+clean,256,20,False,born,2
+clean,256,20,False,from bent class feature,4
+clean,256,20,False,from non-class feature,29
+clean,256,20,False,from unbent class feature,28
+clean,256,20,True,from bent class feature,1
+clean,256,20,True,from non-class feature,3
+clean,256,20,True,from unbent class feature,2
+clean,256,25,False,born,1
+clean,256,25,False,from bent class feature,2
+clean,256,25,False,from non-class feature,30
+clean,256,25,False,from unbent class feature,33
+clean,256,25,True,from non-class feature,1
+clean,256,25,True,from unbent class feature,2
+clean,256,30,False,born,6
+clean,256,30,False,from non-class feature,38
+clean,256,30,False,from unbent class feature,30
+clean,256,30,True,from non-class feature,3
+clean,256,30,True,from unbent class feature,3
+clean,314,10,False,born,14
+clean,314,10,False,from non-class feature,47
+clean,314,10,False,from unbent class feature,27
+clean,314,10,True,born,1
+clean,314,10,True,from non-class feature,3
+clean,314,15,False,born,4
+clean,314,15,False,from non-class feature,38
+clean,314,15,False,from unbent class feature,55
+clean,314,15,True,from bent class feature,2
+clean,314,15,True,from unbent class feature,1
+clean,314,20,False,born,5
+clean,314,20,False,from non-class feature,36
+clean,314,20,False,from unbent class feature,46
+clean,314,20,True,from bent class feature,2
+clean,314,20,True,from non-class feature,1
+clean,314,20,True,from unbent class feature,2
+clean,314,25,False,born,1
+clean,314,25,False,from bent class feature,1
+clean,314,25,False,from non-class feature,37
+clean,314,25,False,from unbent class feature,43
+clean,314,25,True,from non-class feature,6
+clean,314,25,True,from unbent class feature,2
+clean,314,30,False,born,2
+clean,314,30,False,from bent class feature,2
+clean,314,30,False,from non-class feature,43
+clean,314,30,False,from unbent class feature,39
+clean,314,30,True,from bent class feature,4
+clean,314,30,True,from non-class feature,2
+clean,314,30,True,from unbent class feature,1
+within,7,10,False,born,4
+within,7,10,False,from bent class feature,1
+within,7,10,False,from non-class feature,59
+within,7,10,False,from unbent class feature,24
+within,7,10,True,born,3
+within,7,10,True,from non-class feature,2
+within,7,10,True,from unbent class feature,1
+within,7,15,False,born,6
+within,7,15,False,from bent class feature,3
+within,7,15,False,from non-class feature,33
+within,7,15,False,from unbent class feature,52
+within,7,15,True,born,4
+within,7,15,True,from non-class feature,7
+within,7,15,True,from unbent class feature,4
+within,7,20,False,born,4
+within,7,20,False,from bent class feature,3
+within,7,20,False,from non-class feature,34
+within,7,20,False,from unbent class feature,56
+within,7,20,True,from bent class feature,5
+within,7,20,True,from non-class feature,9
+within,7,20,True,from unbent class feature,3
+within,7,25,False,from bent class feature,1
+within,7,25,False,from non-class feature,18
+within,7,25,False,from unbent class feature,41
+within,7,25,True,from bent class feature,7
+within,7,25,True,from non-class feature,18
+within,7,25,True,from unbent class feature,17
+within,7,30,False,born,1
+within,7,30,False,from bent class feature,2
+within,7,30,False,from non-class feature,14
+within,7,30,False,from unbent class feature,28
+within,7,30,True,born,1
+within,7,30,True,from bent class feature,21
+within,7,30,True,from non-class feature,23
+within,7,30,True,from unbent class feature,9
+within,42,10,False,born,11
+within,42,10,False,from bent class feature,1
+within,42,10,False,from non-class feature,37
+within,42,10,False,from unbent class feature,21
+within,42,10,True,born,1
+within,42,10,True,from bent class feature,1
+within,42,10,True,from non-class feature,2
+within,42,15,False,born,2
+within,42,15,False,from bent class feature,1
+within,42,15,False,from non-class feature,21
+within,42,15,False,from unbent class feature,29
+within,42,15,True,born,1
+within,42,15,True,from bent class feature,1
+within,42,15,True,from non-class feature,2
+within,42,15,True,from unbent class feature,5
+within,42,20,False,born,4
+within,42,20,False,from bent class feature,4
+within,42,20,False,from non-class feature,34
+within,42,20,False,from unbent class feature,31
+within,42,20,True,born,1
+within,42,20,True,from bent class feature,4
+within,42,20,True,from non-class feature,3
+within,42,20,True,from unbent class feature,1
+within,42,25,False,from non-class feature,19
+within,42,25,False,from unbent class feature,28
+within,42,25,True,born,1
+within,42,25,True,from bent class feature,4
+within,42,25,True,from non-class feature,12
+within,42,25,True,from unbent class feature,9
+within,42,30,False,born,3
+within,42,30,False,from bent class feature,2
+within,42,30,False,from non-class feature,7
+within,42,30,False,from unbent class feature,16
+within,42,30,True,born,1
+within,42,30,True,from bent class feature,9
+within,42,30,True,from non-class feature,11
+within,42,30,True,from unbent class feature,5
+within,137,10,False,born,11
+within,137,10,False,from bent class feature,1
+within,137,10,False,from non-class feature,39
+within,137,10,False,from unbent class feature,25
+within,137,10,True,born,2
+within,137,10,True,from non-class feature,2
+within,137,15,False,born,9
+within,137,15,False,from non-class feature,47
+within,137,15,False,from unbent class feature,41
+within,137,15,True,born,1
+within,137,15,True,from bent class feature,1
+within,137,15,True,from non-class feature,4
+within,137,15,True,from unbent class feature,5
+within,137,20,False,from bent class feature,4
+within,137,20,False,from non-class feature,34
+within,137,20,False,from unbent class feature,53
+within,137,20,True,born,1
+within,137,20,True,from bent class feature,1
+within,137,20,True,from non-class feature,5
+within,137,20,True,from unbent class feature,5
+within,137,25,False,born,2
+within,137,25,False,from non-class feature,25
+within,137,25,False,from unbent class feature,40
+within,137,25,True,born,2
+within,137,25,True,from bent class feature,3
+within,137,25,True,from non-class feature,17
+within,137,25,True,from unbent class feature,16
+within,137,30,False,from bent class feature,4
+within,137,30,False,from non-class feature,16
+within,137,30,False,from unbent class feature,20
+within,137,30,True,from bent class feature,13
+within,137,30,True,from non-class feature,18
+within,137,30,True,from unbent class feature,10
+within,256,10,False,born,1
+within,256,10,False,from bent class feature,1
+within,256,10,False,from non-class feature,28
+within,256,10,False,from unbent class feature,11
+within,256,10,True,from non-class feature,1
+within,256,15,False,born,5
+within,256,15,False,from non-class feature,32
+within,256,15,False,from unbent class feature,22
+within,256,15,True,born,1
+within,256,15,True,from non-class feature,4
+within,256,15,True,from unbent class feature,1
+within,256,20,False,from bent class feature,2
+within,256,20,False,from non-class feature,24
+within,256,20,False,from unbent class feature,33
+within,256,20,True,from bent class feature,2
+within,256,20,True,from non-class feature,7
+within,256,20,True,from unbent class feature,5
+within,256,25,False,born,1
+within,256,25,False,from non-class feature,14
+within,256,25,False,from unbent class feature,21
+within,256,25,True,born,2
+within,256,25,True,from bent class feature,7
+within,256,25,True,from non-class feature,9
+within,256,25,True,from unbent class feature,11
+within,256,30,False,born,2
+within,256,30,False,from bent class feature,3
+within,256,30,False,from non-class feature,12
+within,256,30,False,from unbent class feature,11
+within,256,30,True,born,2
+within,256,30,True,from bent class feature,12
+within,256,30,True,from non-class feature,11
+within,256,30,True,from unbent class feature,5
+within,314,10,False,born,11
+within,314,10,False,from bent class feature,1
+within,314,10,False,from non-class feature,36
+within,314,10,False,from unbent class feature,19
+within,314,10,True,born,3
+within,314,10,True,from non-class feature,4
+within,314,10,True,from unbent class feature,1
+within,314,15,False,born,5
+within,314,15,False,from bent class feature,4
+within,314,15,False,from non-class feature,45
+within,314,15,False,from unbent class feature,41
+within,314,15,True,from bent class feature,3
+within,314,15,True,from non-class feature,6
+within,314,15,True,from unbent class feature,1
+within,314,20,False,born,2
+within,314,20,False,from bent class feature,2
+within,314,20,False,from non-class feature,30
+within,314,20,False,from unbent class feature,53
+within,314,20,True,from bent class feature,3
+within,314,20,True,from non-class feature,8
+within,314,20,True,from unbent class feature,2
+within,314,25,False,born,1
+within,314,25,False,from bent class feature,1
+within,314,25,False,from non-class feature,22
+within,314,25,False,from unbent class feature,34
+within,314,25,True,from bent class feature,5
+within,314,25,True,from non-class feature,18
+within,314,25,True,from unbent class feature,11
+within,314,30,False,born,2
+within,314,30,False,from bent class feature,3
+within,314,30,False,from non-class feature,13
+within,314,30,False,from unbent class feature,24
+within,314,30,True,born,1
+within,314,30,True,from bent class feature,11
+within,314,30,True,from non-class feature,21
+within,314,30,True,from unbent class feature,12

@@ -1,0 +1,5 @@
+window,epochs,measure,reference,mean,ci95_lo,ci95_hi,n_below_zero,n,seeds
+last_block_1_10,1-3,d_superclass_accuracy_pp,sham,-8.473333333333333,-9.169668373395746,-7.776998293270919,5,5,-8.53 -9.23 -7.78 -8.72 -8.10
+last_block_1_10,1-3,d_superclass_accuracy_pp,random,-9.119333333333334,-10.61992821194694,-7.618738454719727,5,5,-9.32 -10.99 -8.82 -7.66 -8.81
+last_block_1_10,1-3,d_class_given_true_superclass_pp,sham,-3.5173333333333305,-4.580918390869753,-2.453748275796908,5,5,-2.92 -4.37 -2.33 -4.00 -3.97
+last_block_1_10,1-3,d_class_given_true_superclass_pp,random,-4.316,-5.9516469377328285,-2.680353062267171,5,5,-4.00 -6.31 -3.37 -3.03 -4.87

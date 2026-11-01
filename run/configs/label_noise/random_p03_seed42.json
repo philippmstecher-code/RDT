@@ -1,0 +1,85 @@
+{
+  "experiment_name": "random_p03_seed42",
+  "dataset_id": "cifar100",
+  "network_type": "resnet18",
+  "initialization_method": "kaiming_normal",
+  "random_seed": 42,
+  "batch_size": 128,
+  "training_policy": {
+    "epochs": 30,
+    "accuracy_threshold": null
+  },
+  "snapshot_policy": {
+    "milestone_count": 6,
+    "milestone_type": "weight_updates",
+    "milestone_weight_updates": [
+      1955,
+      3910,
+      5865,
+      7820,
+      9775,
+      11730
+    ],
+    "distribution_scheme": "uniform",
+    "samples_per_class": 100,
+    "terminal_capture": "both"
+  },
+  "transform_config": {
+    "normalize_mean": [
+      0.5071,
+      0.4867,
+      0.4408
+    ],
+    "normalize_std": [
+      0.2675,
+      0.2565,
+      0.2761
+    ],
+    "augmentation_enabled": true,
+    "random_crop_padding": 4,
+    "horizontal_flip": true
+  },
+  "validation_policy": {
+    "frequency_mode": "percentage",
+    "frequency_value": 5,
+    "min_batch_interval": 5,
+    "validation_set_fraction": 1
+  },
+  "memory_policy": {
+    "disk_based_linear_probes": true,
+    "disk_based_multilayer": true,
+    "linear_probe_batch_size": 32,
+    "activation_extraction_enabled": true,
+    "activation_extraction_interval": 50
+  },
+  "logging_policy": {
+    "batch_log_frequency": 10,
+    "batch_log_include_activations": false,
+    "metrics_flush_interval": 10,
+    "metrics_keep_recent": 50
+  },
+  "sae_policy": {
+    "expansion_factor": 4,
+    "k_sparse": 32,
+    "n_steps": 5000,
+    "shared_init_seed": 42,
+    "null_permutations": 1000
+  },
+  "representation_methods": [
+    "mean_activations",
+    "individual_activations",
+    "multilayer_activations"
+  ],
+  "optimizer": {
+    "type": "sgd",
+    "learning_rate": 0.1,
+    "weight_decay": 0.0005,
+    "momentum": 0.9,
+    "nesterov": true
+  },
+  "noise_policy": {
+    "enabled": true,
+    "noise_type": "random",
+    "noise_prob": 0.3
+  }
+}

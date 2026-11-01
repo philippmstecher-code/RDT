@@ -1,0 +1,1384 @@
+{
+ "by_epoch": [
+  {
+   "arm": "gradenergy",
+   "epoch": 1,
+   "misrouted_rate": 0.7573,
+   "energy_misrouted": 0.8514,
+   "excess_all": 0.0143,
+   "grad_share_coarse": 0.215
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 2,
+   "misrouted_rate": 0.6816,
+   "energy_misrouted": 0.8065,
+   "excess_all": 0.0303,
+   "grad_share_coarse": 0.2927
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 3,
+   "misrouted_rate": 0.6451,
+   "energy_misrouted": 0.7868,
+   "excess_all": 0.0394,
+   "grad_share_coarse": 0.3174
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 4,
+   "misrouted_rate": 0.6125,
+   "energy_misrouted": 0.758,
+   "excess_all": 0.038,
+   "grad_share_coarse": 0.3174
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 5,
+   "misrouted_rate": 0.6004,
+   "energy_misrouted": 0.7507,
+   "excess_all": 0.0326,
+   "grad_share_coarse": 0.3111
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 6,
+   "misrouted_rate": 0.5781,
+   "energy_misrouted": 0.7306,
+   "excess_all": 0.0306,
+   "grad_share_coarse": 0.3149
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 7,
+   "misrouted_rate": 0.5664,
+   "energy_misrouted": 0.7219,
+   "excess_all": 0.0286,
+   "grad_share_coarse": 0.3241
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 8,
+   "misrouted_rate": 0.5584,
+   "energy_misrouted": 0.7128,
+   "excess_all": 0.0298,
+   "grad_share_coarse": 0.3314
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 9,
+   "misrouted_rate": 0.5454,
+   "energy_misrouted": 0.7028,
+   "excess_all": 0.0232,
+   "grad_share_coarse": 0.3392
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 10,
+   "misrouted_rate": 0.542,
+   "energy_misrouted": 0.7046,
+   "excess_all": 0.0276,
+   "grad_share_coarse": 0.3496
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 11,
+   "misrouted_rate": 0.5262,
+   "energy_misrouted": 0.7024,
+   "excess_all": 0.0326,
+   "grad_share_coarse": 0.4099
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 12,
+   "misrouted_rate": 0.5143,
+   "energy_misrouted": 0.713,
+   "excess_all": 0.0335,
+   "grad_share_coarse": 0.4123
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 13,
+   "misrouted_rate": 0.4809,
+   "energy_misrouted": 0.6821,
+   "excess_all": 0.0255,
+   "grad_share_coarse": 0.3995
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 14,
+   "misrouted_rate": 0.4711,
+   "energy_misrouted": 0.6813,
+   "excess_all": 0.0284,
+   "grad_share_coarse": 0.3902
+  },
+  {
+   "arm": "gradenergy",
+   "epoch": 15,
+   "misrouted_rate": 0.4482,
+   "energy_misrouted": 0.6572,
+   "excess_all": 0.0193,
+   "grad_share_coarse": 0.3748
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 1,
+   "misrouted_rate": 0.764,
+   "energy_misrouted": 0.8614,
+   "excess_all": 0.0178,
+   "grad_share_coarse": 0.2266
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 2,
+   "misrouted_rate": 0.6929,
+   "energy_misrouted": 0.8199,
+   "excess_all": 0.0339,
+   "grad_share_coarse": 0.3116
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 3,
+   "misrouted_rate": 0.6425,
+   "energy_misrouted": 0.7892,
+   "excess_all": 0.0416,
+   "grad_share_coarse": 0.3455
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 4,
+   "misrouted_rate": 0.6142,
+   "energy_misrouted": 0.7736,
+   "excess_all": 0.0402,
+   "grad_share_coarse": 0.3462
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 5,
+   "misrouted_rate": 0.5906,
+   "energy_misrouted": 0.7563,
+   "excess_all": 0.0371,
+   "grad_share_coarse": 0.3404
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 6,
+   "misrouted_rate": 0.5794,
+   "energy_misrouted": 0.752,
+   "excess_all": 0.0363,
+   "grad_share_coarse": 0.3281
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 7,
+   "misrouted_rate": 0.5705,
+   "energy_misrouted": 0.7449,
+   "excess_all": 0.0338,
+   "grad_share_coarse": 0.3202
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 8,
+   "misrouted_rate": 0.5512,
+   "energy_misrouted": 0.724,
+   "excess_all": 0.0288,
+   "grad_share_coarse": 0.3135
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 9,
+   "misrouted_rate": 0.5582,
+   "energy_misrouted": 0.7317,
+   "excess_all": 0.0337,
+   "grad_share_coarse": 0.3105
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 10,
+   "misrouted_rate": 0.5543,
+   "energy_misrouted": 0.7282,
+   "excess_all": 0.0337,
+   "grad_share_coarse": 0.3079
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 11,
+   "misrouted_rate": 0.5989,
+   "energy_misrouted": 0.7628,
+   "excess_all": 0.0428,
+   "grad_share_coarse": 0.3548
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 12,
+   "misrouted_rate": 0.5485,
+   "energy_misrouted": 0.73,
+   "excess_all": 0.0359,
+   "grad_share_coarse": 0.3585
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 13,
+   "misrouted_rate": 0.5105,
+   "energy_misrouted": 0.7044,
+   "excess_all": 0.0312,
+   "grad_share_coarse": 0.3503
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 14,
+   "misrouted_rate": 0.4929,
+   "energy_misrouted": 0.6961,
+   "excess_all": 0.025,
+   "grad_share_coarse": 0.3408
+  },
+  {
+   "arm": "gradrand",
+   "epoch": 15,
+   "misrouted_rate": 0.4725,
+   "energy_misrouted": 0.6751,
+   "excess_all": 0.0226,
+   "grad_share_coarse": 0.3326
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 1,
+   "misrouted_rate": 0.7848,
+   "energy_misrouted": 0.8808,
+   "excess_all": 0.0251,
+   "grad_share_coarse": 0.2179
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 2,
+   "misrouted_rate": 0.7419,
+   "energy_misrouted": 0.868,
+   "excess_all": 0.0497,
+   "grad_share_coarse": 0.2888
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 3,
+   "misrouted_rate": 0.7126,
+   "energy_misrouted": 0.8475,
+   "excess_all": 0.0691,
+   "grad_share_coarse": 0.3253
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 4,
+   "misrouted_rate": 0.6957,
+   "energy_misrouted": 0.8479,
+   "excess_all": 0.0734,
+   "grad_share_coarse": 0.3359
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 5,
+   "misrouted_rate": 0.6742,
+   "energy_misrouted": 0.8291,
+   "excess_all": 0.0774,
+   "grad_share_coarse": 0.3356
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 6,
+   "misrouted_rate": 0.6672,
+   "energy_misrouted": 0.8269,
+   "excess_all": 0.0804,
+   "grad_share_coarse": 0.3273
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 7,
+   "misrouted_rate": 0.6544,
+   "energy_misrouted": 0.8126,
+   "excess_all": 0.0817,
+   "grad_share_coarse": 0.3262
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 8,
+   "misrouted_rate": 0.6452,
+   "energy_misrouted": 0.8068,
+   "excess_all": 0.0819,
+   "grad_share_coarse": 0.319
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 9,
+   "misrouted_rate": 0.6501,
+   "energy_misrouted": 0.8098,
+   "excess_all": 0.0841,
+   "grad_share_coarse": 0.3183
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 10,
+   "misrouted_rate": 0.6522,
+   "energy_misrouted": 0.8131,
+   "excess_all": 0.0862,
+   "grad_share_coarse": 0.3233
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 11,
+   "misrouted_rate": 0.6256,
+   "energy_misrouted": 0.7774,
+   "excess_all": 0.0673,
+   "grad_share_coarse": 0.3591
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 12,
+   "misrouted_rate": 0.5774,
+   "energy_misrouted": 0.7514,
+   "excess_all": 0.0552,
+   "grad_share_coarse": 0.3714
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 13,
+   "misrouted_rate": 0.5442,
+   "energy_misrouted": 0.7309,
+   "excess_all": 0.0477,
+   "grad_share_coarse": 0.3636
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 14,
+   "misrouted_rate": 0.5189,
+   "energy_misrouted": 0.717,
+   "excess_all": 0.0407,
+   "grad_share_coarse": 0.3548
+  },
+  {
+   "arm": "gradsc",
+   "epoch": 15,
+   "misrouted_rate": 0.4917,
+   "energy_misrouted": 0.6894,
+   "excess_all": 0.0283,
+   "grad_share_coarse": 0.3439
+  },
+  {
+   "arm": "sham",
+   "epoch": 1,
+   "misrouted_rate": 0.7548,
+   "energy_misrouted": 0.8528,
+   "excess_all": 0.0116,
+   "grad_share_coarse": 0.2236
+  },
+  {
+   "arm": "sham",
+   "epoch": 2,
+   "misrouted_rate": 0.6734,
+   "energy_misrouted": 0.8023,
+   "excess_all": 0.032,
+   "grad_share_coarse": 0.321
+  },
+  {
+   "arm": "sham",
+   "epoch": 3,
+   "misrouted_rate": 0.625,
+   "energy_misrouted": 0.7733,
+   "excess_all": 0.0419,
+   "grad_share_coarse": 0.3575
+  },
+  {
+   "arm": "sham",
+   "epoch": 4,
+   "misrouted_rate": 0.5753,
+   "energy_misrouted": 0.734,
+   "excess_all": 0.0377,
+   "grad_share_coarse": 0.3659
+  },
+  {
+   "arm": "sham",
+   "epoch": 5,
+   "misrouted_rate": 0.5544,
+   "energy_misrouted": 0.7328,
+   "excess_all": 0.037,
+   "grad_share_coarse": 0.3646
+  },
+  {
+   "arm": "sham",
+   "epoch": 6,
+   "misrouted_rate": 0.5294,
+   "energy_misrouted": 0.7111,
+   "excess_all": 0.0325,
+   "grad_share_coarse": 0.3586
+  },
+  {
+   "arm": "sham",
+   "epoch": 7,
+   "misrouted_rate": 0.5183,
+   "energy_misrouted": 0.7125,
+   "excess_all": 0.0304,
+   "grad_share_coarse": 0.3493
+  },
+  {
+   "arm": "sham",
+   "epoch": 8,
+   "misrouted_rate": 0.4882,
+   "energy_misrouted": 0.679,
+   "excess_all": 0.0245,
+   "grad_share_coarse": 0.3402
+  },
+  {
+   "arm": "sham",
+   "epoch": 9,
+   "misrouted_rate": 0.4843,
+   "energy_misrouted": 0.6813,
+   "excess_all": 0.0235,
+   "grad_share_coarse": 0.3331
+  },
+  {
+   "arm": "sham",
+   "epoch": 10,
+   "misrouted_rate": 0.4652,
+   "energy_misrouted": 0.6737,
+   "excess_all": 0.0208,
+   "grad_share_coarse": 0.3251
+  },
+  {
+   "arm": "sham",
+   "epoch": 11,
+   "misrouted_rate": 0.4619,
+   "energy_misrouted": 0.6771,
+   "excess_all": 0.0204,
+   "grad_share_coarse": 0.3182
+  },
+  {
+   "arm": "sham",
+   "epoch": 12,
+   "misrouted_rate": 0.4442,
+   "energy_misrouted": 0.6595,
+   "excess_all": 0.0153,
+   "grad_share_coarse": 0.312
+  },
+  {
+   "arm": "sham",
+   "epoch": 13,
+   "misrouted_rate": 0.4318,
+   "energy_misrouted": 0.641,
+   "excess_all": 0.0157,
+   "grad_share_coarse": 0.3055
+  },
+  {
+   "arm": "sham",
+   "epoch": 14,
+   "misrouted_rate": 0.4149,
+   "energy_misrouted": 0.6278,
+   "excess_all": 0.0117,
+   "grad_share_coarse": 0.2984
+  },
+  {
+   "arm": "sham",
+   "epoch": 15,
+   "misrouted_rate": 0.4205,
+   "energy_misrouted": 0.6463,
+   "excess_all": 0.0128,
+   "grad_share_coarse": 0.2943
+  }
+ ],
+ "epochs_1_3|gradsc - sham|misrouted_rate": {
+  "mean_ci": [
+   0.06200666666666661,
+   0.04484689317200767,
+   0.07916644016132555
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - sham|energy_misrouted": {
+  "mean_ci": [
+   0.05597917441905522,
+   0.04309992829038286,
+   0.06885842054772759
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - sham|excess_all": {
+  "mean_ci": [
+   0.019494342923763307,
+   0.006453146020036169,
+   0.032535539827490446
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - sham|grad_share_coarse": {
+  "mean_ci": [
+   -0.023370042425728887,
+   -0.05398788512791505,
+   0.007247800276457276
+  ],
+  "n_positive": 1,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradenergy|misrouted_rate": {
+  "mean_ci": [
+   0.05174666666666661,
+   0.03718084889486749,
+   0.06631248443846573
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradenergy|energy_misrouted": {
+  "mean_ci": [
+   0.050529512706204496,
+   0.0413334084031003,
+   0.059725617009308694
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradenergy|excess_all": {
+  "mean_ci": [
+   0.019976617010036318,
+   0.009304073724709245,
+   0.030649160295363388
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradenergy|grad_share_coarse": {
+  "mean_ci": [
+   0.002300735243480301,
+   -0.015438574012415482,
+   0.020040044499376082
+  ],
+  "n_positive": 2,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradrand|misrouted_rate": {
+  "mean_ci": [
+   0.046633333333333325,
+   0.028700253598579674,
+   0.06456641306808697
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradrand|energy_misrouted": {
+  "mean_ci": [
+   0.04195405360289428,
+   0.02702255846523606,
+   0.0568855487405525
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradrand|excess_all": {
+  "mean_ci": [
+   0.01683883600575124,
+   0.0051852638523307,
+   0.028492408159171777
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradsc - gradrand|grad_share_coarse": {
+  "mean_ci": [
+   -0.01719070869255197,
+   -0.039977900732648536,
+   0.005596483347544597
+  ],
+  "n_positive": 1,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradenergy - sham|misrouted_rate": {
+  "mean_ci": [
+   0.010260000000000002,
+   -0.010048016871229668,
+   0.03056801687122967
+  ],
+  "n_positive": 4,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradenergy - sham|energy_misrouted": {
+  "mean_ci": [
+   0.005449661712850729,
+   -0.007952616933985197,
+   0.018851940359686657
+  ],
+  "n_positive": 4,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradenergy - sham|excess_all": {
+  "mean_ci": [
+   -0.00048227408627301015,
+   -0.01262436036726605,
+   0.011659812194720029
+  ],
+  "n_positive": 3,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradenergy - sham|grad_share_coarse": {
+  "mean_ci": [
+   -0.025670777669209187,
+   -0.04235533058022331,
+   -0.008986224758195067
+  ],
+  "n_positive": 0,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradrand - sham|misrouted_rate": {
+  "mean_ci": [
+   0.015373333333333284,
+   -0.0030030235058421118,
+   0.03374969017250868
+  ],
+  "n_positive": 4,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradrand - sham|energy_misrouted": {
+  "mean_ci": [
+   0.014025120816160941,
+   0.002524947092339771,
+   0.02552529453998211
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradrand - sham|excess_all": {
+  "mean_ci": [
+   0.0026555069180120685,
+   -0.002573144186270403,
+   0.00788415802229454
+  ],
+  "n_positive": 4,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_3|gradrand - sham|grad_share_coarse": {
+  "mean_ci": [
+   -0.006179333733176917,
+   -0.02137750329274709,
+   0.009018835826393257
+  ],
+  "n_positive": 2,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - sham|misrouted_rate": {
+  "mean_ci": [
+   0.120986,
+   0.11057511347224894,
+   0.13139688652775106
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - sham|energy_misrouted": {
+  "mean_ci": [
+   0.0989862831154091,
+   0.09004379012293512,
+   0.10792877610788307
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - sham|excess_all": {
+  "mean_ci": [
+   0.0417143209130367,
+   0.03509956165567801,
+   0.04832908017039539
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - sham|grad_share_coarse": {
+  "mean_ci": [
+   -0.02214237132183138,
+   -0.03964184684416574,
+   -0.004642895799497018
+  ],
+  "n_positive": 0,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradenergy|misrouted_rate": {
+  "mean_ci": [
+   0.07910400000000002,
+   0.07314679038564537,
+   0.08506120961435468
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradenergy|energy_misrouted": {
+  "mean_ci": [
+   0.08164356884935435,
+   0.07488482569972588,
+   0.08840231199898282
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradenergy|excess_all": {
+  "mean_ci": [
+   0.041446541606054474,
+   0.037145419315947406,
+   0.04574766389616154
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradenergy|grad_share_coarse": {
+  "mean_ci": [
+   0.00046170247120015385,
+   -0.013495280395064022,
+   0.014418685337464328
+  ],
+  "n_positive": 2,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradrand|misrouted_rate": {
+  "mean_ci": [
+   0.07605000000000002,
+   0.06534109250443779,
+   0.08675890749556225
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradrand|energy_misrouted": {
+  "mean_ci": [
+   0.06613090369314319,
+   0.05928977789961531,
+   0.07297202948667107
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradrand|excess_all": {
+  "mean_ci": [
+   0.037197453814500944,
+   0.031323225121853565,
+   0.04307168250714832
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradsc - gradrand|grad_share_coarse": {
+  "mean_ci": [
+   -0.003279354915201227,
+   -0.015028302102615942,
+   0.008469592272213488
+  ],
+  "n_positive": 2,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradenergy - sham|misrouted_rate": {
+  "mean_ci": [
+   0.041881999999999975,
+   0.03125591161240476,
+   0.052508088387595186
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradenergy - sham|energy_misrouted": {
+  "mean_ci": [
+   0.017342714266054736,
+   0.0065724579044281715,
+   0.0281129706276813
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradenergy - sham|excess_all": {
+  "mean_ci": [
+   0.0002677793069822278,
+   -0.005469192194635813,
+   0.006004750808600269
+  ],
+  "n_positive": 3,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradenergy - sham|grad_share_coarse": {
+  "mean_ci": [
+   -0.02260407379303153,
+   -0.031261699463435086,
+   -0.013946448122627979
+  ],
+  "n_positive": 0,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradrand - sham|misrouted_rate": {
+  "mean_ci": [
+   0.044935999999999976,
+   0.02600852021418656,
+   0.06386347978581339
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradrand - sham|energy_misrouted": {
+  "mean_ci": [
+   0.03285537942226591,
+   0.019836121565381094,
+   0.04587463727915072
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradrand - sham|excess_all": {
+  "mean_ci": [
+   0.004516867098535748,
+   0.0005701167043542701,
+   0.008463617492717226
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_1_10|gradrand - sham|grad_share_coarse": {
+  "mean_ci": [
+   -0.01886301640663015,
+   -0.02612499008265294,
+   -0.011601042730607358
+  ],
+  "n_positive": 0,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - sham|misrouted_rate": {
+  "mean_ci": [
+   0.1169,
+   0.10166189389553915,
+   0.13213810610446086
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - sham|energy_misrouted": {
+  "mean_ci": [
+   0.08287822336195509,
+   0.06820186764996447,
+   0.09755457907394571
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - sham|excess_all": {
+  "mean_ci": [
+   0.0326692513419109,
+   0.027890950377422088,
+   0.03744755230639971
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - sham|grad_share_coarse": {
+  "mean_ci": [
+   0.052876254211655385,
+   0.04834509709429273,
+   0.05740741132901804
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradenergy|misrouted_rate": {
+  "mean_ci": [
+   0.06342399999999998,
+   0.052717552463490754,
+   0.07413044753650921
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradenergy|energy_misrouted": {
+  "mean_ci": [
+   0.04601782663587588,
+   0.03381627278693851,
+   0.058219380484813246
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradenergy|excess_all": {
+  "mean_ci": [
+   0.01998544392821785,
+   0.018409197090814195,
+   0.0215616907656215
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradenergy|grad_share_coarse": {
+  "mean_ci": [
+   -0.0387813245312698,
+   -0.041925260536110606,
+   -0.03563738852642899
+  ],
+  "n_positive": 0,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradrand|misrouted_rate": {
+  "mean_ci": [
+   0.026891999999999982,
+   0.01627626513565681,
+   0.037507734864343154
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradrand|energy_misrouted": {
+  "mean_ci": [
+   0.019538108784506993,
+   0.01120316605963714,
+   0.027873051509376846
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradrand|excess_all": {
+  "mean_ci": [
+   0.016353864432204563,
+   0.013184476486113123,
+   0.019523252378296004
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradsc - gradrand|grad_share_coarse": {
+  "mean_ci": [
+   0.011156919978294466,
+   0.005335384342242524,
+   0.016978455614346407
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradenergy - sham|misrouted_rate": {
+  "mean_ci": [
+   0.05347600000000001,
+   0.03803244094908078,
+   0.06891955905091925
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradenergy - sham|energy_misrouted": {
+  "mean_ci": [
+   0.036860396726079214,
+   0.020558919414006997,
+   0.05316187403815143
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradenergy - sham|excess_all": {
+  "mean_ci": [
+   0.012683807413693049,
+   0.008701614377790769,
+   0.016666000449595327
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradenergy - sham|grad_share_coarse": {
+  "mean_ci": [
+   0.09165757874292518,
+   0.08579914402648103,
+   0.09751601345936933
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradrand - sham|misrouted_rate": {
+  "mean_ci": [
+   0.090008,
+   0.07976953952954546,
+   0.10024646047045455
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradrand - sham|energy_misrouted": {
+  "mean_ci": [
+   0.0633401145774481,
+   0.053760428700869556,
+   0.07291980045402666
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradrand - sham|excess_all": {
+  "mean_ci": [
+   0.016315386909706336,
+   0.012788765444590035,
+   0.019842008374822636
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ },
+ "epochs_11_15|gradrand - sham|grad_share_coarse": {
+  "mean_ci": [
+   0.04171933423336092,
+   0.03514968513628749,
+   0.04828898333043435
+  ],
+  "n_positive": 5,
+  "seeds": [
+   7,
+   42,
+   137,
+   256,
+   314
+  ]
+ }
+}

@@ -1,0 +1,370 @@
+{
+ "experiment": "SW",
+ "reference_arm": "standard50",
+ "n_perm": 100,
+ "percentile": 95.0,
+ "sai_fixed": 0.9,
+ "pooling": "all real checkpoints (duplicate final dropped) x all layers; alive features (>= 1% of samples) only",
+ "common": {
+  "42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.2958219092551691,
+    "csi_differentiation_thresh": 0.25711714845662015,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.11273097405456169,
+    "ssi_null_std": 0.09283705686347354,
+    "csi_null_mean": 0.10838744332828888,
+    "csi_null_std": 0.07855575385480515,
+    "sai_null_mean": 0.8388156167355445,
+    "sai_null_std": 0.10622313288321925
+   }
+  }
+ },
+ "run": {
+  "standard50__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.2958219092551691,
+    "csi_differentiation_thresh": 0.25711714845662015,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.11273097405456169,
+    "ssi_null_std": 0.09283705686347354,
+    "csi_null_mean": 0.10838744332828888,
+    "csi_null_std": 0.07855575385480515,
+    "sai_null_mean": 0.8388156167355445,
+    "sai_null_std": 0.10622313288321925
+   }
+  },
+  "switch_e20__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.2897570328164094,
+    "csi_differentiation_thresh": 0.24104882214930548,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.10619086571029565,
+    "ssi_null_std": 0.09086027616722524,
+    "csi_null_mean": 0.09801372801427971,
+    "csi_null_std": 0.07557324477561343,
+    "sai_null_mean": 0.843551190050654,
+    "sai_null_std": 0.11175950683331706
+   }
+  },
+  "switch_e15__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.2728746266453545,
+    "csi_differentiation_thresh": 0.24439248439594932,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.1010122254092227,
+    "ssi_null_std": 0.08829961268209814,
+    "csi_null_mean": 0.09745347246907064,
+    "csi_null_std": 0.07645317663777942,
+    "sai_null_mean": 0.8528326035530549,
+    "sai_null_std": 0.10831128835254643
+   }
+  },
+  "switch_e05__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.278155454137053,
+    "csi_differentiation_thresh": 0.24516139362668132,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.10482424283049366,
+    "ssi_null_std": 0.09082063205332476,
+    "csi_null_mean": 0.10001067569168424,
+    "csi_null_std": 0.07617299750775779,
+    "sai_null_mean": 0.8473423634756893,
+    "sai_null_std": 0.10938955767607417
+   }
+  },
+  "switch_e30__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.29578306244666014,
+    "csi_differentiation_thresh": 0.2415399513836773,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.10925699228211493,
+    "ssi_null_std": 0.09509666574742089,
+    "csi_null_mean": 0.09890506949001936,
+    "csi_null_std": 0.07539069800227513,
+    "sai_null_mean": 0.8385187031692044,
+    "sai_null_std": 0.11514783720021085
+   }
+  },
+  "switch_e25__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.3006133752603338,
+    "csi_differentiation_thresh": 0.24013448689856529,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.11013261644231136,
+    "ssi_null_std": 0.09749756115499339,
+    "csi_null_mean": 0.09693011134676012,
+    "csi_null_std": 0.07597983077487551,
+    "sai_null_mean": 0.8390787687044877,
+    "sai_null_std": 0.1180368481002278
+   }
+  },
+  "switch_e10__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.2821980951099967,
+    "csi_differentiation_thresh": 0.2461020797183444,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.10501342290165595,
+    "ssi_null_std": 0.08891043356293946,
+    "csi_null_mean": 0.10104440941508912,
+    "csi_null_std": 0.07682431814974934,
+    "sai_null_mean": 0.8470848547301028,
+    "sai_null_std": 0.10788901010337841
+   }
+  }
+ },
+ "stored": {
+  "standard50__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.43727168142795586,
+    "sai_task_general_thresh": 0.9895631074905396,
+    "csi_differentiation_thresh": 0.4313230178711087
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.43727168142795586,
+    "csi_adaptive_thresh": 0.4313230178711087,
+    "sai_adaptive_thresh": 0.9895631074905396,
+    "ssi_null_percentile": 0.43727168142795586,
+    "csi_null_percentile": 0.4313230178711087,
+    "sai_null_percentile": 0.9895631074905396,
+    "ssi_null_mean": 0.14333403893341326,
+    "ssi_null_std": 0.1726564821926526,
+    "csi_null_mean": 0.14661899194500272,
+    "csi_null_std": 0.18825858192943037,
+    "sai_null_mean": 0.8060918800285515,
+    "sai_null_std": 0.17982862140546477,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 1105300.0,
+    "n_null_csi_samples": 1105300.0,
+    "n_null_sai_samples": 1102600.0
+   }
+  },
+  "switch_e20__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.49850910902023315,
+    "sai_task_general_thresh": 0.9936457276344299,
+    "csi_differentiation_thresh": 0.6088868378831787
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.49850910902023315,
+    "csi_adaptive_thresh": 0.6088868378831787,
+    "sai_adaptive_thresh": 0.9936457276344299,
+    "ssi_null_percentile": 0.49850910902023315,
+    "csi_null_percentile": 0.6088868378831787,
+    "sai_null_percentile": 0.9936457276344299,
+    "ssi_null_mean": 0.14553632682385784,
+    "ssi_null_std": 0.18864831326583975,
+    "csi_null_mean": 0.14651672809403457,
+    "csi_null_std": 0.207312409364746,
+    "sai_null_mean": 0.8015876171197363,
+    "sai_null_std": 0.19924213480714512,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 909800.0,
+    "n_null_csi_samples": 909800.0,
+    "n_null_sai_samples": 907900.0
+   }
+  },
+  "switch_e15__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.669482409954071,
+    "sai_task_general_thresh": 0.9941104054450989,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.669482409954071,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9941104054450989,
+    "ssi_null_percentile": 0.669482409954071,
+    "csi_null_percentile": 0.9999995528401643,
+    "sai_null_percentile": 0.9941104054450989,
+    "ssi_null_mean": 0.15511942106039558,
+    "ssi_null_std": 0.21408933863265736,
+    "csi_null_mean": 0.16329412299263943,
+    "csi_null_std": 0.23709952231405593,
+    "sai_null_mean": 0.7971535224769395,
+    "sai_null_std": 0.21950631677237747,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 984500.0,
+    "n_null_csi_samples": 984500.0,
+    "n_null_sai_samples": 979600.0
+   }
+  },
+  "switch_e05__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.527070164680481,
+    "sai_task_general_thresh": 0.9929319024085999,
+    "csi_differentiation_thresh": 0.6481607257509575
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.527070164680481,
+    "csi_adaptive_thresh": 0.6481607257509575,
+    "sai_adaptive_thresh": 0.9929319024085999,
+    "ssi_null_percentile": 0.527070164680481,
+    "csi_null_percentile": 0.6481607257509575,
+    "sai_null_percentile": 0.9929319024085999,
+    "ssi_null_mean": 0.1450926183888754,
+    "ssi_null_std": 0.19154312732412593,
+    "csi_null_mean": 0.1490884825586235,
+    "csi_null_std": 0.20921852668102592,
+    "sai_null_mean": 0.8049594646754451,
+    "sai_null_std": 0.19974549011067627,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 949800.0,
+    "n_null_csi_samples": 949800.0,
+    "n_null_sai_samples": 947200.0
+   }
+  },
+  "switch_e30__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.5777148008346558,
+    "sai_task_general_thresh": 0.9938315749168396,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.5777148008346558,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9938315749168396,
+    "ssi_null_percentile": 0.5777148008346558,
+    "csi_null_percentile": 0.9999989567937165,
+    "sai_null_percentile": 0.9938315749168396,
+    "ssi_null_mean": 0.1543259244748189,
+    "ssi_null_std": 0.20223980009531403,
+    "csi_null_mean": 0.15334461232114663,
+    "csi_null_std": 0.21860137346215577,
+    "sai_null_mean": 0.7925045840929873,
+    "sai_null_std": 0.20824622443093754,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 923400.0,
+    "n_null_csi_samples": 923400.0,
+    "n_null_sai_samples": 920200.0
+   }
+  },
+  "switch_e25__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.5769453316926955,
+    "sai_task_general_thresh": 0.9940875172615051,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.5769453316926955,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9940875172615051,
+    "ssi_null_percentile": 0.5769453316926955,
+    "csi_null_percentile": 0.9999995528401643,
+    "sai_null_percentile": 0.9940875172615051,
+    "ssi_null_mean": 0.15640778501262584,
+    "ssi_null_std": 0.20114442521668713,
+    "csi_null_mean": 0.15705692886127803,
+    "csi_null_std": 0.22796965787266682,
+    "sai_null_mean": 0.7882891684286962,
+    "sai_null_std": 0.21459798103819722,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 884800.0,
+    "n_null_csi_samples": 884800.0,
+    "n_null_sai_samples": 882300.0
+   }
+  },
+  "switch_e10__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.5060848593711853,
+    "sai_task_general_thresh": 0.9935013651847839,
+    "csi_differentiation_thresh": 0.6094044371677598
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.5060848593711853,
+    "csi_adaptive_thresh": 0.6094044371677598,
+    "sai_adaptive_thresh": 0.9935013651847839,
+    "ssi_null_percentile": 0.5060848593711853,
+    "csi_null_percentile": 0.6094044371677598,
+    "sai_null_percentile": 0.9935013651847839,
+    "ssi_null_mean": 0.14452900580057132,
+    "ssi_null_std": 0.18693810979991707,
+    "csi_null_mean": 0.14951364816034718,
+    "csi_null_std": 0.20671517006306875,
+    "sai_null_mean": 0.8063724079186422,
+    "sai_null_std": 0.19399010457075408,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 100.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 954600.0,
+    "n_null_csi_samples": 954600.0,
+    "n_null_sai_samples": 950600.0
+   }
+  }
+ },
+ "delta": {
+  "ssi": 0.03686500927651858,
+  "csi": 0.05715678268612349,
+  "sai": 0.04441496406830028
+ },
+ "delta_n_values": 12,
+ "seeds_without_reference": [
+  7,
+  137,
+  256,
+  314
+ ]
+}

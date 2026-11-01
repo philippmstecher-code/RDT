@@ -1,0 +1,351 @@
+{
+ "experiment": "PT",
+ "reference_arm": "scratch_lr01",
+ "n_perm": 100,
+ "percentile": 95.0,
+ "sai_fixed": 0.9,
+ "pooling": "all real checkpoints (duplicate final dropped) x all layers; alive features (>= 1% of samples) only",
+ "common": {
+  "7": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.19617659222915648,
+    "csi_differentiation_thresh": 0.1732806972942712,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.0724142642044174,
+    "ssi_null_std": 0.06519900717498134,
+    "csi_null_mean": 0.07124502630508525,
+    "csi_null_std": 0.05480266442108084,
+    "sai_null_mean": 0.8966024297141665,
+    "sai_null_std": 0.08362742381757055
+   }
+  },
+  "42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.20167651880638832,
+    "csi_differentiation_thresh": 0.17610470203344109,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.07388166827704709,
+    "ssi_null_std": 0.06728154846646962,
+    "csi_null_mean": 0.07183839939222178,
+    "csi_null_std": 0.056071304519208984,
+    "sai_null_mean": 0.8951367396603039,
+    "sai_null_std": 0.08573534528457183
+   }
+  },
+  "137": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.20960451689324255,
+    "csi_differentiation_thresh": 0.18406794031643753,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.0769067671932728,
+    "ssi_null_std": 0.07142300774531485,
+    "csi_null_mean": 0.07530049707370164,
+    "csi_null_std": 0.059207456013486245,
+    "sai_null_mean": 0.8900731866408381,
+    "sai_null_std": 0.08902436493643061
+   }
+  }
+ },
+ "run": {
+  "pretrained_ft_lr01__s7": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.43983593040972097,
+    "csi_differentiation_thresh": 0.2482607662367438,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.13210874161801836,
+    "ssi_null_std": 0.13702312173061745,
+    "csi_null_mean": 0.09373129798726172,
+    "csi_null_std": 0.07850543764386436,
+    "sai_null_mean": 0.8282431982072262,
+    "sai_null_std": 0.16009890387064812
+   }
+  },
+  "pretrained_ft_lr01__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.4265698493326291,
+    "csi_differentiation_thresh": 0.24622618403933202,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.1289725059332075,
+    "ssi_null_std": 0.13116745772745378,
+    "csi_null_mean": 0.09329894529517004,
+    "csi_null_std": 0.0780297502160696,
+    "sai_null_mean": 0.8292550670272061,
+    "sai_null_std": 0.15943232693467566
+   }
+  },
+  "pretrained_ft_lr01__s137": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.41776589967928157,
+    "csi_differentiation_thresh": 0.23583231863411802,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.12767959954175534,
+    "ssi_null_std": 0.13462231345936015,
+    "csi_null_mean": 0.09048080380134191,
+    "csi_null_std": 0.07442136042652302,
+    "sai_null_mean": 0.834910935355159,
+    "sai_null_std": 0.15233556994393557
+   }
+  },
+  "scratch_lr01__s7": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.19617659222915648,
+    "csi_differentiation_thresh": 0.1732806972942712,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.0724142642044174,
+    "ssi_null_std": 0.06519900717498134,
+    "csi_null_mean": 0.07124502630508525,
+    "csi_null_std": 0.05480266442108084,
+    "sai_null_mean": 0.8966024297141665,
+    "sai_null_std": 0.08362742381757055
+   }
+  },
+  "scratch_lr01__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.20167651880638832,
+    "csi_differentiation_thresh": 0.17610470203344109,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.07388166827704709,
+    "ssi_null_std": 0.06728154846646962,
+    "csi_null_mean": 0.07183839939222178,
+    "csi_null_std": 0.056071304519208984,
+    "sai_null_mean": 0.8951367396603039,
+    "sai_null_std": 0.08573534528457183
+   }
+  },
+  "scratch_lr01__s137": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.20960451689324255,
+    "csi_differentiation_thresh": 0.18406794031643753,
+    "sai_task_general_thresh": 0.9
+   },
+   "ati": {
+    "ssi_null_mean": 0.0769067671932728,
+    "ssi_null_std": 0.07142300774531485,
+    "csi_null_mean": 0.07530049707370164,
+    "csi_null_std": 0.059207456013486245,
+    "sai_null_mean": 0.8900731866408381,
+    "sai_null_std": 0.08902436493643061
+   }
+  }
+ },
+ "stored": {
+  "pretrained_ft_lr01__s7": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.6308860331773753,
+    "sai_task_general_thresh": 0.9875322580337524,
+    "csi_differentiation_thresh": 0.6406485139522828
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.6308860331773753,
+    "csi_adaptive_thresh": 0.6406485139522828,
+    "sai_adaptive_thresh": 0.9875322580337524,
+    "ssi_null_percentile": 0.6308860331773753,
+    "csi_null_percentile": 0.6406485139522828,
+    "sai_null_percentile": 0.9875322580337524,
+    "ssi_null_mean": 0.17281034710041665,
+    "ssi_null_std": 0.21181885623397584,
+    "csi_null_mean": 0.14374621814295158,
+    "csi_null_std": 0.2105993249863046,
+    "sai_null_mean": 0.7897387918479956,
+    "sai_null_std": 0.22106776413537277,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 1000.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 5811000.0,
+    "n_null_csi_samples": 5811000.0,
+    "n_null_sai_samples": 5762000.0
+   }
+  },
+  "pretrained_ft_lr01__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.6405653357505798,
+    "sai_task_general_thresh": 0.9877301454544067,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.6405653357505798,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9877301454544067,
+    "ssi_null_percentile": 0.6405653357505798,
+    "csi_null_percentile": 0.9999948589743888,
+    "sai_null_percentile": 0.9877301454544067,
+    "ssi_null_mean": 0.17331329515420119,
+    "ssi_null_std": 0.2129035437066462,
+    "csi_null_mean": 0.1490849766368154,
+    "csi_null_std": 0.21991113678136384,
+    "sai_null_mean": 0.7849985233512253,
+    "sai_null_std": 0.22705346028699963,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 1000.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 5843000.0,
+    "n_null_csi_samples": 5843000.0,
+    "n_null_sai_samples": 5802000.0
+   }
+  },
+  "pretrained_ft_lr01__s137": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.6297762542963028,
+    "sai_task_general_thresh": 0.9880877137184143,
+    "csi_differentiation_thresh": 0.6590127050052849
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.6297762542963028,
+    "csi_adaptive_thresh": 0.6590127050052849,
+    "sai_adaptive_thresh": 0.9880877137184143,
+    "ssi_null_percentile": 0.6297762542963028,
+    "csi_null_percentile": 0.6590127050052849,
+    "sai_null_percentile": 0.9880877137184143,
+    "ssi_null_mean": 0.16566284296947056,
+    "ssi_null_std": 0.2075997794086716,
+    "csi_null_mean": 0.14021609572385704,
+    "csi_null_std": 0.2105010428439965,
+    "sai_null_mean": 0.796155512007712,
+    "sai_null_std": 0.21748157808731347,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 1000.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 5660000.0,
+    "n_null_csi_samples": 5660000.0,
+    "n_null_sai_samples": 5633000.0
+   }
+  },
+  "scratch_lr01__s7": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.49736884236335754,
+    "sai_task_general_thresh": 0.9962190985679626,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.49736884236335754,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9962190985679626,
+    "ssi_null_percentile": 0.49736884236335754,
+    "csi_null_percentile": 0.9999993293227464,
+    "sai_null_percentile": 0.9962190985679626,
+    "ssi_null_mean": 0.11706388596914893,
+    "ssi_null_std": 0.19553120832474585,
+    "csi_null_mean": 0.12735744099269414,
+    "csi_null_std": 0.22086619048108863,
+    "sai_null_mean": 0.8577792433051974,
+    "sai_null_std": 0.18629099133428176,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 1000.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 4282000.0,
+    "n_null_csi_samples": 4282000.0,
+    "n_null_sai_samples": 4224000.0
+   }
+  },
+  "scratch_lr01__s42": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.5417072772979736,
+    "sai_task_general_thresh": 0.9959553480148315,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.5417072772979736,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9959553480148315,
+    "ssi_null_percentile": 0.5417072772979736,
+    "csi_null_percentile": 0.9999997018517761,
+    "sai_null_percentile": 0.9959553480148315,
+    "ssi_null_mean": 0.12200342713293476,
+    "ssi_null_std": 0.19976233648247188,
+    "csi_null_mean": 0.13430487153734647,
+    "csi_null_std": 0.2323396742976623,
+    "sai_null_mean": 0.849239376488595,
+    "sai_null_std": 0.19999779416946797,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 1000.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 4288000.0,
+    "n_null_csi_samples": 4288000.0,
+    "n_null_sai_samples": 4242000.0
+   }
+  },
+  "scratch_lr01__s137": {
+   "thresholds": {
+    "ssi_abstraction_thresh": 0.5591879487037659,
+    "sai_task_general_thresh": 0.9957764744758606,
+    "csi_differentiation_thresh": 0.7
+   },
+   "ati": {
+    "ssi_adaptive_thresh": 0.5591879487037659,
+    "csi_adaptive_thresh": 0.7,
+    "sai_adaptive_thresh": 0.9957764744758606,
+    "ssi_null_percentile": 0.5591879487037659,
+    "csi_null_percentile": 0.9999994038285523,
+    "sai_null_percentile": 0.9957764744758606,
+    "ssi_null_mean": 0.12243675103531752,
+    "ssi_null_std": 0.19967843220259185,
+    "csi_null_mean": 0.13076247171567007,
+    "csi_null_std": 0.22091107296961024,
+    "sai_null_mean": 0.8507085021316578,
+    "sai_null_std": 0.19133313925780798,
+    "ssi_fixed_default": 0.3,
+    "csi_fixed_default": 0.4,
+    "sai_fixed_default": 0.9,
+    "n_permutations": 1000.0,
+    "percentile": 95.0,
+    "ssi_floor": 0.1,
+    "csi_floor": 0.15,
+    "sai_floor": 0.5,
+    "n_null_ssi_samples": 4472000.0,
+    "n_null_csi_samples": 4472000.0,
+    "n_null_sai_samples": 4416000.0
+   }
+  }
+ },
+ "delta": {
+  "ssi": 0.05818713450292401,
+  "csi": 0.08216374269005855,
+  "sai": 0.06346069389547654
+ },
+ "delta_n_values": 21,
+ "seeds_without_reference": [
+  256,
+  314
+ ]
+}

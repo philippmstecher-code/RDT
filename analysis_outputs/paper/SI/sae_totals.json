@@ -1,0 +1,86 @@
+{
+ "source": "sae_results.json of the SAE-tracked runs of ED Table 1 (edtable1_scan.json, plus the superclass-blind pre-training runs and the five-label pre-training runs); sham runs have no SAEs",
+ "n_runs": 131,
+ "n_saes": 7394,
+ "alive_feature_observations_sum_over_saes": 1400374,
+ "recon_cosine": {
+  "all": {
+   "mean": 0.9783,
+   "sd": 0.0209,
+   "min": 0.8962,
+   "n_le_0.93": 209,
+   "frac_gt_0.93": 0.9717
+  },
+  "ablation": {
+   "n": 180,
+   "mean": 0.9779,
+   "sd": 0.0236,
+   "min": 0.9182
+  },
+  "blind": {
+   "n": 200,
+   "mean": 0.9942,
+   "sd": 0.0051,
+   "min": 0.9831
+  },
+  "crossdataset": {
+   "n": 50,
+   "mean": 0.973,
+   "sd": 0.0275,
+   "min": 0.9129
+  },
+  "ctrl": {
+   "n": 2475,
+   "mean": 0.9808,
+   "sd": 0.0187,
+   "min": 0.935
+  },
+  "fixed": {
+   "n": 800,
+   "mean": 0.9763,
+   "sd": 0.0203,
+   "min": 0.931
+  },
+  "lastblock": {
+   "n": 1000,
+   "mean": 0.9804,
+   "sd": 0.017,
+   "min": 0.9372
+  },
+  "perepoch": {
+   "n": 306,
+   "mean": 0.9525,
+   "sd": 0.0274,
+   "min": 0.9128
+  },
+  "redrawn": {
+   "n": 1400,
+   "mean": 0.9787,
+   "sd": 0.0172,
+   "min": 0.9386
+  },
+  "standard": {
+   "n": 558,
+   "mean": 0.975,
+   "sd": 0.0293,
+   "min": 0.8962
+  },
+  "sweep": {
+   "n": 425,
+   "mean": 0.9778,
+   "sd": 0.0206,
+   "min": 0.9225
+  }
+ },
+ "analyses": {
+  "n_analyses": 166,
+  "n_saes": 10394,
+  "alive_sum": 1801557,
+  "cos_mean": 0.9813,
+  "cos_sd": 0.0189,
+  "cos_min": 0.8962,
+  "frac_gt_0.93": 0.9799,
+  "n_duplicates_excluded": 5,
+  "n_perepoch_added": 40
+ }
+}

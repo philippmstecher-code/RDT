@@ -1,0 +1,106 @@
+lane,measure,seed,epoch_from_first_fine_label,pct_of_alive
+sc_true_K20,true superclasses,7,-20,0.0
+sc_true_K20,true superclasses,7,-15,16.66666666666666
+sc_true_K20,true superclasses,7,-10,22.36842105263158
+sc_true_K20,true superclasses,7,-5,23.20675105485232
+sc_true_K20,true superclasses,7,0,25.339366515837096
+sc_true_K20,true superclasses,7,1,16.23036649214659
+sc_true_K20,true superclasses,7,5,18.07692307692307
+sc_true_K20,true superclasses,7,10,22.04472843450479
+sc_true_K20,true superclasses,42,-20,0.0
+sc_true_K20,true superclasses,42,-15,14.689265536723159
+sc_true_K20,true superclasses,42,-10,21.37931034482758
+sc_true_K20,true superclasses,42,-5,23.131672597864767
+sc_true_K20,true superclasses,42,0,23.82671480144404
+sc_true_K20,true superclasses,42,1,18.97435897435897
+sc_true_K20,true superclasses,42,5,24.27184466019417
+sc_true_K20,true superclasses,42,10,20.82018927444795
+sc_true_K20,true superclasses,137,-20,0.0
+sc_true_K20,true superclasses,137,-15,13.77245508982036
+sc_true_K20,true superclasses,137,-10,19.6078431372549
+sc_true_K20,true superclasses,137,-5,25.17241379310345
+sc_true_K20,true superclasses,137,0,23.487544483985758
+sc_true_K20,true superclasses,137,1,20.37037037037037
+sc_true_K20,true superclasses,137,5,22.97734627831715
+sc_true_K20,true superclasses,137,10,23.619631901840492
+sc_rand_K20,true superclasses,7,-20,0.0
+sc_rand_K20,true superclasses,7,-15,30.34825870646766
+sc_rand_K20,true superclasses,7,-10,24.79338842975206
+sc_rand_K20,true superclasses,7,-5,29.945054945054938
+sc_rand_K20,true superclasses,7,0,30.91397849462365
+sc_rand_K20,true superclasses,7,1,19.65065502183406
+sc_rand_K20,true superclasses,7,5,19.256756756756747
+sc_rand_K20,true superclasses,7,10,22.82282282282282
+sc_rand_K20,true superclasses,42,-20,0.0
+sc_rand_K20,true superclasses,42,-15,20.526315789473678
+sc_rand_K20,true superclasses,42,-10,25.94752186588921
+sc_rand_K20,true superclasses,42,-5,24.0
+sc_rand_K20,true superclasses,42,0,25.34059945504087
+sc_rand_K20,true superclasses,42,1,15.30054644808743
+sc_rand_K20,true superclasses,42,5,24.42244224422442
+sc_rand_K20,true superclasses,42,10,23.14049586776859
+sc_rand_K20,true superclasses,137,-20,0.0
+sc_rand_K20,true superclasses,137,-15,18.91891891891892
+sc_rand_K20,true superclasses,137,-10,25.949367088607588
+sc_rand_K20,true superclasses,137,-5,28.57142857142857
+sc_rand_K20,true superclasses,137,0,30.08595988538682
+sc_rand_K20,true superclasses,137,1,17.61904761904762
+sc_rand_K20,true superclasses,137,5,20.28985507246377
+sc_rand_K20,true superclasses,137,10,23.00613496932515
+sc_blind_K20,true superclasses,7,-20,0.0
+sc_blind_K20,true superclasses,7,-15,0.0
+sc_blind_K20,true superclasses,7,-10,0.0
+sc_blind_K20,true superclasses,7,-5,12.865497076023392
+sc_blind_K20,true superclasses,7,0,13.63636363636363
+sc_blind_K20,true superclasses,7,1,10.48951048951049
+sc_blind_K20,true superclasses,7,5,14.90196078431372
+sc_blind_K20,true superclasses,7,10,18.53146853146853
+sc_blind_K20,true superclasses,42,-20,0.0
+sc_blind_K20,true superclasses,42,-15,0.0
+sc_blind_K20,true superclasses,42,-10,7.87401574803149
+sc_blind_K20,true superclasses,42,-5,15.93406593406593
+sc_blind_K20,true superclasses,42,0,15.0
+sc_blind_K20,true superclasses,42,1,19.17808219178082
+sc_blind_K20,true superclasses,42,5,14.17004048582996
+sc_blind_K20,true superclasses,42,10,14.93506493506493
+sc_blind_K20,true superclasses,137,-20,0.0
+sc_blind_K20,true superclasses,137,-15,1.0526315789473601
+sc_blind_K20,true superclasses,137,-10,5.61797752808988
+sc_blind_K20,true superclasses,137,-5,18.34862385321101
+sc_blind_K20,true superclasses,137,0,14.28571428571428
+sc_blind_K20,true superclasses,137,1,19.11764705882352
+sc_blind_K20,true superclasses,137,5,16.36363636363636
+sc_blind_K20,true superclasses,137,10,20.73578595317725
+scratch_E30,true superclasses,7,0,0.0
+scratch_E30,true superclasses,7,5,15.254237288135588
+scratch_E30,true superclasses,7,10,15.07246376811594
+scratch_E30,true superclasses,42,0,0.0
+scratch_E30,true superclasses,42,5,16.95906432748538
+scratch_E30,true superclasses,42,10,18.83656509695291
+scratch_E30,true superclasses,137,0,0.0
+scratch_E30,true superclasses,137,5,16.66666666666666
+scratch_E30,true superclasses,137,10,19.60227272727272
+sc_rand_K20,own random groups,7,-20,0.0
+sc_rand_K20,own random groups,7,-15,3.48258706467661
+sc_rand_K20,own random groups,7,-10,3.5812672176308498
+sc_rand_K20,own random groups,7,-5,5.49450549450549
+sc_rand_K20,own random groups,7,0,5.64516129032258
+sc_rand_K20,own random groups,7,1,0.0
+sc_rand_K20,own random groups,7,5,1.35135135135135
+sc_rand_K20,own random groups,7,10,2.1021021021021
+sc_rand_K20,own random groups,42,-20,0.0
+sc_rand_K20,own random groups,42,-15,0.5263157894736801
+sc_rand_K20,own random groups,42,-10,1.1661807580174899
+sc_rand_K20,own random groups,42,-5,2.4
+sc_rand_K20,own random groups,42,0,2.17983651226158
+sc_rand_K20,own random groups,42,1,0.0
+sc_rand_K20,own random groups,42,5,0.66006600660066
+sc_rand_K20,own random groups,42,10,0.5509641873278199
+sc_rand_K20,own random groups,137,-20,0.0
+sc_rand_K20,own random groups,137,-15,0.0
+sc_rand_K20,own random groups,137,-10,0.63291139240506
+sc_rand_K20,own random groups,137,-5,0.59523809523809
+sc_rand_K20,own random groups,137,0,2.29226361031518
+sc_rand_K20,own random groups,137,1,0.0
+sc_rand_K20,own random groups,137,5,1.4492753623188401
+sc_rand_K20,own random groups,137,10,0.61349693251533
