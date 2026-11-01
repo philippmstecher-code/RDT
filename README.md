@@ -109,7 +109,7 @@ Steps 3-6 are in `packages/ml/src/saeanalysis.py`. `run/run_pipeline.py` runs st
 
 Builders marked "this repository" run from `analysis_outputs/paper/` alone. The others also read per-run results
 (SAE results, training records and per-sample predictions of the runs), which are deposited in figshare with the paper
-(`rdt_per_run_data.zip`, 3.9 GB unpacked). Unpack it anywhere and set `RDT_DATA` to the unpacked folder
+(<https://doi.org/10.6084/m9.figshare.34878825>; `rdt_per_run_data.zip`, 3.9 GB unpacked). Unpack it anywhere and set `RDT_DATA` to the unpacked folder
 (`rdt_per_run_data/`); the scripts read the core runs from `$RDT_DATA/core`, the intervention and control runs from
 `$RDT_DATA/extended` (default `RDT_DATA=/data/rdt`), and `reproduce/figures.sh` links the runs of
 `$RDT_DATA/repository/data/experiments` into `data/experiments`. Checkpoints and stored activations (1.1 TB) are
